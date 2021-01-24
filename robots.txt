@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: laokong4628.github.io/sitemap.xml
