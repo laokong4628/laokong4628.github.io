@@ -34,14 +34,14 @@ if (searchQuery) {
   document.getElementById("search-query").value = searchQuery;
   executeSearch(searchQuery);
 } else {
-  var language = document.documentElement.lang;
-   if (language == "en") {
-     document.getElementById("search-results").innerHTML = '<p class="no-results">Please enter a word or phrase above.</p>';
-   } else if (language == "zh-CN") {
+  // var language = document.documentElement.lang;
+  if (language == "en") {
+    document.getElementById("search-results").innerHTML = '<p class="no-results">Please enter a word or phrase above.</p>';
+  } else if (language == "zh-CN") {
     document.getElementById("search-results").innerHTML = '<p class="no-results">请输入查询关键字。</p>';
-   } else {
-     document.getElementById("search-results").innerHTML = '<p class="no-results">Please enter a word or phrase above</p>';
-   }
+  } else {
+    document.getElementById("search-results").innerHTML = '<p class="no-results">Please enter a word or phrase above</p>';
+  }
 }
 
 function executeSearch(searchQuery) {

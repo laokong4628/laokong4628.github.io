@@ -61,4 +61,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: http://laokong4628.github.io/sitemap.xml
+Sitemap: https://laokong4628.github.io/sitemap.xml
