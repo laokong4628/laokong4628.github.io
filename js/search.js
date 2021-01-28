@@ -34,7 +34,7 @@ if (searchQuery) {
   document.getElementById("search-query").value = searchQuery;
   executeSearch(searchQuery);
 } else {
-  // var language = document.documentElement.lang;
+  var language = document.documentElement.lang;
   if (language == "en") {
     document.getElementById("search-results").innerHTML = '<p class="no-results">Please enter a word or phrase above.</p>';
   } else if (language == "zh-CN") {
@@ -46,7 +46,7 @@ if (searchQuery) {
 
 function executeSearch(searchQuery) {
   // Look for "index.json" in the same directory where this script is called.
-  fetch("index.json")
+  fetch("/search/index.json")
     .then(function (response) {
       return response.json();
     })
