@@ -1,88 +1,88 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Lao Kong&#39;s notepad</title>
-        <link>http://example.org/zh-cn/</link>
+        <link>https://laokong4628.github.io/zh-cn/</link>
         <description>个人使用的笔记本</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>laokong4628@gmail.com (Lao Kong)</managingEditor>
             <webMaster>laokong4628@gmail.com (Lao Kong)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</lastBuildDate>
-            <atom:link href="http://example.org/zh-cn/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="https://laokong4628.github.io/zh-cn/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Vim</title>
-    <link>http://example.org/zh-cn/posts/Vim.html/</link>
+    <link>https://laokong4628.github.io/zh-cn/posts/Vim.html/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>http://example.org/zh-cn/posts/Vim.html/</guid>
+    <guid>https://laokong4628.github.io/zh-cn/posts/Vim.html/</guid>
     <description><![CDATA[Getting started Exiting    Shortcut Description     :qa Close all files   :qa! Close all files, abandon changes   &mdash; &mdash;   :w Save   :wq / :x Save and close file   &mdash; &mdash;   :q Close file   :q! Close file, abandon changes   &mdash; &mdash;   ZZ Save and quit   ZQ Quit without checking changes    Navigating    Shortcut Description     h j k l Arrow keys   &lt;C-U&gt; / &lt;C-D&gt; Page up/page down    Words    Shortcut Description     b / w Previous/next word   e / ge Previous/next end of word    Line    Shortcut Description     0 (zero) Start of line   ^ Start of line (after whitespace)   $ End of line    Character    Shortcut Description     fc Go forward to character c   Fc Go backward to character c    Document    Shortcut Description     gg First line   G Last line   :n Go to line n   nG Go to line n    Window    Shortcut Description     zz Center this line   H Move to top of screen   M Move to middle of screen   L Move to bottom of screen    Tab pages    Shortcut Description     :tabedit [file] Edit file in a new tab   :tabfind [file] Open file if exists in new tab   :tabclose Close current tab   :tabs List all tabs   :tabfirst Go to first tab   :tablast Go to last tab   :tabn Go to next tab   :tabp Go to previous tab    Editing    Shortcut Description     a Append   i Insert   o Next line   O Previous line       s Delete char and insert   S Delete line and insert   C Delete until end of line and insert       r Replace one character   R Enter Replace mode       u Undo changes   &lt;C-R&gt; Redo changes    Exiting insert mode    Shortcut Description     Esc / &lt;C-[&gt; Exit insert mode   &lt;C-C&gt; Exit insert mode, and abort current command    Exiting insert mode    Shortcut Description     Esc / &lt;C-[&gt; Exit insert mode   &lt;C-C&gt; Exit insert mode, and abort current command    Clipboard    Shortcut Description     x Delete character   &mdash; &mdash;   dd Delete line (Cut)   yy Yank line (Copy)   &mdash; &mdash;   p Paste   P Paste before    Visual mode    Shortcut Description     v Enter visual mode   V Enter visual line mode   &lt;C-V&gt; Enter visual block mode    In visual mode    Shortcut Description     d / x Delete selection   s Replace selection   y Yank selection (Copy)    See Operators for other things you can do.]]></description>
 </item><item>
     <title>Markdown 基本语法</title>
-    <link>http://example.org/zh-cn/posts/Markdown-%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.html/</link>
+    <link>https://laokong4628.github.io/zh-cn/posts/Markdown-%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.html/</link>
     <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>http://example.org/zh-cn/posts/Markdown-%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.html/</guid>
+    <guid>https://laokong4628.github.io/zh-cn/posts/Markdown-%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.html/</guid>
     <description><![CDATA[<p>这篇文章提供了可以在 Hugo 的文章中使用的基本 Markdown 语法示例.</p>]]></description>
 </item><item>
     <title>Emoji 支持</title>
-    <link>http://example.org/zh-cn/posts/Emoji-%E6%94%AF%E6%8C%81.html/</link>
+    <link>https://laokong4628.github.io/zh-cn/posts/Emoji-%E6%94%AF%E6%8C%81.html/</link>
     <pubDate>Tue, 01 Oct 2019 17:55:28 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>http://example.org/zh-cn/posts/Emoji-%E6%94%AF%E6%8C%81.html/</guid>
+    <guid>https://laokong4628.github.io/zh-cn/posts/Emoji-%E6%94%AF%E6%8C%81.html/</guid>
     <description><![CDATA[<p>Emoji 可以通过多种方式在 Hugo 项目中启用.</p>]]></description>
 </item><item>
     <title>android-studio</title>
-    <link>http://example.org/zh-cn/posts/android-studio.html/</link>
+    <link>https://laokong4628.github.io/zh-cn/posts/android-studio.html/</link>
     <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>http://example.org/zh-cn/posts/android-studio.html/</guid>
+    <guid>https://laokong4628.github.io/zh-cn/posts/android-studio.html/</guid>
     <description><![CDATA[<h2 id="getting-started">Getting started</h2>
 <!-- raw HTML omitted -->
 <h3 id="android-studio-使用过程的问题和注意点">Android Studio 使用过程的问题和注意点</h3>]]></description>
 </item><item>
     <title>google</title>
-    <link>http://example.org/zh-cn/posts/google.html/</link>
+    <link>https://laokong4628.github.io/zh-cn/posts/google.html/</link>
     <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>http://example.org/zh-cn/posts/google.html/</guid>
+    <guid>https://laokong4628.github.io/zh-cn/posts/google.html/</guid>
     <description><![CDATA[<h2 id="getting-started">Getting started</h2>]]></description>
 </item><item>
     <title>hosts</title>
-    <link>http://example.org/zh-cn/posts/hosts.html/</link>
+    <link>https://laokong4628.github.io/zh-cn/posts/hosts.html/</link>
     <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>http://example.org/zh-cn/posts/hosts.html/</guid>
+    <guid>https://laokong4628.github.io/zh-cn/posts/hosts.html/</guid>
     <description><![CDATA[<h2 id="getting-started">Getting started</h2>
 <!-- raw HTML omitted -->
 <h3 id="introduce">Introduce</h3>]]></description>
 </item><item>
     <title>kodi</title>
-    <link>http://example.org/zh-cn/posts/kodi.html/</link>
+    <link>https://laokong4628.github.io/zh-cn/posts/kodi.html/</link>
     <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>http://example.org/zh-cn/posts/kodi.html/</guid>
+    <guid>https://laokong4628.github.io/zh-cn/posts/kodi.html/</guid>
     <description><![CDATA[<h2 id="getting-started">Getting started</h2>
 <!-- raw HTML omitted -->
 <h3 id="kodi-使用过程的问题和注意点">kodi 使用过程的问题和注意点</h3>]]></description>
 </item><item>
     <title>linux-find-grep</title>
-    <link>http://example.org/zh-cn/posts/linux-find-grep.html/</link>
+    <link>https://laokong4628.github.io/zh-cn/posts/linux-find-grep.html/</link>
     <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>http://example.org/zh-cn/posts/linux-find-grep.html/</guid>
+    <guid>https://laokong4628.github.io/zh-cn/posts/linux-find-grep.html/</guid>
     <description><![CDATA[<h2 id="getting-started">Getting started</h2>
 <!-- raw HTML omitted -->
 <h2 id="linux-使用过程中收集的要点和助手">linux 使用过程中收集的要点和助手</h2>]]></description>
 </item><item>
     <title>Linux命令英文全称</title>
-    <link>http://example.org/zh-cn/posts/Linux%E5%91%BD%E4%BB%A4%E8%8B%B1%E6%96%87%E5%85%A8%E7%A7%B0.html/</link>
+    <link>https://laokong4628.github.io/zh-cn/posts/Linux%E5%91%BD%E4%BB%A4%E8%8B%B1%E6%96%87%E5%85%A8%E7%A7%B0.html/</link>
     <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>http://example.org/zh-cn/posts/Linux%E5%91%BD%E4%BB%A4%E8%8B%B1%E6%96%87%E5%85%A8%E7%A7%B0.html/</guid>
+    <guid>https://laokong4628.github.io/zh-cn/posts/Linux%E5%91%BD%E4%BB%A4%E8%8B%B1%E6%96%87%E5%85%A8%E7%A7%B0.html/</guid>
     <description><![CDATA[Linux命令英文全称 注意 这篇文章转载自(https://blog.csdn.net/alex_sym/article/details/74]]></description>
 </item><item>
     <title>mariaDB-Mysql</title>
-    <link>http://example.org/zh-cn/posts/mariaDB-Mysql.html/</link>
+    <link>https://laokong4628.github.io/zh-cn/posts/mariaDB-Mysql.html/</link>
     <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>http://example.org/zh-cn/posts/mariaDB-Mysql.html/</guid>
+    <guid>https://laokong4628.github.io/zh-cn/posts/mariaDB-Mysql.html/</guid>
     <description><![CDATA[<h2 id="getting-started">Getting started</h2>
 <!-- raw HTML omitted -->
 <h3 id="mariadb-mysql数据库相关">mariaDB-Mysql数据库相关</h3>]]></description>

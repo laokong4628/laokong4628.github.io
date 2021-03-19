@@ -1,22 +1,22 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Linux - Category - Lao Kong&#39;s notepad</title>
-        <link>http://example.org/categories/Linux/</link>
+        <link>https://laokong4628.github.io/categories/Linux/</link>
         <description>Linux - Category - Lao Kong&#39;s notepad</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>laokong4628@gmail.com (Lao Kong)</managingEditor>
-            <webMaster>laokong4628@gmail.com (Lao Kong)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</lastBuildDate><atom:link href="http://example.org/categories/Linux/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>laokong4628@gmail.com (Lao Kong)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</lastBuildDate><atom:link href="https://laokong4628.github.io/categories/Linux/" rel="self" type="application/rss+xml" /><item>
     <title>Linux Command Fullname</title>
-    <link>http://example.org/posts/Linux-Command-Fullname.html/</link>
+    <link>https://laokong4628.github.io/posts/Linux-Command-Fullname.html/</link>
     <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>http://example.org/posts/Linux-Command-Fullname.html/</guid>
+    <guid>https://laokong4628.github.io/posts/Linux-Command-Fullname.html/</guid>
     <description><![CDATA[Linux命令英文全称 Note  这篇文章转载自(https://blog.csdn.net/alex_sym/article/details/7409566).   su：Swith user 切换用户，切换到root用户 cat: Concatenate 串联 uname: Unix name 系统名称 df: Disk free 空余硬盘 du: Disk usage 硬盘使用率 chown: Change owner 改变所有者 chgrp: Change group 改变用户组 ps：Process Status 进程状态 tar：Tape archive 解压文件 chmod: Change mode 改变模式 umount: Unmount 卸载 ldd：List dynamic dependencies 列出动态相依 insmod：Install module 安装模块 rmmod：Remove module 删除模块 lsmod：List module 列表模块 alias :Create your own name for a command bash :GNU Bourne-Again Shell linux内核 grep:global regular expression print httpd :Start Apache ipcalc :Calculate IP information for a host ping :Send ICMP ECHO_Request to network hosts reboot: Restart your computer sudo:Superuser do /bin = BINaries /dev = DEVices /etc = ETCetera /lib = LIBrary /proc = PROCesses /sbin = Superuser BINaries /tmp = TeMPorary /usr = Unix Shared Resources /var = VARiable ?]]></description>
 </item><item>
     <title>linux-find-grep</title>
-    <link>http://example.org/posts/linux-find-grep.html/</link>
+    <link>https://laokong4628.github.io/posts/linux-find-grep.html/</link>
     <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>http://example.org/posts/linux-find-grep.html/</guid>
+    <guid>https://laokong4628.github.io/posts/linux-find-grep.html/</guid>
     <description><![CDATA[<h2 id="getting-started">Getting started</h2>
 <!-- raw HTML omitted -->
 <h2 id="linux-使用过程中收集的要点和助手">linux 使用过程中收集的要点和助手</h2>]]></description>

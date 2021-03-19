@@ -1,84 +1,84 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>All Posts - Lao Kong&#39;s notepad</title>
-        <link>http://example.org/posts/</link>
+        <link>https://laokong4628.github.io/posts/</link>
         <description>All Posts | Lao Kong&#39;s notepad</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>laokong4628@gmail.com (Lao Kong)</managingEditor>
-            <webMaster>laokong4628@gmail.com (Lao Kong)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>laokong4628@gmail.com (Lao Kong)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</lastBuildDate><atom:link href="https://laokong4628.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Vim</title>
-    <link>http://example.org/posts/Vim.html/</link>
+    <link>https://laokong4628.github.io/posts/Vim.html/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>http://example.org/posts/Vim.html/</guid>
+    <guid>https://laokong4628.github.io/posts/Vim.html/</guid>
     <description><![CDATA[Getting started Exiting    Shortcut Description     :qa Close all files   :qa! Close all files, abandon changes   &mdash; &mdash;   :w Save   :wq / :x Save and close file   &mdash; &mdash;   :q Close file   :q! Close file, abandon changes   &mdash; &mdash;   ZZ Save and quit   ZQ Quit without checking changes    Navigating    Shortcut Description     h j k l Arrow keys   &lt;C-U&gt; / &lt;C-D&gt; Page up/page down    Words    Shortcut Description     b / w Previous/next word   e / ge Previous/next end of word    Line    Shortcut Description     0 (zero) Start of line   ^ Start of line (after whitespace)   $ End of line    Character    Shortcut Description     fc Go forward to character c   Fc Go backward to character c    Document    Shortcut Description     gg First line   G Last line   :n Go to line n   nG Go to line n    Window    Shortcut Description     zz Center this line   H Move to top of screen   M Move to middle of screen   L Move to bottom of screen    Tab pages    Shortcut Description     :tabedit [file] Edit file in a new tab   :tabfind [file] Open file if exists in new tab   :tabclose Close current tab   :tabs List all tabs   :tabfirst Go to first tab   :tablast Go to last tab   :tabn Go to next tab   :tabp Go to previous tab    Editing    Shortcut Description     a Append   i Insert   o Next line   O Previous line       s Delete char and insert   S Delete line and insert   C Delete until end of line and insert       r Replace one character   R Enter Replace mode       u Undo changes   &lt;C-R&gt; Redo changes    Exiting insert mode    Shortcut Description     Esc / &lt;C-[&gt; Exit insert mode   &lt;C-C&gt; Exit insert mode, and abort current command    Exiting insert mode    Shortcut Description     Esc / &lt;C-[&gt; Exit insert mode   &lt;C-C&gt; Exit insert mode, and abort current command    Clipboard    Shortcut Description     x Delete character   &mdash; &mdash;   dd Delete line (Cut)   yy Yank line (Copy)   &mdash; &mdash;   p Paste   P Paste before    Visual mode    Shortcut Description     v Enter visual mode   V Enter visual line mode   &lt;C-V&gt; Enter visual block mode    In visual mode    Shortcut Description     d / x Delete selection   s Replace selection   y Yank selection (Copy)    See Operators for other things you can do.]]></description>
 </item><item>
     <title>Basic Markdown Syntax</title>
-    <link>http://example.org/posts/Basic-Markdown-Syntax.html/</link>
+    <link>https://laokong4628.github.io/posts/Basic-Markdown-Syntax.html/</link>
     <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>http://example.org/posts/Basic-Markdown-Syntax.html/</guid>
+    <guid>https://laokong4628.github.io/posts/Basic-Markdown-Syntax.html/</guid>
     <description><![CDATA[<p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p>]]></description>
 </item><item>
     <title>Emoji Support</title>
-    <link>http://example.org/posts/Emoji-Support.html/</link>
+    <link>https://laokong4628.github.io/posts/Emoji-Support.html/</link>
     <pubDate>Tue, 01 Oct 2019 17:55:28 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>http://example.org/posts/Emoji-Support.html/</guid>
+    <guid>https://laokong4628.github.io/posts/Emoji-Support.html/</guid>
     <description><![CDATA[<p>Emoji can be enabled in a Hugo project in a number of ways.</p>]]></description>
 </item><item>
     <title>android-studio</title>
-    <link>http://example.org/posts/android-studio.html/</link>
+    <link>https://laokong4628.github.io/posts/android-studio.html/</link>
     <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>http://example.org/posts/android-studio.html/</guid>
+    <guid>https://laokong4628.github.io/posts/android-studio.html/</guid>
     <description><![CDATA[<h2 id="getting-started">Getting started</h2>
 <!-- raw HTML omitted -->
 <h3 id="android-studio-使用过程的问题和注意点">Android Studio 使用过程的问题和注意点</h3>]]></description>
 </item><item>
     <title>google</title>
-    <link>http://example.org/posts/google.html/</link>
+    <link>https://laokong4628.github.io/posts/google.html/</link>
     <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>http://example.org/posts/google.html/</guid>
+    <guid>https://laokong4628.github.io/posts/google.html/</guid>
     <description><![CDATA[<h2 id="getting-started">Getting started</h2>]]></description>
 </item><item>
     <title>hosts</title>
-    <link>http://example.org/posts/hosts.html/</link>
+    <link>https://laokong4628.github.io/posts/hosts.html/</link>
     <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>http://example.org/posts/hosts.html/</guid>
+    <guid>https://laokong4628.github.io/posts/hosts.html/</guid>
     <description><![CDATA[<h2 id="getting-started">Getting started</h2>
 <!-- raw HTML omitted -->
 <h3 id="introduce">Introduce</h3>]]></description>
 </item><item>
     <title>kodi</title>
-    <link>http://example.org/posts/kodi.html/</link>
+    <link>https://laokong4628.github.io/posts/kodi.html/</link>
     <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>http://example.org/posts/kodi.html/</guid>
+    <guid>https://laokong4628.github.io/posts/kodi.html/</guid>
     <description><![CDATA[<h2 id="getting-started">Getting started</h2>
 <!-- raw HTML omitted -->
 <h3 id="kodi-使用过程的问题和注意点">kodi 使用过程的问题和注意点</h3>]]></description>
 </item><item>
     <title>languages-words-phrases</title>
-    <link>http://example.org/posts/languages-words-phrases.html/</link>
+    <link>https://laokong4628.github.io/posts/languages-words-phrases.html/</link>
     <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>http://example.org/posts/languages-words-phrases.html/</guid>
-    <description><![CDATA[所有经过外语单词短语记录复习 英语 robust: 强健的(49%)，粗野的(21%)，耐用的(17%)，浓的(9%)，稳固的(4%) ship with: 附带 sketch： 素描, 草图, 小品 advocacy: 拥护, 支持, 鼓吹, 辩护, 辩护术 permalink: 永久链接；永久连结；固定链接 cryptographic: 密码的(100%),关于暗号的，用密码写的(adj) terse: 简洁的(77%)，简明的(23%)(adj.)简洁的，精练的，扼要的 Flickr: 网络相簿(n.) finnicky: (=finicky)吹毛求疵的, 难以讨好的(adj.) travis: 特拉维斯(姓氏(50%)，男子名)(50%), (n.)特拉维斯（男子名）；崔维斯合唱团 Scottish: 苏格兰的(59%)，苏格兰人(32%)，苏格兰语(9%), (n.)苏格兰人；苏格兰语, (adj.)苏格兰的；苏格兰人的；苏格兰语的 fanart: [网络]爱好者；手绘；献礼 joypad: 游戏手柄(100%), (n.)控制器设置；手柄 粤语 老挝语/泰语 其他语种 ]]></description>
+    <guid>https://laokong4628.github.io/posts/languages-words-phrases.html/</guid>
+    <description><![CDATA[所有经过外语单词短语记录复习 英语 robust: 强健的(49%)，粗野的(21%)，耐用的(17%)，浓的(9%)，稳固的(4%) ship with: 附带 sketch： 素描, 草图, 小品 advocacy: 拥护, 支持, 鼓吹, 辩护, 辩护术 permalink: 永久链接；永久连结；固定链接 cryptographic: 密码的(100%),关于暗号的，用密码写的(adj) terse: 简洁的(77%)，简明的(23%)(adj.)简洁的，精练的，扼要的 Flickr: 网络相簿(n.) finnicky: (=finicky)吹毛求疵的, 难以讨好的(adj.) travis: 特拉维斯(姓氏(50%)，男子名)(50%), (n.)特拉维斯（男子名）；崔维斯合唱团 Scottish: 苏格兰的(59%)，苏格兰人(32%)，苏格兰语(9%), (n.)苏格兰人；苏格兰语, (adj.)苏格兰的；苏格兰人的；苏格兰语的 fanart: [网络]爱好者；手绘；献礼 joypad: 游戏手柄(100%), (n.)控制器设置；手柄 microcosm: (n.) 小宇宙, 小世界, 人类, 缩影(71%)，微观世界(15%)，小宇宙(14%), microcosmos eroded: (a.) 被侵蚀的, 损坏了 Manchu: 满族的(40%)，满族人(40%)，满族语(20%), (n.)满语；满族人, (adj.)满族的；满语的 mundane: 世俗的(43%)，平凡的(42%)，世界的(15%), adj.世俗的，平凡的；世界的，宇宙的 trove:贵重发现物(50%)，珍藏品(50%), n.被发现的东西；收藏的东西, n.(Trove)人名；(德)特罗韦 garotte: (n.)西班牙的绞刑具，上述绞刑 dishevelled: 散乱的(49%)，蓬乱的(29%)，=disheveled.(11%)，动词dishevel的过去式和过去分词形式.(11%) coquettish: 卖弄风情的(58%)，妖艳的(28%)，婀娜多姿的(14%), (adj.)妖艳的；卖弄风情的；迷人的 crept：匍匐爬行（creep的过去式） vigilance: 警惕(75%)，警戒(25%) laity:外行人(53%)，普通信徒(47%) denunciation: 谴责(100%), (n.]]></description>
 </item><item>
     <title>Linux Command Fullname</title>
-    <link>http://example.org/posts/Linux-Command-Fullname.html/</link>
+    <link>https://laokong4628.github.io/posts/Linux-Command-Fullname.html/</link>
     <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>http://example.org/posts/Linux-Command-Fullname.html/</guid>
+    <guid>https://laokong4628.github.io/posts/Linux-Command-Fullname.html/</guid>
     <description><![CDATA[Linux命令英文全称 Note  这篇文章转载自(https://blog.csdn.net/alex_sym/article/details/7409566).   su：Swith user 切换用户，切换到root用户 cat: Concatenate 串联 uname: Unix name 系统名称 df: Disk free 空余硬盘 du: Disk usage 硬盘使用率 chown: Change owner 改变所有者 chgrp: Change group 改变用户组 ps：Process Status 进程状态 tar：Tape archive 解压文件 chmod: Change mode 改变模式 umount: Unmount 卸载 ldd：List dynamic dependencies 列出动态相依 insmod：Install module 安装模块 rmmod：Remove module 删除模块 lsmod：List module 列表模块 alias :Create your own name for a command bash :GNU Bourne-Again Shell linux内核 grep:global regular expression print httpd :Start Apache ipcalc :Calculate IP information for a host ping :Send ICMP ECHO_Request to network hosts reboot: Restart your computer sudo:Superuser do /bin = BINaries /dev = DEVices /etc = ETCetera /lib = LIBrary /proc = PROCesses /sbin = Superuser BINaries /tmp = TeMPorary /usr = Unix Shared Resources /var = VARiable ?]]></description>
 </item><item>
     <title>linux-find-grep</title>
-    <link>http://example.org/posts/linux-find-grep.html/</link>
+    <link>https://laokong4628.github.io/posts/linux-find-grep.html/</link>
     <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>http://example.org/posts/linux-find-grep.html/</guid>
+    <guid>https://laokong4628.github.io/posts/linux-find-grep.html/</guid>
     <description><![CDATA[<h2 id="getting-started">Getting started</h2>
 <!-- raw HTML omitted -->
 <h2 id="linux-使用过程中收集的要点和助手">linux 使用过程中收集的要点和助手</h2>]]></description>

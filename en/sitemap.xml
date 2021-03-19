@@ -2,527 +2,527 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://example.org/posts/Vim.html/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/posts/Vim.html/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/posts/Vim.html/"
+                        href="https://laokong4628.github.io/zh-cn/posts/Vim.html/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/posts/Vim.html/"
+                    href="https://laokong4628.github.io/posts/Vim.html/"
                     /></url><url>
-            <loc>http://example.org/posts/Basic-Markdown-Syntax.html/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/posts/Basic-Markdown-Syntax.html/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/posts/Markdown-%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.html/"
+                        href="https://laokong4628.github.io/zh-cn/posts/Markdown-%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.html/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/posts/Basic-Markdown-Syntax.html/"
+                    href="https://laokong4628.github.io/posts/Basic-Markdown-Syntax.html/"
                     /></url><url>
-            <loc>http://example.org/posts/Emoji-Support.html/</loc><lastmod>2019-10-01T17:55:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/posts/Emoji-Support.html/</loc><lastmod>2019-10-01T17:55:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/posts/Emoji-%E6%94%AF%E6%8C%81.html/"
+                        href="https://laokong4628.github.io/zh-cn/posts/Emoji-%E6%94%AF%E6%8C%81.html/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/posts/Emoji-Support.html/"
+                    href="https://laokong4628.github.io/posts/Emoji-Support.html/"
                     /></url><url>
-            <loc>http://example.org/tags/android/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/tags/android/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/tags/android/"
+                        href="https://laokong4628.github.io/zh-cn/tags/android/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/tags/android/"
+                    href="https://laokong4628.github.io/tags/android/"
                     /></url><url>
-            <loc>http://example.org/categories/android/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/categories/android/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/categories/android/"
+                        href="https://laokong4628.github.io/zh-cn/categories/android/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/categories/android/"
+                    href="https://laokong4628.github.io/categories/android/"
                     /></url><url>
-            <loc>http://example.org/posts/android-studio.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/posts/android-studio.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/posts/android-studio.html/"
+                        href="https://laokong4628.github.io/zh-cn/posts/android-studio.html/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/posts/android-studio.html/"
+                    href="https://laokong4628.github.io/posts/android-studio.html/"
                     /></url><url>
-            <loc>http://example.org/categories/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/categories/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/categories/"
+                        href="https://laokong4628.github.io/zh-cn/categories/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/categories/"
+                    href="https://laokong4628.github.io/categories/"
                     /></url><url>
-            <loc>http://example.org/tags/find/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/tags/find/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/tags/find/"
+                        href="https://laokong4628.github.io/zh-cn/tags/find/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/tags/find/"
+                    href="https://laokong4628.github.io/tags/find/"
                     /></url><url>
-            <loc>http://example.org/categories/find/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/categories/find/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/categories/find/"
+                        href="https://laokong4628.github.io/zh-cn/categories/find/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/categories/find/"
+                    href="https://laokong4628.github.io/categories/find/"
                     /></url><url>
-            <loc>http://example.org/tags/google/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/tags/google/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/tags/google/"
+                        href="https://laokong4628.github.io/zh-cn/tags/google/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/tags/google/"
+                    href="https://laokong4628.github.io/tags/google/"
                     /></url><url>
-            <loc>http://example.org/categories/google/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/categories/google/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/categories/google/"
+                        href="https://laokong4628.github.io/zh-cn/categories/google/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/categories/google/"
+                    href="https://laokong4628.github.io/categories/google/"
                     /></url><url>
-            <loc>http://example.org/posts/google.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/posts/google.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/posts/google.html/"
+                        href="https://laokong4628.github.io/zh-cn/posts/google.html/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/posts/google.html/"
+                    href="https://laokong4628.github.io/posts/google.html/"
                     /></url><url>
-            <loc>http://example.org/tags/grep/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/tags/grep/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/tags/grep/"
+                        href="https://laokong4628.github.io/zh-cn/tags/grep/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/tags/grep/"
+                    href="https://laokong4628.github.io/tags/grep/"
                     /></url><url>
-            <loc>http://example.org/categories/grep/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/categories/grep/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/categories/grep/"
+                        href="https://laokong4628.github.io/zh-cn/categories/grep/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/categories/grep/"
+                    href="https://laokong4628.github.io/categories/grep/"
                     /></url><url>
-            <loc>http://example.org/tags/hosts/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/tags/hosts/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/tags/hosts/"
+                        href="https://laokong4628.github.io/zh-cn/tags/hosts/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/tags/hosts/"
+                    href="https://laokong4628.github.io/tags/hosts/"
                     /></url><url>
-            <loc>http://example.org/categories/hosts/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/categories/hosts/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/categories/hosts/"
+                        href="https://laokong4628.github.io/zh-cn/categories/hosts/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/categories/hosts/"
+                    href="https://laokong4628.github.io/categories/hosts/"
                     /></url><url>
-            <loc>http://example.org/posts/hosts.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/posts/hosts.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/posts/hosts.html/"
+                        href="https://laokong4628.github.io/zh-cn/posts/hosts.html/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/posts/hosts.html/"
+                    href="https://laokong4628.github.io/posts/hosts.html/"
                     /></url><url>
-            <loc>http://example.org/tags/kodi/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/tags/kodi/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/tags/kodi/"
+                        href="https://laokong4628.github.io/zh-cn/tags/kodi/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/tags/kodi/"
+                    href="https://laokong4628.github.io/tags/kodi/"
                     /></url><url>
-            <loc>http://example.org/categories/kodi/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/categories/kodi/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/categories/kodi/"
+                        href="https://laokong4628.github.io/zh-cn/categories/kodi/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/categories/kodi/"
+                    href="https://laokong4628.github.io/categories/kodi/"
                     /></url><url>
-            <loc>http://example.org/posts/kodi.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/posts/kodi.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/posts/kodi.html/"
+                        href="https://laokong4628.github.io/zh-cn/posts/kodi.html/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/posts/kodi.html/"
+                    href="https://laokong4628.github.io/posts/kodi.html/"
                     /></url><url>
-            <loc>http://example.org/tags/language/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://example.org/categories/language/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://example.org/posts/languages-words-phrases.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/tags/language/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://laokong4628.github.io/categories/language/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://laokong4628.github.io/posts/languages-words-phrases.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/posts/%E5%A4%96%E8%AF%AD%E5%8D%95%E8%AF%8D%E7%9F%AD%E8%AF%AD%E8%AE%B0%E5%BD%95%E5%A4%8D%E4%B9%A0.html/"
+                        href="https://laokong4628.github.io/zh-cn/posts/%E5%A4%96%E8%AF%AD%E5%8D%95%E8%AF%8D%E7%9F%AD%E8%AF%AD%E8%AE%B0%E5%BD%95%E5%A4%8D%E4%B9%A0.html/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/posts/languages-words-phrases.html/"
+                    href="https://laokong4628.github.io/posts/languages-words-phrases.html/"
                     /></url><url>
-            <loc>http://example.org/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/"
+                        href="https://laokong4628.github.io/zh-cn/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/"
+                    href="https://laokong4628.github.io/"
                     /></url><url>
-            <loc>http://example.org/tags/Linux/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/tags/Linux/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/tags/Linux/"
+                        href="https://laokong4628.github.io/zh-cn/tags/Linux/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/tags/Linux/"
+                    href="https://laokong4628.github.io/tags/Linux/"
                     /></url><url>
-            <loc>http://example.org/categories/Linux/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/categories/Linux/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/categories/Linux/"
+                        href="https://laokong4628.github.io/zh-cn/categories/Linux/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/categories/Linux/"
+                    href="https://laokong4628.github.io/categories/Linux/"
                     /></url><url>
-            <loc>http://example.org/posts/Linux-Command-Fullname.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/posts/Linux-Command-Fullname.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/posts/Linux%E5%91%BD%E4%BB%A4%E8%8B%B1%E6%96%87%E5%85%A8%E7%A7%B0.html/"
+                        href="https://laokong4628.github.io/zh-cn/posts/Linux%E5%91%BD%E4%BB%A4%E8%8B%B1%E6%96%87%E5%85%A8%E7%A7%B0.html/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/posts/Linux-Command-Fullname.html/"
+                    href="https://laokong4628.github.io/posts/Linux-Command-Fullname.html/"
                     /></url><url>
-            <loc>http://example.org/posts/linux-find-grep.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/posts/linux-find-grep.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/posts/linux-find-grep.html/"
+                        href="https://laokong4628.github.io/zh-cn/posts/linux-find-grep.html/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/posts/linux-find-grep.html/"
+                    href="https://laokong4628.github.io/posts/linux-find-grep.html/"
                     /></url><url>
-            <loc>http://example.org/tags/mariaDB/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/tags/mariaDB/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/tags/mariaDB/"
+                        href="https://laokong4628.github.io/zh-cn/tags/mariaDB/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/tags/mariaDB/"
+                    href="https://laokong4628.github.io/tags/mariaDB/"
                     /></url><url>
-            <loc>http://example.org/categories/mariaDB/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/categories/mariaDB/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/categories/mariaDB/"
+                        href="https://laokong4628.github.io/zh-cn/categories/mariaDB/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/categories/mariaDB/"
+                    href="https://laokong4628.github.io/categories/mariaDB/"
                     /></url><url>
-            <loc>http://example.org/posts/mariaDB-Mysql.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/posts/mariaDB-Mysql.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/posts/mariaDB-Mysql.html/"
+                        href="https://laokong4628.github.io/zh-cn/posts/mariaDB-Mysql.html/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/posts/mariaDB-Mysql.html/"
+                    href="https://laokong4628.github.io/posts/mariaDB-Mysql.html/"
                     /></url><url>
-            <loc>http://example.org/tags/Mysql/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/tags/Mysql/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/tags/Mysql/"
+                        href="https://laokong4628.github.io/zh-cn/tags/Mysql/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/tags/Mysql/"
+                    href="https://laokong4628.github.io/tags/Mysql/"
                     /></url><url>
-            <loc>http://example.org/categories/Mysql/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/categories/Mysql/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/categories/Mysql/"
+                        href="https://laokong4628.github.io/zh-cn/categories/Mysql/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/categories/Mysql/"
+                    href="https://laokong4628.github.io/categories/Mysql/"
                     /></url><url>
-            <loc>http://example.org/tags/network/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/tags/network/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/tags/network/"
+                        href="https://laokong4628.github.io/zh-cn/tags/network/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/tags/network/"
+                    href="https://laokong4628.github.io/tags/network/"
                     /></url><url>
-            <loc>http://example.org/categories/network/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/categories/network/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/categories/network/"
+                        href="https://laokong4628.github.io/zh-cn/categories/network/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/categories/network/"
+                    href="https://laokong4628.github.io/categories/network/"
                     /></url><url>
-            <loc>http://example.org/posts/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/posts/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/posts/"
+                        href="https://laokong4628.github.io/zh-cn/posts/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/posts/"
+                    href="https://laokong4628.github.io/posts/"
                     /></url><url>
-            <loc>http://example.org/tags/python/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/tags/python/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/tags/python/"
+                        href="https://laokong4628.github.io/zh-cn/tags/python/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/tags/python/"
+                    href="https://laokong4628.github.io/tags/python/"
                     /></url><url>
-            <loc>http://example.org/categories/python/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/categories/python/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/categories/python/"
+                        href="https://laokong4628.github.io/zh-cn/categories/python/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/categories/python/"
+                    href="https://laokong4628.github.io/categories/python/"
                     /></url><url>
-            <loc>http://example.org/posts/python.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/posts/python.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/posts/python.html/"
+                        href="https://laokong4628.github.io/zh-cn/posts/python.html/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/posts/python.html/"
+                    href="https://laokong4628.github.io/posts/python.html/"
                     /></url><url>
-            <loc>http://example.org/tags/rsync/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/tags/rsync/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/tags/rsync/"
+                        href="https://laokong4628.github.io/zh-cn/tags/rsync/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/tags/rsync/"
+                    href="https://laokong4628.github.io/tags/rsync/"
                     /></url><url>
-            <loc>http://example.org/categories/rsync/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/categories/rsync/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/categories/rsync/"
+                        href="https://laokong4628.github.io/zh-cn/categories/rsync/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/categories/rsync/"
+                    href="https://laokong4628.github.io/categories/rsync/"
                     /></url><url>
-            <loc>http://example.org/posts/rsync.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/posts/rsync.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/posts/rsync.html/"
+                        href="https://laokong4628.github.io/zh-cn/posts/rsync.html/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/posts/rsync.html/"
+                    href="https://laokong4628.github.io/posts/rsync.html/"
                     /></url><url>
-            <loc>http://example.org/tags/studio/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/tags/studio/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/tags/studio/"
+                        href="https://laokong4628.github.io/zh-cn/tags/studio/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/tags/studio/"
+                    href="https://laokong4628.github.io/tags/studio/"
                     /></url><url>
-            <loc>http://example.org/categories/studio/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/categories/studio/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/categories/studio/"
+                        href="https://laokong4628.github.io/zh-cn/categories/studio/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/categories/studio/"
+                    href="https://laokong4628.github.io/categories/studio/"
                     /></url><url>
-            <loc>http://example.org/tags/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/tags/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/tags/"
+                        href="https://laokong4628.github.io/zh-cn/tags/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/tags/"
+                    href="https://laokong4628.github.io/tags/"
                     /></url><url>
-            <loc>http://example.org/tags/wifi/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/tags/wifi/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/tags/wifi/"
+                        href="https://laokong4628.github.io/zh-cn/tags/wifi/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/tags/wifi/"
+                    href="https://laokong4628.github.io/tags/wifi/"
                     /></url><url>
-            <loc>http://example.org/categories/wifi/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/categories/wifi/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/categories/wifi/"
+                        href="https://laokong4628.github.io/zh-cn/categories/wifi/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/categories/wifi/"
+                    href="https://laokong4628.github.io/categories/wifi/"
                     /></url><url>
-            <loc>http://example.org/posts/wifi-network.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/posts/wifi-network.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/posts/wifi-network.html/"
+                        href="https://laokong4628.github.io/zh-cn/posts/wifi-network.html/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/posts/wifi-network.html/"
+                    href="https://laokong4628.github.io/posts/wifi-network.html/"
                     /></url><url>
-            <loc>http://example.org/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"
+                        href="https://laokong4628.github.io/zh-cn/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"
+                    href="https://laokong4628.github.io/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"
                     /></url><url>
-            <loc>http://example.org/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/"
+                        href="https://laokong4628.github.io/zh-cn/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/"
+                    href="https://laokong4628.github.io/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/"
                     /></url><url>
-            <loc>http://example.org/posts/%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E5%99%A8.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/posts/%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E5%99%A8.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/posts/%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E5%99%A8.html/"
+                        href="https://laokong4628.github.io/zh-cn/posts/%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E5%99%A8.html/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/posts/%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E5%99%A8.html/"
+                    href="https://laokong4628.github.io/posts/%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E5%99%A8.html/"
                     /></url><url>
-            <loc>http://example.org/tags/HTML/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/tags/HTML/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/tags/HTML/"
+                        href="https://laokong4628.github.io/zh-cn/tags/HTML/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/tags/HTML/"
+                    href="https://laokong4628.github.io/tags/HTML/"
                     /></url><url>
-            <loc>http://example.org/tags/Markdown/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/tags/Markdown/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/tags/Markdown/"
+                        href="https://laokong4628.github.io/zh-cn/tags/Markdown/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/tags/Markdown/"
+                    href="https://laokong4628.github.io/tags/Markdown/"
                     /></url><url>
-            <loc>http://example.org/categories/Markdown/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/categories/Markdown/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/categories/Markdown/"
+                        href="https://laokong4628.github.io/zh-cn/categories/Markdown/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/categories/Markdown/"
+                    href="https://laokong4628.github.io/categories/Markdown/"
                     /></url><url>
-            <loc>http://example.org/tags/emoji/</loc><lastmod>2019-10-01T17:55:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/tags/emoji/</loc><lastmod>2019-10-01T17:55:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/tags/emoji/"
+                        href="https://laokong4628.github.io/zh-cn/tags/emoji/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/tags/emoji/"
+                    href="https://laokong4628.github.io/tags/emoji/"
                     /></url><url>
-            <loc>http://example.org/about/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/about/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/about/"
+                        href="https://laokong4628.github.io/zh-cn/about/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/about/"
+                    href="https://laokong4628.github.io/about/"
                     /></url><url>
-            <loc>http://example.org/friends/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/friends/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/friends/"
+                        href="https://laokong4628.github.io/zh-cn/friends/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/friends/"
+                    href="https://laokong4628.github.io/friends/"
                     /></url><url>
-            <loc>http://example.org/tags/Featured/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://laokong4628.github.io/tags/Featured/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/tags/Featured/"
+                        href="https://laokong4628.github.io/zh-cn/tags/Featured/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/tags/Featured/"
+                    href="https://laokong4628.github.io/tags/Featured/"
                     /></url><url>
-            <loc>http://example.org/search/</loc><changefreq>weekly</changefreq><priority>0.1</priority><xhtml:link
+            <loc>https://laokong4628.github.io/search/</loc><changefreq>weekly</changefreq><priority>0.1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/search/"
+                        href="https://laokong4628.github.io/zh-cn/search/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/search/"
+                    href="https://laokong4628.github.io/search/"
                     /></url><url>
-            <loc>http://example.org/weather/</loc><changefreq>weekly</changefreq><priority>0.1</priority><xhtml:link
+            <loc>https://laokong4628.github.io/weather/</loc><changefreq>weekly</changefreq><priority>0.1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/weather/"
+                        href="https://laokong4628.github.io/zh-cn/weather/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/weather/"
+                    href="https://laokong4628.github.io/weather/"
                     /></url></urlset>

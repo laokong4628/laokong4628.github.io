@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>google - Category - Lao Kong&#39;s notepad</title>
-        <link>http://example.org/categories/google/</link>
+        <link>https://laokong4628.github.io/categories/google/</link>
         <description>google - Category - Lao Kong&#39;s notepad</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>laokong4628@gmail.com (Lao Kong)</managingEditor>
-            <webMaster>laokong4628@gmail.com (Lao Kong)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</lastBuildDate><atom:link href="http://example.org/categories/google/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>laokong4628@gmail.com (Lao Kong)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</lastBuildDate><atom:link href="https://laokong4628.github.io/categories/google/" rel="self" type="application/rss+xml" /><item>
     <title>google</title>
-    <link>http://example.org/posts/google.html/</link>
+    <link>https://laokong4628.github.io/posts/google.html/</link>
     <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>http://example.org/posts/google.html/</guid>
+    <guid>https://laokong4628.github.io/posts/google.html/</guid>
     <description><![CDATA[<h2 id="getting-started">Getting started</h2>]]></description>
 </item></channel>
 </rss>
