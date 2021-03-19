@@ -2,129 +2,527 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://laokong4628.github.io/posts/Basic-Markdown-Syntax.html/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://example.org/posts/Vim.html/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://laokong4628.github.io/zh-cn/posts/Markdown-%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.html/"
+                        href="http://example.org/zh-cn/posts/Vim.html/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://laokong4628.github.io/posts/Basic-Markdown-Syntax.html/"
+                    href="http://example.org/posts/Vim.html/"
                     /></url><url>
-            <loc>https://laokong4628.github.io/posts/Emoji-Support.html/</loc><lastmod>2019-10-01T17:55:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://example.org/posts/Basic-Markdown-Syntax.html/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://laokong4628.github.io/zh-cn/posts/Emoji-%E6%94%AF%E6%8C%81.html/"
+                        href="http://example.org/zh-cn/posts/Markdown-%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.html/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://laokong4628.github.io/posts/Emoji-Support.html/"
+                    href="http://example.org/posts/Basic-Markdown-Syntax.html/"
                     /></url><url>
-            <loc>https://laokong4628.github.io/categories/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://example.org/posts/Emoji-Support.html/</loc><lastmod>2019-10-01T17:55:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://laokong4628.github.io/zh-cn/categories/"
+                        href="http://example.org/zh-cn/posts/Emoji-%E6%94%AF%E6%8C%81.html/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://laokong4628.github.io/categories/"
+                    href="http://example.org/posts/Emoji-Support.html/"
                     /></url><url>
-            <loc>https://laokong4628.github.io/tags/HTML/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://example.org/tags/android/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://laokong4628.github.io/zh-cn/tags/HTML/"
+                        href="http://example.org/zh-cn/tags/android/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://laokong4628.github.io/tags/HTML/"
+                    href="http://example.org/tags/android/"
                     /></url><url>
-            <loc>https://laokong4628.github.io/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://example.org/categories/android/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://laokong4628.github.io/zh-cn/"
+                        href="http://example.org/zh-cn/categories/android/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://laokong4628.github.io/"
+                    href="http://example.org/categories/android/"
                     /></url><url>
-            <loc>https://laokong4628.github.io/tags/Markdown/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://example.org/posts/android-studio.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://laokong4628.github.io/zh-cn/tags/Markdown/"
+                        href="http://example.org/zh-cn/posts/android-studio.html/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://laokong4628.github.io/tags/Markdown/"
+                    href="http://example.org/posts/android-studio.html/"
                     /></url><url>
-            <loc>https://laokong4628.github.io/categories/Markdown/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://example.org/categories/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://laokong4628.github.io/zh-cn/categories/Markdown/"
+                        href="http://example.org/zh-cn/categories/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://laokong4628.github.io/categories/Markdown/"
+                    href="http://example.org/categories/"
                     /></url><url>
-            <loc>https://laokong4628.github.io/posts/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://example.org/tags/find/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://laokong4628.github.io/zh-cn/posts/"
+                        href="http://example.org/zh-cn/tags/find/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://laokong4628.github.io/posts/"
+                    href="http://example.org/tags/find/"
                     /></url><url>
-            <loc>https://laokong4628.github.io/tags/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://example.org/categories/find/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://laokong4628.github.io/zh-cn/tags/"
+                        href="http://example.org/zh-cn/categories/find/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://laokong4628.github.io/tags/"
+                    href="http://example.org/categories/find/"
                     /></url><url>
-            <loc>https://laokong4628.github.io/tags/emoji/</loc><lastmod>2019-10-01T17:55:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://example.org/tags/google/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://laokong4628.github.io/zh-cn/tags/emoji/"
+                        href="http://example.org/zh-cn/tags/google/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://laokong4628.github.io/tags/emoji/"
+                    href="http://example.org/tags/google/"
                     /></url><url>
-            <loc>https://laokong4628.github.io/about/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://example.org/categories/google/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://laokong4628.github.io/zh-cn/about/"
+                        href="http://example.org/zh-cn/categories/google/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://laokong4628.github.io/about/"
+                    href="http://example.org/categories/google/"
                     /></url><url>
-            <loc>https://laokong4628.github.io/friends/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://example.org/posts/google.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://laokong4628.github.io/zh-cn/friends/"
+                        href="http://example.org/zh-cn/posts/google.html/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://laokong4628.github.io/friends/"
+                    href="http://example.org/posts/google.html/"
                     /></url><url>
-            <loc>https://laokong4628.github.io/search/search/</loc><changefreq>weekly</changefreq><priority>0.1</priority><xhtml:link
+            <loc>http://example.org/tags/grep/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://laokong4628.github.io/zh-cn/search/search/"
+                        href="http://example.org/zh-cn/tags/grep/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://laokong4628.github.io/search/search/"
+                    href="http://example.org/tags/grep/"
                     /></url><url>
-            <loc>https://laokong4628.github.io/search/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://example.org/categories/grep/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://laokong4628.github.io/zh-cn/search/"
+                        href="http://example.org/zh-cn/categories/grep/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://laokong4628.github.io/search/"
+                    href="http://example.org/categories/grep/"
+                    /></url><url>
+            <loc>http://example.org/tags/hosts/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/tags/hosts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/tags/hosts/"
+                    /></url><url>
+            <loc>http://example.org/categories/hosts/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/categories/hosts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/categories/hosts/"
+                    /></url><url>
+            <loc>http://example.org/posts/hosts.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/posts/hosts.html/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/posts/hosts.html/"
+                    /></url><url>
+            <loc>http://example.org/tags/kodi/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/tags/kodi/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/tags/kodi/"
+                    /></url><url>
+            <loc>http://example.org/categories/kodi/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/categories/kodi/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/categories/kodi/"
+                    /></url><url>
+            <loc>http://example.org/posts/kodi.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/posts/kodi.html/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/posts/kodi.html/"
+                    /></url><url>
+            <loc>http://example.org/tags/language/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://example.org/categories/language/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://example.org/posts/languages-words-phrases.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/posts/%E5%A4%96%E8%AF%AD%E5%8D%95%E8%AF%8D%E7%9F%AD%E8%AF%AD%E8%AE%B0%E5%BD%95%E5%A4%8D%E4%B9%A0.html/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/posts/languages-words-phrases.html/"
+                    /></url><url>
+            <loc>http://example.org/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/"
+                    /></url><url>
+            <loc>http://example.org/tags/Linux/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/tags/Linux/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/tags/Linux/"
+                    /></url><url>
+            <loc>http://example.org/categories/Linux/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/categories/Linux/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/categories/Linux/"
+                    /></url><url>
+            <loc>http://example.org/posts/Linux-Command-Fullname.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/posts/Linux%E5%91%BD%E4%BB%A4%E8%8B%B1%E6%96%87%E5%85%A8%E7%A7%B0.html/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/posts/Linux-Command-Fullname.html/"
+                    /></url><url>
+            <loc>http://example.org/posts/linux-find-grep.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/posts/linux-find-grep.html/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/posts/linux-find-grep.html/"
+                    /></url><url>
+            <loc>http://example.org/tags/mariaDB/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/tags/mariaDB/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/tags/mariaDB/"
+                    /></url><url>
+            <loc>http://example.org/categories/mariaDB/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/categories/mariaDB/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/categories/mariaDB/"
+                    /></url><url>
+            <loc>http://example.org/posts/mariaDB-Mysql.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/posts/mariaDB-Mysql.html/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/posts/mariaDB-Mysql.html/"
+                    /></url><url>
+            <loc>http://example.org/tags/Mysql/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/tags/Mysql/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/tags/Mysql/"
+                    /></url><url>
+            <loc>http://example.org/categories/Mysql/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/categories/Mysql/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/categories/Mysql/"
+                    /></url><url>
+            <loc>http://example.org/tags/network/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/tags/network/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/tags/network/"
+                    /></url><url>
+            <loc>http://example.org/categories/network/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/categories/network/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/categories/network/"
+                    /></url><url>
+            <loc>http://example.org/posts/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/posts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/posts/"
+                    /></url><url>
+            <loc>http://example.org/tags/python/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/tags/python/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/tags/python/"
+                    /></url><url>
+            <loc>http://example.org/categories/python/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/categories/python/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/categories/python/"
+                    /></url><url>
+            <loc>http://example.org/posts/python.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/posts/python.html/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/posts/python.html/"
+                    /></url><url>
+            <loc>http://example.org/tags/rsync/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/tags/rsync/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/tags/rsync/"
+                    /></url><url>
+            <loc>http://example.org/categories/rsync/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/categories/rsync/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/categories/rsync/"
+                    /></url><url>
+            <loc>http://example.org/posts/rsync.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/posts/rsync.html/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/posts/rsync.html/"
+                    /></url><url>
+            <loc>http://example.org/tags/studio/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/tags/studio/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/tags/studio/"
+                    /></url><url>
+            <loc>http://example.org/categories/studio/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/categories/studio/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/categories/studio/"
+                    /></url><url>
+            <loc>http://example.org/tags/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/tags/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/tags/"
+                    /></url><url>
+            <loc>http://example.org/tags/wifi/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/tags/wifi/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/tags/wifi/"
+                    /></url><url>
+            <loc>http://example.org/categories/wifi/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/categories/wifi/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/categories/wifi/"
+                    /></url><url>
+            <loc>http://example.org/posts/wifi-network.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/posts/wifi-network.html/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/posts/wifi-network.html/"
+                    /></url><url>
+            <loc>http://example.org/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"
+                    /></url><url>
+            <loc>http://example.org/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/"
+                    /></url><url>
+            <loc>http://example.org/posts/%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E5%99%A8.html/</loc><lastmod>2021-01-29T11:16:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/posts/%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E5%99%A8.html/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/posts/%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E5%99%A8.html/"
+                    /></url><url>
+            <loc>http://example.org/tags/HTML/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/tags/HTML/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/tags/HTML/"
+                    /></url><url>
+            <loc>http://example.org/tags/Markdown/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/tags/Markdown/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/tags/Markdown/"
+                    /></url><url>
+            <loc>http://example.org/categories/Markdown/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/categories/Markdown/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/categories/Markdown/"
+                    /></url><url>
+            <loc>http://example.org/tags/emoji/</loc><lastmod>2019-10-01T17:55:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/tags/emoji/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/tags/emoji/"
+                    /></url><url>
+            <loc>http://example.org/about/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/about/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/about/"
+                    /></url><url>
+            <loc>http://example.org/friends/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/friends/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/friends/"
+                    /></url><url>
+            <loc>http://example.org/tags/Featured/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/tags/Featured/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/tags/Featured/"
+                    /></url><url>
+            <loc>http://example.org/search/</loc><changefreq>weekly</changefreq><priority>0.1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/search/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/search/"
+                    /></url><url>
+            <loc>http://example.org/weather/</loc><changefreq>weekly</changefreq><priority>0.1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/weather/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/weather/"
                     /></url></urlset>

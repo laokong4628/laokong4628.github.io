@@ -65,3 +65,38 @@ function getCurrentDateString() {
   var hour = now.getHours();
   return "" + now.getFullYear() + (month < 10 ? "0" + month : month) + (day < 10 ? "0" + day : day) + (hour < 10 ? "0" + hour : hour);
 }
+
+// window.onload = function () {
+//   var itemLists = document.getElementsByClassName("menu-item");
+//   var itemNode = document.createElement("div");
+//   itemNode.id = "he-plugin-standard";
+//   itemNode.style.height = "300px";
+//   itemNode.style.width = "500px";
+//   itemNode.style.backgroundColor = "red";
+//   itemNode.style.display = "none";
+//   itemLists[6].setAttribute("onmouseover", "displayWeather()");
+//   itemLists[6].setAttribute("onmouseout", "closeWeather()");
+//   itemLists[6].appendChild(itemNode);
+//   itemLists[6].style.position = "absolute";
+// var itemNodediv = document.createElement("div");
+// itemNodediv.id = "he-plugin-standard";
+// itemNode.appendChild(itemNodediv);
+// itemLists[6].("id", "he-plugin-standard");
+// console.log(itemLists[6]);
+// };
+
+// function displayWeather() {
+//   var box = document.getElementById("he-plugin-standard");
+//   // box.style.float = screenLeft;
+//   // box.style.position = "absolute";
+//   // box.style.marginTop = "300px";
+//   // box.style.bottom = "-300px";
+//   // box.style.box.style.right = "28px";
+//   // box.style.setAttribute("z-index", "99");
+
+//   box.style.display = "inline-block";
+// }
+// function closeWeather() {
+//   var box = document.getElementById("he-plugin-standard");
+//   box.style.display = "none";
+// }

@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>浏览器 - Category - Lao Kong&#39;s notepad</title>
+        <link>http://example.org/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/</link>
+        <description>浏览器 - Category - Lao Kong&#39;s notepad</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>laokong4628@gmail.com (Lao Kong)</managingEditor>
+            <webMaster>laokong4628@gmail.com (Lao Kong)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</lastBuildDate><atom:link href="http://example.org/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/" rel="self" type="application/rss+xml" /><item>
+    <title>网页浏览器</title>
+    <link>http://example.org/posts/%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E5%99%A8.html/</link>
+    <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/posts/%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E5%99%A8.html/</guid>
+    <description><![CDATA[<h2 id="getting-started">Getting started</h2>
+<!-- raw HTML omitted -->
+<h3 id="火狐浏览器开启dns-over-httpsdoh解决dns污染">火狐浏览器开启DNS-over-HTTPS（DoH）解决DNS污染</h3>]]></description>
+</item></channel>
+</rss>

@@ -1,0 +1,21 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>rsync - Tag - Lao Kong&#39;s notepad</title>
+        <link>http://example.org/tags/rsync/</link>
+        <description>rsync - Tag - Lao Kong&#39;s notepad</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>laokong4628@gmail.com (Lao Kong)</managingEditor>
+            <webMaster>laokong4628@gmail.com (Lao Kong)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/rsync/" rel="self" type="application/rss+xml" /><item>
+    <title>rsync</title>
+    <link>http://example.org/posts/rsync.html/</link>
+    <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/posts/rsync.html/</guid>
+    <description><![CDATA[<h2 id="getting-started">Getting started</h2>
+<!-- raw HTML omitted -->
+<h2 id="rsync介绍">rsync介绍</h2>
+<blockquote>
+<p><a href="https://rsync.samba.org/" target="_blank" rel="noopener noreffer">rsync</a> 是 Linux 系統上最常被用來複製與備份檔案的工具，它可以處理本機或遠端的檔案同步工作，藉由 rsync 指令可以讓管理者很方便的將兩地的資料同步，不管是同一台電腦或是透過網際網路連線的兩台伺服器，使用方式都類似，以下是 rsync 的使用教學以及常用的指令範例。</p>
+</blockquote>
+<h2 id="基本用法">基本用法</h2>]]></description>
+</item></channel>
+</rss>

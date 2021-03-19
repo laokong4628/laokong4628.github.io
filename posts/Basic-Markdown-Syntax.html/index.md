@@ -746,3 +746,31 @@ With a reference later in the document defining the URL location:
 **LoveIt** theme has [special shortcode for image](../theme-documentation-extended-shortcodes#image), which provides more features.
 {{< /admonition >}}
 
+## 14 字体大小与颜色
+
+**图标**
+```markdown
+RED APPLE (&#x1F34E;): 🍎
+GREEN APPLE (&#x1F34F;): 🍏
+BLUE HEART (&#x1F499;): 💙
+GREEN HEART (&#x1F49A;): 💚
+YELLOW HEART (&#x1F49B;): 💛
+PURPLE HEART (&#x1F49C;): 💜
+GREEN BOOK (&#x1F4D7;): 📗
+BLUE BOOK (&#x1F4D8;): 📘
+ORANGE BOOK (&#x1F4D9;): 📙
+LARGE RED CIRCLE (&#x1F534;): 🔴
+LARGE BLUE CIRCLE (&#x1F535;): 🔵
+LARGE ORANGE DIAMOND (&#x1F536;): 🔶
+LARGE BLUE DIAMOND (&#x1F537;): 🔷
+SMALL ORANGE DIAMOND (&#x1F538;): 🔸
+SMALL BLUE DIAMOND (&#x1F539;): 🔹
+UP-POINTING RED TRIANGLE (&#x1F53A;): 🔺
+DOWN-POINTING RED TRIANGLE (&#x1F53B;): 🔻
+UP-POINTING SMALL RED TRIANGLE (&#x1F53C;): 🔼
+DOWN-POINTING SMALL RED TRIANGLE (&#x1F53D;): 🔽
+```
+
+## 15 单行换行
+>   根据其他Markdown语法介绍，换行直接敲回车是不行的，在有些编译器里是不会换行的。`解决办法是换行后敲至少两个空格，或敲两个空格后再回车换行`。这个方法或许在其他编译器里可行（笔者没有在其他编译器里实验），但是在简书里却实现不了多行换行，无论敲多少回车都是空一行。
+

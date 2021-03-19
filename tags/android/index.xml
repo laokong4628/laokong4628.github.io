@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>android - Tag - Lao Kong&#39;s notepad</title>
+        <link>http://example.org/tags/android/</link>
+        <description>android - Tag - Lao Kong&#39;s notepad</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>laokong4628@gmail.com (Lao Kong)</managingEditor>
+            <webMaster>laokong4628@gmail.com (Lao Kong)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/android/" rel="self" type="application/rss+xml" /><item>
+    <title>android-studio</title>
+    <link>http://example.org/posts/android-studio.html/</link>
+    <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/posts/android-studio.html/</guid>
+    <description><![CDATA[<h2 id="getting-started">Getting started</h2>
+<!-- raw HTML omitted -->
+<h3 id="android-studio-使用过程的问题和注意点">Android Studio 使用过程的问题和注意点</h3>]]></description>
+</item></channel>
+</rss>
