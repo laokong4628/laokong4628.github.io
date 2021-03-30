@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>图片处理 - Tag - Lao Kong&#39;s notepad</title>
+        <link>https://laokong4628.github.io/tags/%E5%9B%BE%E7%89%87%E5%A4%84%E7%90%86/</link>
+        <description>图片处理 - Tag - Lao Kong&#39;s notepad</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>laokong4628@gmail.com (Lao Kong)</managingEditor>
+            <webMaster>laokong4628@gmail.com (Lao Kong)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</lastBuildDate><atom:link href="https://laokong4628.github.io/tags/%E5%9B%BE%E7%89%87%E5%A4%84%E7%90%86/" rel="self" type="application/rss+xml" /><item>
+    <title>图片处理</title>
+    <link>https://laokong4628.github.io/posts/%E5%9B%BE%E7%89%87%E5%A4%84%E7%90%86.html/</link>
+    <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://laokong4628.github.io/posts/%E5%9B%BE%E7%89%87%E5%A4%84%E7%90%86.html/</guid>
+    <description><![CDATA[Getting started  linux 下图片格式装换 convert 1.jpg 2.png
+  GMIP 处理图像 输出自定义图片格式，export save as。
+ ]]></description>
+</item></channel>
+</rss>
