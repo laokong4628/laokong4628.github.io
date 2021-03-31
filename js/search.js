@@ -46,7 +46,7 @@ if (searchQuery) {
 
 function executeSearch(searchQuery) {
   // Look for "index.json" in the same directory where this script is called.
-  fetch("./search/index.json")
+  fetch("index.json")
     .then(function (response) {
       return response.json();
     })
