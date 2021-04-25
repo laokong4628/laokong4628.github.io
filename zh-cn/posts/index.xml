@@ -26,6 +26,13 @@
     <guid>https://laokong4628.github.io/zh-cn/posts/Emoji-%E6%94%AF%E6%8C%81.html/</guid>
     <description><![CDATA[<p>Emoji 可以通过多种方式在 Hugo 项目中启用.</p>]]></description>
 </item><item>
+    <title>agilent-ict</title>
+    <link>https://laokong4628.github.io/zh-cn/posts/agilent-ict.html/</link>
+    <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://laokong4628.github.io/zh-cn/posts/agilent-ict.html/</guid>
+    <description><![CDATA[<h2 id="getting-started">Getting started</h2>]]></description>
+</item><item>
     <title>android-studio</title>
     <link>https://laokong4628.github.io/zh-cn/posts/android-studio.html/</link>
     <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
@@ -60,29 +67,18 @@
 <!-- raw HTML omitted -->
 <h3 id="kodi-使用过程的问题和注意点">kodi 使用过程的问题和注意点</h3>]]></description>
 </item><item>
-    <title>linux-find-grep</title>
-    <link>https://laokong4628.github.io/zh-cn/posts/linux-find-grep.html/</link>
+    <title>languages-words-phrases</title>
+    <link>https://laokong4628.github.io/zh-cn/posts/languages-words-phrases.html/</link>
     <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://laokong4628.github.io/zh-cn/posts/linux-find-grep.html/</guid>
-    <description><![CDATA[<h2 id="getting-started">Getting started</h2>
-<!-- raw HTML omitted -->
-<h2 id="linux-使用过程中收集的要点和助手">linux 使用过程中收集的要点和助手</h2>]]></description>
+    <guid>https://laokong4628.github.io/zh-cn/posts/languages-words-phrases.html/</guid>
+    <description><![CDATA[所有经过外语单词短语记录复习 英语 robust: 强健的(49%)，粗野的(21%)，耐用的(17%)，浓的(9%)，稳固的(4%) ship with: 附带 sketch： 素]]></description>
 </item><item>
-    <title>Linux命令英文全称</title>
-    <link>https://laokong4628.github.io/zh-cn/posts/Linux%E5%91%BD%E4%BB%A4%E8%8B%B1%E6%96%87%E5%85%A8%E7%A7%B0.html/</link>
+    <title>linux</title>
+    <link>https://laokong4628.github.io/zh-cn/posts/linux.html/</link>
     <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://laokong4628.github.io/zh-cn/posts/Linux%E5%91%BD%E4%BB%A4%E8%8B%B1%E6%96%87%E5%85%A8%E7%A7%B0.html/</guid>
-    <description><![CDATA[Linux命令英文全称 注意 这篇文章转载自(https://blog.csdn.net/alex_sym/article/details/74]]></description>
-</item><item>
-    <title>mariaDB-Mysql</title>
-    <link>https://laokong4628.github.io/zh-cn/posts/mariaDB-Mysql.html/</link>
-    <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://laokong4628.github.io/zh-cn/posts/mariaDB-Mysql.html/</guid>
-    <description><![CDATA[<h2 id="getting-started">Getting started</h2>
-<!-- raw HTML omitted -->
-<h3 id="mariadb-mysql数据库相关">mariaDB-Mysql数据库相关</h3>]]></description>
+    <guid>https://laokong4628.github.io/zh-cn/posts/linux.html/</guid>
+    <description><![CDATA[Linux相关 查看硬件时间可以是用hwclock或者clock命令，hwclock &ndash;show 或者hwclock -r //查看硬件时间 [root@localhost ~]# hwclock --show 2008年1]]></description>
 </item></channel>
 </rss>

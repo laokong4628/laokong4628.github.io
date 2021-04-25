@@ -35,7 +35,7 @@
                             "url": "https:\/\/laokong4628.github.io\/images\/Apple-Devices-Preview.png",
                             "width":  3200 ,
                             "height":  2048 
-                        }],"genre": "posts","keywords": "react","wordcount":  3119 ,
+                        }],"genre": "posts","keywords": "react","wordcount":  8331 ,
         "url": "https:\/\/laokong4628.github.io\/zh-cn\/posts\/react.html\/","datePublished": "2021-01-29T11:16:31+08:00","dateModified": "2021-01-29T11:16:31+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
@@ -97,8 +97,8 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single" id="articleAll"><h1 class="single-title animated flipInX">react</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://laokong4628.github.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>LaoKong</a></span>&nbsp;<span class="post-category">收录于 <a href="/zh-cn/categories/react/"><i class="far fa-folder fa-fw"></i>react</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-01-29">2021-01-29</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 3119 字&nbsp;
-                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 7 分钟&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-01-29">2021-01-29</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 8331 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 17 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
                     <span>目录</span>
@@ -121,6 +121,23 @@
     <li><a href="#11-react中的虚拟dom">11. React中的虚拟DOM</a></li>
     <li><a href="#12-react中ref的使用">12. React中ref的使用</a></li>
     <li><a href="#13-react的生命周期函数">13. React的生命周期函数</a></li>
+    <li><a href="#14-react使用charles实现本地数据mock">14. React使用Charles实现本地数据mock</a></li>
+    <li><a href="#15-react中实现css过渡动画">15. React中实现CSS过渡动画</a></li>
+    <li><a href="#16-使用react-transition-grouphttpsgithubcomreactjsreact-transition-group实现动画">16. 使用<a href="https://github.com/reactjs/react-transition-group">react transition group</a>实现动画</a></li>
+    <li><a href="#17-react中redux概念简述">17. React中Redux概念简述</a></li>
+    <li><a href="#17-使用antd实现todolist页面布局httpsantdesign">17. <a href="https://ant.design/">使用Antd实现TodoList页面布局</a></a></li>
+    <li><a href="#18-ui组件和容器组件">18. UI组件和容器组件</a></li>
+    <li><a href="#19-无状态组件只有一个render函数替换ui组件中的类todolistui为函数">19. 无状态组件，只有一个render函数，替换UI组件中的类TodolistUI为函数。</a></li>
+    <li><a href="#20-redux中发送异步请求获取数据">20. Redux中发送异步请求获取数据</a></li>
+    <li><a href="#21-使用redux-thunk中间件实现ajax数据请求-httpsgithubcomreduxjsredux-thunk">21. <a href="https://github.com/reduxjs/redux-thunk">使用Redux-thunk中间件实现ajax数据请求 </a></a></li>
+    <li><a href="#20-redux的中间件指的是什么">20. Redux的中间件指的是什么？</a></li>
+    <li><a href="#21-redux-saga中间件使用httpsgithubcomredux-sagaredux-saga">21. <a href="https://github.com/redux-saga/redux-saga">Redux-saga中间件使用</a></a></li>
+    <li><a href="#22-styled-components模块安装httpswwwstyled-componentscom">22. <a href="https://www.styled-components.com/">Styled-Components模块安装</a></a></li>
+    <li><a href="#23-resetcss使用httpsstyled-componentscom">23. <a href="https://styled-components.com/">Reset.css使用</a></a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
   </ul>
 </nav></div>
             </div><div class="content" id="content"><h2 id="getting-started">Getting started</h2>
@@ -128,7 +145,7 @@
 <h2 id="1-react开发环境准备">1. React开发环境准备</h2>
 <blockquote>
 <p>1.安装node.js,查看node -v，npm -V验证安装。<br>
-2.方案一：<br>
+2.方案一(<code>推荐</code>)：<br>
 3.npx create-react-app my-app<br>
 4.cd my-app<br>
 5.npm start<br>
@@ -137,9 +154,27 @@
 8.cd dir(你项目的目录)<br>
 9.create-react-app my-app  <br>
 10.cd my-app<br>
-11.yarn start</p>
+11.yarn start<br>
+安装完成后，执行参考以下指令:</p>
 </blockquote>
-<h2 id="2-react工程目录文件结构介绍">2. React工程目录文件结构介绍</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">Inside that directory, you can run several commands:
+  yarn start
+    Starts the development server.
+  yarn build
+    Bundles the app into static files for production.
+  yarn test
+    Starts the test runner.
+  yarn eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+  cd jianshu
+  yarn start
+
+Happy hacking!   
+
+</code></pre></div><h2 id="2-react工程目录文件结构介绍">2. React工程目录文件结构介绍</h2>
 <blockquote>
 <p>1.cd my-app。<br>
 2.<code>npm run start</code>  。<br>
@@ -311,6 +346,867 @@
 4.<code>render</code>生命周期函数<code>必须存在</code>，其他生命周期函数<code>可有可无</code>。<br>
 5.<code>shouldComponentUpdate</code>接受两个参数:<code>nextProps</code>,<code>nextState</code>。<br>
 6.<code>componentDidMount</code>处理AJAX异步请求，<code>安装AJAX模块</code>，<strong>yarn add axios</strong>.<code>导入AJAX模块</code>，<code>import axios from 'axios'</code>,<code>调用axios，axios.get('/api/组件')</code>。</p>
+</blockquote>
+<h2 id="14-react使用charles实现本地数据mock">14. React使用Charles实现本地数据mock</h2>
+<blockquote>
+<p>安装Charlse中间件</p>
+</blockquote>
+<h2 id="15-react中实现css过渡动画">15. React中实现CSS过渡动画</h2>
+<blockquote>
+<p>toggle,
+1.先定义constructor方法，设置state的初始化值，以及初始化点击事件，例子：</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">constructor(props){
+    super(props);
+    this.state = {
+        show: true
+    }
+    this.handleToggle = this.handleToggle.bind(this);
+}
+
+</code></pre></div><blockquote>
+<p>2.再调用渲染方法render()，渲染定义的标签组件，例：</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">classNames </span><span style="color:#f92672">=</span> <span style="color:#e6db74">{this.state.show</span> <span style="color:#960050;background-color:#1e0010">?</span> <span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">show</span><span style="color:#960050;background-color:#1e0010">&#39;</span> <span style="color:#a6e22e">:</span> <span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">hide</span><span style="color:#960050;background-color:#1e0010">&#39;}</span>&gt;hello world!&lt;/<span style="color:#f92672">div</span>&gt;
+
+</code></pre></div><blockquote>
+<p>3.再调用点击事件函数handleToggle()，实现toggle，例：</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">handleToggle(){
+    this.state = ({
+        show: this.state.show ? false : true
+    })
+}
+
+</code></pre></div><blockquote>
+<p>4.定义切换样式（动画）css文件，导入css文件</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">import &#39;./style.css&#39;;
+
+style.css:
+.show{
+    opacity: 1;
+    transition: all 1s ease-in;
+}
+.hide{
+    opacity: 0;
+    transition: all 1s ease-in;
+}
+
+动画效果：
+@keyframes show-item {
+    0% {
+        opacity: 1;
+        color: red;
+    }
+    50% {
+        opacity: 1;
+        color: green;
+    }
+    100% {
+        opacity: 1;
+        color: blue;
+    }
+}
+
+@keyframes hide-item {
+    0% {
+        opacity: 1;
+        color: red;
+    }
+    50% {
+        opacity: 1;
+        color: green;
+    }
+    100% {
+        opacity: 1;
+        color: blue;
+    }
+}
+
+修改show类样式：
+.show{
+    opacity: 0;
+    transition: all 1s ease-in;变为 transition: show-item 2s ease-in forwards;
+}
+
+修改hide类样式：
+.hide{
+    opacity: 0;
+    transition: all 1s ease-in;变为 transition: hide-item 2s ease-in forwards;
+}
+
+</code></pre></div><h2 id="16-使用react-transition-grouphttpsgithubcomreactjsreact-transition-group实现动画">16. 使用<a href="https://github.com/reactjs/react-transition-group" target="_blank" rel="noopener noreffer">react transition group</a>实现动画</h2>
+<blockquote>
+<p><a href="https://reactcommunity.org/react-transition-group/" target="_blank" rel="noopener noreffer">安装和使用</a>：
+安装react transition group，终端输入命令：<code>yarn add react-transition-group</code><br>
+导入CSStransition模块到自定义组件（例子中APP.js），<code>import { CSSTransition } from 'react-transition-group';</code>
+加入CSStransition标签组件，包裹需要该组件的内容.</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">&lt;<span style="color:#f92672">CSStransition</span> 
+    <span style="color:#a6e22e">in</span><span style="color:#f92672">=</span><span style="color:#e6db74">{this.state.show}</span> 
+    <span style="color:#a6e22e">timeout</span><span style="color:#f92672">=</span><span style="color:#e6db74">{1000}</span>&gt;
+        &lt;<span style="color:#f92672">div</span>&gt;hello world&lt;/<span style="color:#f92672">div</span>&gt;
+    &lt;/<span style="color:#f92672">CSStransition</span>&gt;
+
+</code></pre></div><blockquote>
+<p><code>注意</code>:修改动画效果的标签，其他内容不变。
+修改style.css,加入组件<code>react-transition-group</code>规定的样式.</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">有如下样式：
+进场/出厂第一帧, 进场/出厂第二帧, 进场/出厂第三帧 
+fade-appear, fade-appear-active, fade-appear-done
+fade-enter, fade-enter-active, fade-enter-done
+fade-exit, fade-exit-active, fade-exit-done
+
+有如下组件属性：
+timeout
+classNames
+unmountOnExit
+onEnter进场/出厂第一帧
+    A &lt;<span style="color:#f92672">Transition</span>&gt; callback fired immediately after the &#39;enter&#39; or &#39;appear&#39; class is applied.
+Note: when nodeRef prop is passed, node is not passed.
+type: Function(node: HtmlElement, isAppearing: bool)
+
+onEntering, 进场/出厂第二帧 
+    A &lt;<span style="color:#f92672">Transition</span>&gt; callback fired immediately after the &#39;enter-active&#39; or &#39;appear-active&#39; class is applied.
+Note: when nodeRef prop is passed, node is not passed.
+type: Function(node: HtmlElement, isAppearing: bool)
+
+onEntered, 进场/出厂第三帧
+    A &lt;<span style="color:#f92672">Transition</span>&gt; callback fired immediately after the &#39;enter&#39; or &#39;appear&#39; classes are removed and the done class is added to the DOM node.
+Note: when nodeRef prop is passed, node is not passed.
+type: Function(node: HtmlElement, isAppearing: bool)
+
+onExit，同上
+    A &lt;<span style="color:#f92672">Transition</span>&gt; callback fired immediately after the &#39;exit&#39; class is applied.
+Note: when nodeRef prop is passed, node is not passed
+type: Function(node: HtmlElement)
+
+onExiting
+    A &lt;<span style="color:#f92672">Transition</span>&gt; callback fired immediately after the &#39;exit-active&#39; is applied.
+Note: when nodeRef prop is passed, node is not passed
+type: Function(node: HtmlElement)
+
+onExited
+    A &lt;<span style="color:#f92672">Transition</span>&gt; callback fired immediately after the &#39;exit&#39; classes are removed and the exit-done class is added to the DOM node.
+Note: when nodeRef prop is passed, node is not passed
+type: Function(node: HtmlElement)
+
+.fade-enter{
+    opacity: 0;
+}
+.fade-enter-active{
+    opacity: 1;
+    transition: opacity 1s ease-in;
+}
+.fade-enter-done{
+    opacity: 1;
+    <span style="color:#75715e">&lt;!-- color：red； --&gt;</span>
+}
+
+.fade-exit{
+    opacity: 1;
+}
+.fade-exit-active{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+.fade-exit-done{
+    opacity: 0;
+}
+再修改标签组件CSStransition，classname类名
+&lt;<span style="color:#f92672">CSStransition</span> 
+    <span style="color:#a6e22e">in</span><span style="color:#f92672">=</span><span style="color:#e6db74">{this.state.show}</span> 
+    <span style="color:#a6e22e">timeout</span><span style="color:#f92672">=</span><span style="color:#e6db74">{1000}</span>
+    <span style="color:#a6e22e">classNames</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;fade&#39;</span>
+    <span style="color:#a6e22e">unmountOnExit</span><span style="color:#960050;background-color:#1e0010">`</span><span style="color:#a6e22e">移除标签</span><span style="color:#960050;background-color:#1e0010">`</span>
+    <span style="color:#e6db74">`修改过度显示颜色`</span><span style="color:#a6e22e">相当于前面注释掉的样式颜色修改</span><span style="color:#960050;background-color:#1e0010">，</span> <span style="color:#a6e22e">onEntered</span><span style="color:#f92672">=</span><span style="color:#e6db74">{(el)</span> <span style="color:#960050;background-color:#1e0010">=</span>&gt; {el.style.color=&#39;blue&#39;}}    
+    <span style="color:#e6db74">`增加显示时，第一帧`</span>,appear对应相应的css类 appear={true}&gt;
+
+
+.fade-enter .fade-appear{
+    opacity: 0;
+}
+.fade-enter-active <span style="color:#e6db74">`.fade-appear-active`</span>{
+    opacity: 1;
+    transition: opacity 1s ease-in;
+}
+.fade-enter-done{
+    opacity: 1;
+    <span style="color:#75715e">&lt;!-- color：red； --&gt;</span>
+}
+
+.fade-exit{
+    opacity: 1;
+}
+.fade-exit-active{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+.fade-exit-done{
+    opacity: 0;
+}
+
+
+</code></pre></div><blockquote>
+<p>重新启动项目，<code>npm run start</code>。</p>
+</blockquote>
+<h2 id="17-react中redux概念简述">17. React中Redux概念简述</h2>
+<blockquote>
+<p>Redux = Reducer + Flux
+Redux就是React版的全局变量
+Redux流程图：
+
+<figure><a class="lightgallery" href="/images/Redux.png" title="Redux流程图" data-thumbnail="/images/Redux.png" data-sub-html="<h2> </h2><p>Redux流程图</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/images/Redux.png"
+            data-srcset="/images/Redux.png, /images/Redux.png 1.5x, /images/Redux.png 2x"
+            data-sizes="auto"
+            alt="/images/Redux.png" />
+    </a><figcaption class="image-caption">Redux流程图</figcaption>
+    </figure><br>
+注：<code>Action Creaters</code>相当于请求动作，<code>Reducers</code>相当于处理接收到的数据,<code>Store</code>相当于接收请求数据，<code>React Components</code>相当于接收/发送处理完成的数据</p>
+<p>创建redux中的<code>store</code>
+首先安装Redux，yarn add Redux。
+<code>index.js</code></p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">import { createStore } from &#39;redux&#39;；
+import reducer from &#39;./stroe/reducer&#39;
+const store = createStore(
+    reducer，
+    window.__REDUX_DEVTOOLS_EXTENSION__ <span style="color:#960050;background-color:#1e0010">&amp;&amp;</span> window.__REDUX_DEVTOOLS_EXTENSION() `chrome redux 拓展支持`
+    );
+export store;
+
+</code></pre></div><blockquote>
+<p><code>reducer.js</code>, 相当于笔记本。</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">const defaultState = {
+    inputValue: &#39;&#39;,
+    list: []
+}
+<span style="color:#75715e">&lt;!-- reducer 可以接收state， 但是决不能修改state。 --&gt;</span>
+export default (state, action) =&gt; {
+    if(action.type === &#39;change_input_value&#39;){
+        const newState = JSON.parse(JSON.stringify(state));
+        newState.inputValue = action.value;
+        return newState;
+    }
+    if(action.type === &#39;add_todo_item&#39;){
+        const newState = JSON.parse(JSON.stringify(state));
+        newState.list.push(newState.inputValue);
+        newState.inputValue = &#39;&#39;;
+        return newState;
+    }
+    if(action.type === &#39;del_todo_item&#39;){
+        const newState = JSON.parse(JSON.stringify(state));
+        newState.list.splice(action.index, 1);
+        return newState;
+    }
+
+    console.log(state, action);
+    return state;
+};
+
+</code></pre></div><blockquote>
+<p>其他组件导入store</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">import store from &#39;./store&#39;;
+
+console.log(store.getState());
+
+</code></pre></div><h2 id="17-使用antd实现todolist页面布局httpsantdesign">17. <a href="https://ant.design/" target="_blank" rel="noopener noreffer">使用Antd实现TodoList页面布局</a></h2>
+<blockquote>
+<p><code>TodoList.js</code></p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">import React, { Component } from &#39;react&#39;;
+class TodoList extends Component {
+    render(){
+        return &lt;<span style="color:#f92672">div</span>&gt;hello world&lt;/<span style="color:#f92672">div</span>&gt;
+    }
+}
+
+export default TodoList;
+
+</code></pre></div><blockquote>
+<p>安装Antd模块，yarn add antd。
+程式中使用Antd模块：</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">import React, { Component } from &#39;react&#39;;
+`import &#39;antd/dist/antd.css&#39;;`
+import store from &#39;./store&#39;;
+
+class TodoList extends Component {
+    constructor(props){
+        super(props);
+        this.state = store.getState();
+        this.handleInputChange = this.handleInputChange.bind(this);
+        this.handleStoreChange = this.handleStoreChange.bind(this);
+        store.subscribe(this.handleStoreChange);
+    }
+    render(){
+        return (
+            &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">{{marginTop:</span> <span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">10px</span><span style="color:#960050;background-color:#1e0010">&#39;,</span> <span style="color:#a6e22e">marginLeft:</span> <span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">10px</span><span style="color:#960050;background-color:#1e0010">&#39;}}</span>&gt;
+                &lt;<span style="color:#f92672">div</span>&gt;
+                &lt;<span style="color:#f92672">input</span> <span style="color:#a6e22e">value</span><span style="color:#f92672">=</span><span style="color:#e6db74">{this.state.value}</span> <span style="color:#a6e22e">placeholder</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;todo info&#39;</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">{{width:</span> <span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">300px</span><span style="color:#960050;background-color:#1e0010">&#39;}}</span> <span style="color:#a6e22e">onChange</span><span style="color:#f92672">=</span><span style="color:#e6db74">{this.handleInputChange}</span>&gt;
+                &lt;<span style="color:#f92672">Button</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;primary&#34;</span> <span style="color:#a6e22e">onClick</span><span style="color:#f92672">=</span><span style="color:#e6db74">{this.handleBtnClick}</span>&gt;提交&lt;/<span style="color:#f92672">Button</span>&gt;
+                &lt;/<span style="color:#f92672">div</span>&gt;
+                &lt;<span style="color:#f92672">List</span>
+                <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">{{marginTop:</span> <span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">10px</span><span style="color:#960050;background-color:#1e0010">&#39;,</span> <span style="color:#a6e22e">marginLeft:</span> <span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">10px</span><span style="color:#960050;background-color:#1e0010">&#39;}}</span>
+                <span style="color:#a6e22e">bordered</span>
+                <span style="color:#a6e22e">dataSource</span><span style="color:#f92672">=</span><span style="color:#e6db74">{this.state.list}</span>
+                <span style="color:#a6e22e">renderItem</span><span style="color:#f92672">=</span><span style="color:#e6db74">{Item</span> <span style="color:#960050;background-color:#1e0010">=</span>&gt; (&lt;<span style="color:#f92672">List.Item</span>&gt;{item}&lt;/<span style="color:#f92672">List.Item</span>&gt;)}
+                onClick={this.handleItemDelete.bind(this, index)}/&gt;            
+            &lt;/<span style="color:#f92672">div</span>&gt;
+            )
+    }
+    handleInputChange(e){
+        const action = {
+            type: &#39;change_input_value&#39;,
+            value: e.target.value
+        }
+        store.dispatch(action);
+    }
+    handleStoreChange(){
+        console.log(&#39;store changed&#39;);
+        this.setState(store.getState());
+
+    }
+    handleBtnClick(){
+        const action = {
+            type: &#39;add_todo_item&#39;
+        }；
+        store.dispatch(action);
+    }
+    handleItemDelete(){
+        const action = {
+            type: &#39;del_todo_item&#39;,
+            index
+        }
+        store.dispatch(action);
+    }
+}
+
+export default TodoList;
+
+</code></pre></div><blockquote>
+<p><code>问题</code>:
+1.<code>Can't call setState on a component that is not yet mounted. This is a no-op, but it might indicate a bug in your application.</code>
+<strong>把 store.subscribe(this.handleStoreChange); 放到componentDidMount() 里面。这个错误是因为这个方法this.handleStoreChange在还没有建立时候就被使用了</strong></p>
+<p><strong><code>ActionTypes的拆分</code></strong>
+1.<code>actionTypes.js</code></p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">export const CHANGE_IPUT_VALUE = &#39;change_input_value&#39;;
+export const ADD_TODO_ITEM = &#39;add_todo_item&#39;;
+export const DEL_TODO_ITEM = &#39;del_todo_item&#39;;
+
+</code></pre></div><blockquote>
+<p>2.组件<code>TodoList.js</code>导入actionTypes：</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">import { CHANGE_IPUT_VALUE, ADD_TODO_ITEM, DEL_TODO_ITEM } from &#39;./store/actionTypes&#39;;
+
+</code></pre></div><blockquote>
+<p>3.<code>TodoList.js</code>中CHANGE_IPUT_VALUE等值直接替换&rsquo;change_input_value'，type=CHANGE_IPUT_VALUE;
+<strong><code>使用actionCreator.js</code>统一创建action</strong>
+1.<code>actionCreator.js</code></p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">import { CHANGE_IPUT_VALUE, ADD_TODO_ITEM } from &#39;./stroe/actionTypes&#39;;
+
+export const getInputChangeAction = (value) =&gt; ({
+    type: CHANGE_IPUT_VALUE,
+    value
+});
+
+export const getAddItemAction = () =&gt; ({
+    type: ADD_TODO_ITEM,
+});
+
+export const getAddItemAction = (index) =&gt; ({
+    type: DEL_TODO_ITEM,
+});
+
+</code></pre></div><blockquote>
+<p>2.修改<code>TodoList.js</code>中，handleInputChange方法。</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">import { getAddItemAction, getInputChangeAction } from &#39;./store/actionCreator&#39;;
+    handleInputChange(e){
+        const action = {
+            type: &#39;change_input_value&#39;,
+            value: e.target.value
+        }
+        store.dispatch(action);
+    }
+    变为
+        handleInputChange(e){
+        const action = getInputChangeAction(e.target.value); 
+        store.dispatch(action);
+    }
+
+</code></pre></div><blockquote>
+<p><code>store</code> 公共（public）储存空间。</p>
+</blockquote>
+<h2 id="18-ui组件和容器组件">18. UI组件和容器组件</h2>
+<blockquote>
+<p><code>ToollistUI.js</code>UI组件（傻瓜组件）</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">import React, { Component } from &#39;react&#39;;
+import { Input, Button, List } from &#39;antd&#39;;
+
+class ToollistUI extends Component {
+    render(){
+        return (
+            &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">{{marginTop:</span> <span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">10px</span><span style="color:#960050;background-color:#1e0010">&#39;,</span> <span style="color:#a6e22e">marginLeft:</span> <span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">10px</span><span style="color:#960050;background-color:#1e0010">&#39;}}</span>&gt;
+                &lt;<span style="color:#f92672">div</span>&gt;
+                &lt;<span style="color:#f92672">input</span> <span style="color:#a6e22e">value</span><span style="color:#f92672">=</span><span style="color:#e6db74">{this.props.inputValue}</span> <span style="color:#a6e22e">placeholder</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;todo info&#39;</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">{{width:</span> <span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">300px</span><span style="color:#960050;background-color:#1e0010">&#39;}}</span> <span style="color:#a6e22e">onChange</span><span style="color:#f92672">=</span><span style="color:#e6db74">{this.props.handleInputChange}</span>&gt;
+                &lt;<span style="color:#f92672">Button</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;primary&#34;</span> <span style="color:#a6e22e">onClick</span><span style="color:#f92672">=</span><span style="color:#e6db74">{this.props.handleBtnClick}</span>&gt;提交&lt;/<span style="color:#f92672">Button</span>&gt;
+                &lt;/<span style="color:#f92672">div</span>&gt;
+                &lt;<span style="color:#f92672">List</span>
+                <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">{{marginTop:</span> <span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">10px</span><span style="color:#960050;background-color:#1e0010">&#39;,</span> <span style="color:#a6e22e">marginLeft:</span> <span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">10px</span><span style="color:#960050;background-color:#1e0010">&#39;}}</span>
+                <span style="color:#a6e22e">bordered</span>
+                <span style="color:#a6e22e">dataSource</span><span style="color:#f92672">=</span><span style="color:#e6db74">{this.props.list}</span>
+                <span style="color:#a6e22e">renderItem</span><span style="color:#f92672">=</span><span style="color:#e6db74">{Item</span> <span style="color:#960050;background-color:#1e0010">=</span>&gt; (&lt;<span style="color:#f92672">List.Item</span>&gt;{item}&lt;/<span style="color:#f92672">List.Item</span>&gt;)}
+                onClick={ (index) =&gt; {this.props.handleItemDelete}(index) }/&gt;            
+            &lt;/<span style="color:#f92672">div</span>&gt;
+            )
+    }
+
+}
+
+</code></pre></div><blockquote>
+<p><code>TodoList.js</code> 容器组件(聪明组件)修改成如下内容</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">import React, { Component } from &#39;react&#39;;
+`import &#39;antd/dist/antd.css&#39;;`
+import store from &#39;./store&#39;;
+import { CHANGE_IPUT_VALUE, ADD_TODO_ITEM, DEL_TODO_ITEM } from &#39;./store/actionTypes&#39;;
+import ToollistUI from &#39;./ToollistUI&#39;;
+
+class TodoList extends Component {
+    constructor(props){
+        super(props);
+        this.state = store.getState();
+        this.handleInputChange = this.handleInputChange.bind(this);
+        this.handleStoreChange = this.handleStoreChange.bind(this);
+        this.handleBtnClick = this.handleBtnClick.bind(this);
+        this.handleItemDelete = this.handleItemDelete.bind(this);
+        store.subscribe(this.handleStoreChange);
+    }
+    render(){
+        return (
+            &lt;<span style="color:#f92672">ToollistUI</span> 
+                <span style="color:#a6e22e">inputValue</span><span style="color:#f92672">=</span><span style="color:#e6db74">{this.state.inputValue}</span>
+                <span style="color:#a6e22e">handleInputChange</span><span style="color:#f92672">=</span><span style="color:#e6db74">{this.handleInputChange}</span>
+                <span style="color:#a6e22e">handleBtnClick</span><span style="color:#f92672">=</span><span style="color:#e6db74">{this.handleBtnClick}</span>
+                <span style="color:#a6e22e">andleItemDelete</span><span style="color:#f92672">=</span><span style="color:#e6db74">{this.handleItemDelete}</span>
+            /&gt;
+            )
+    }
+    handleInputChange(e){
+        const action = {
+            type: &#39;change_input_value&#39;,
+            value: e.target.value
+        }
+        store.dispatch(action);
+    }
+    handleStoreChange(){
+        console.log(&#39;store changed&#39;);
+        this.setState(store.getState());
+
+    }
+    handleBtnClick(){
+        const action = {
+            type: &#39;add_todo_item&#39;
+        }；
+        store.dispatch(action);
+    }
+    handleItemDelete(){
+        const action = {
+            type: &#39;del_todo_item&#39;,
+            index
+        }
+        store.dispatch(action);
+    }
+}
+
+export default TodoList;
+
+</code></pre></div><h2 id="19-无状态组件只有一个render函数替换ui组件中的类todolistui为函数">19. 无状态组件，只有一个render函数，替换UI组件中的类TodolistUI为函数。</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">import React, { Component } from &#39;react&#39;;
+`import React from &#39;react&#39;;` 解决警告问题。
+import { Input, Button, List } from &#39;antd&#39;;
+
+const TodolistUI = (props) =&gt; {
+        render(
+            &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">{{marginTop:</span> <span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">10px</span><span style="color:#960050;background-color:#1e0010">&#39;,</span> <span style="color:#a6e22e">marginLeft:</span> <span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">10px</span><span style="color:#960050;background-color:#1e0010">&#39;}}</span>&gt;
+                &lt;<span style="color:#f92672">div</span>&gt;
+                &lt;<span style="color:#f92672">input</span> <span style="color:#a6e22e">value</span><span style="color:#f92672">=</span><span style="color:#e6db74">{props.inputValue}</span> <span style="color:#a6e22e">placeholder</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;todo info&#39;</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">{{width:</span> <span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">300px</span><span style="color:#960050;background-color:#1e0010">&#39;}}</span> <span style="color:#a6e22e">onChange</span><span style="color:#f92672">=</span><span style="color:#e6db74">{props.handleInputChange}</span>&gt;
+                &lt;<span style="color:#f92672">Button</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;primary&#34;</span> <span style="color:#a6e22e">onClick</span><span style="color:#f92672">=</span><span style="color:#e6db74">{props.handleBtnClick}</span>&gt;提交&lt;/<span style="color:#f92672">Button</span>&gt;
+                &lt;/<span style="color:#f92672">div</span>&gt;
+                &lt;<span style="color:#f92672">List</span>
+                <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">{{marginTop:</span> <span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">10px</span><span style="color:#960050;background-color:#1e0010">&#39;,</span> <span style="color:#a6e22e">marginLeft:</span> <span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">10px</span><span style="color:#960050;background-color:#1e0010">&#39;}}</span>
+                <span style="color:#a6e22e">bordered</span>
+                <span style="color:#a6e22e">dataSource</span><span style="color:#f92672">=</span><span style="color:#e6db74">{props.list}</span>
+                <span style="color:#a6e22e">renderItem</span><span style="color:#f92672">=</span><span style="color:#e6db74">{Item</span> <span style="color:#960050;background-color:#1e0010">=</span>&gt; (&lt;<span style="color:#f92672">List.Item</span>&gt;{item}&lt;/<span style="color:#f92672">List.Item</span>&gt;)}
+                onClick={ (index) =&gt; {props.handleItemDelete}(index) }/&gt;            
+            &lt;/<span style="color:#f92672">div</span>&gt;
+        )
+}
+
+
+</code></pre></div><blockquote>
+</blockquote>
+<h2 id="20-redux中发送异步请求获取数据">20. Redux中发送异步请求获取数据</h2>
+<blockquote>
+<p>参照之前的axios模块和charlse应用以及Redux各个数据处理。</p>
+</blockquote>
+<h2 id="21-使用redux-thunk中间件实现ajax数据请求-httpsgithubcomreduxjsredux-thunk">21. <a href="https://github.com/reduxjs/redux-thunk" target="_blank" rel="noopener noreffer">使用Redux-thunk中间件实现ajax数据请求 </a></h2>
+<blockquote>
+<p>Redux-thunk中间件，统一数据处理。
+安装Redux-thunk，指令：<code>npm install redux-thunk</code><br>
+使用Redux-thunk模块，<code>index.js</code>导入Redux-thunk模块</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">import { createStore, applyMiddleware } from &#39;redux&#39;；
+import reducer from &#39;./stroe/reducer&#39;
+import thunk from &#39;redux-thunk&#39;;
+const store = createStore(
+    reducer，
+    applyMiddleware([thunk, window.__REDUX_DEVTOOLS_EXTENSION__ <span style="color:#960050;background-color:#1e0010">&amp;&amp;</span> window.__REDUX_DEVTOOLS_EXTENSION()])
+    );
+export store;
+
+</code></pre></div><blockquote>
+<p>使用redux devtools的compose模块</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">import { createStore, applyMiddleware， `compose` } from &#39;redux&#39;；
+import reducer from &#39;./stroe/reducer&#39;
+import thunk from &#39;redux-thunk&#39;;
+
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION__ <span style="color:#960050;background-color:#1e0010">&amp;&amp;</span> window.__REDUX_DEVTOOLS_EXTENSION();
+
+const enhancer = composeEnhancers(
+    applyMiddleware(thunk)
+);
+
+const store = createStore(reducer，enhancer);
+export store;
+
+</code></pre></div><h2 id="20-redux的中间件指的是什么">20. Redux的中间件指的是什么？</h2>
+<blockquote>
+</blockquote>
+<h2 id="21-redux-saga中间件使用httpsgithubcomredux-sagaredux-saga">21. <a href="https://github.com/redux-saga/redux-saga" target="_blank" rel="noopener noreffer">Redux-saga中间件使用</a></h2>
+<blockquote>
+<p>在Redux-thunk中间件中，将AJAX异步请求放在actionCreator里面进行处理。
+用Redux-saga替代Redux-thunk处理异步请求。
+安装Redux-saga，<code>yarn add redux-saga</code>。
+使用Redux-saga，导入Redux-saga包。<code>index.js</code>:</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">import { createStore, applyMiddleware， `compose` } from &#39;redux&#39;；
+import reducer from &#39;./stroe/reducer&#39;
+import createSagaMiddleware from &#39;redux-saga&#39;
+
+// create the saga middleware
+const sagaMiddleware = createSagaMiddleware()
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION__ <span style="color:#960050;background-color:#1e0010">&amp;&amp;</span> window.__REDUX_DEVTOOLS_EXTENSION();
+
+const enhancer = composeEnhancers(
+    applyMiddleware(thunk)
+);
+
+const store = createStore(reducer，enhancer);
+export store;
+
+</code></pre></div><blockquote>
+<p>创建<code>sagas.js</code>,并导入到<code>index.js</code>。</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">`sagas.js`:
+function* mySaga() {
+  yield takeLatest(&#34;USER_FETCH_REQUESTED&#34;, fetchUser);
+}
+
+export default mySaga;
+
+`index.js`:
+import { createStore, applyMiddleware， `compose` } from &#39;redux&#39;；
+import reducer from &#39;./stroe/reducer&#39;
+import createSagaMiddleware from &#39;redux-saga&#39;
+import todoSagas from &#39;./sagas&#39;
+
+// create the saga middleware
+const sagaMiddleware = createSagaMiddleware()
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION__ <span style="color:#960050;background-color:#1e0010">&amp;&amp;</span> window.__REDUX_DEVTOOLS_EXTENSION();
+
+const enhancer = composeEnhancers(
+    applyMiddleware(thunk)
+);
+
+const store = createStore(reducer，enhancer);
+sagaMiddleware.run(todoSagas)
+
+export store;
+
+</code></pre></div><h2 id="22-styled-components模块安装httpswwwstyled-componentscom">22. <a href="https://www.styled-components.com/" target="_blank" rel="noopener noreffer">Styled-Components模块安装</a></h2>
+<blockquote>
+<p>yarn add styled-components
+Styled-Components使每个css样式独立，不做任何耦合。
+修改style.css改为style.js:</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">injectGlobal`
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+`;
+`注意：` styled-components废弃injectGlobal这个API，更改为createGlobalStyle。
+
+
+</code></pre></div><h2 id="23-resetcss使用httpsstyled-componentscom">23. <a href="https://styled-components.com/" target="_blank" rel="noopener noreffer">Reset.css使用</a></h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: &#39;&#39;;
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+</code></pre></div><blockquote>
+<p>将以上代码放在<code>Styled-Components</code>模块，style.js中的createGlobalStyle<code>内容</code>的内容中。</p>
+</blockquote>
+<blockquote>
+<h4 id="24react使用iconfont嵌入头部图标-httpswwwiconfontcn">24.<a href="https://www.iconfont.cn/" target="_blank" rel="noopener noreffer">React使用iconfont嵌入头部图标 </a></h4>
+<p>从<a href="https://www.iconfont.cn/" target="_blank" rel="noopener noreffer">iconfont-阿里巴巴矢量图标库</a>下载图标文件。
+将iconfont文件夹放到statics文件夹下面。
+重命令iconfont.css为iconfont.js，修改内容并导入。
+使用看说明文档 demo_index.html，<!-- raw HTML omitted -->标签引用标签。</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">@font-face {
+  font-family: &#39;iconfont&#39;;
+  src: url(&#39;**./**iconfont.eot&#39;);
+  src: url(&#39;**./**iconfont.eot?#iefix&#39;) format(&#39;embedded-opentype&#39;),
+      url(&#39;**./**iconfont.woff2&#39;) format(&#39;woff2&#39;),
+      url(&#39;**./**iconfont.woff&#39;) format(&#39;woff&#39;),
+      url(&#39;**./**iconfont.ttf&#39;) format(&#39;truetype&#39;),
+      url(&#39;**./**iconfont.svg#iconfont&#39;) format(&#39;svg&#39;);
+}
+
+.iconfont {
+  font-family: &#34;iconfont&#34; !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+其他类可以删除。
+
+&lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;iconfont&#34;</span>&gt;&amp;#x33;&lt;/<span style="color:#f92672">span</span>&gt;
+
+
+</code></pre></div><blockquote>
+<h4 id="25搜索框动画效果实现">25.搜索框动画效果实现</h4>
+<p>见项目源码。</p>
+</blockquote>
+<blockquote>
+<h4 id="26使用immutablejs来管理store中的数据httpsgithubcomimmutable-jsimmutable-js">26.<a href="https://github.com/immutable-js/immutable-js" target="_blank" rel="noopener noreffer">使用Immutable.js来管理store中的数据</a></h4>
+<p>安装Immutable.js，yarn add immutable
+使用Immutable.js,首先导入immutable模块。</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">import { fromJS } from &#39;immutable&#39;;
+
+</code></pre></div><blockquote>
+<p>在将defaultState对象转化成fromJS对象：</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">`reducer.js`修改后：
+const defaultState = fromJS({
+    focused: false,
+});
+
+`reducer.js`原代码：
+// const defaultState = {
+//   focused: false,
+// };
+
+`index.js`原代码：
+const mapStateToProps = (state) =&gt; {
+  return {
+    // focused: state.header.focused,
+    focused: state.focused,
+  };
+};
+
+`index.js`修改后：
+const mapStateToProps = (state) =&gt; {
+  return {
+    // focused: state.header.focused,
+    focused: state.header.get(&#39;focused&#39;),
+  };
+};
+
+`reducer.js`原代码：
+export default (state = defaultState, action) =&gt; {
+  if (action.type === &#34;search_focus&#34;) {
+    return {
+      focused: true,
+    };
+  }
+  if (action.type === &#34;search_blur&#34;) {
+    return {
+      focused: false,
+    };
+  }
+  return state;
+};
+
+`reducer.js`修改后：
+export default (state = defaultState, action) =&gt; {
+  if (action.type === &#34;search_focus&#34;) {
+      // immutable对象的set方法，会接合之前的immutable对象的值和设置的值，返回一个全新的对象。
+    return state.set(&#39;focused&#39;, true);
+  }
+  if (action.type === &#34;search_blur&#34;) {
+    return state.set(&#39;focused&#39;, false);
+  }
+  return state;
+};
+</code></pre></div><blockquote>
+<h4 id="27使用redux-immutable统一数据格式httpsimmutable-jsgithubioimmutable-js">27.<a href="https://immutable-js.github.io/immutable-js/" target="_blank" rel="noopener noreffer">使用redux-immutable统一数据格式</a></h4>
+<p>安装和使用redux-immutable组件。
+安装：<code>yarn add redux-immutable</code>
+导入：<code>import { combineReducers } from &quot;redux-immutable&quot;;</code>
+使用(将js对象转变为immutable对象)：</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">`index.js`修改前：
+const mapStateToProps = (state) =&gt; {
+  return {
+    // focused: state.header.focused,
+    focused: state.header.get(&#39;focused&#39;),
+  };
+};
+`index.js`修改后：
+const mapStateToProps = (state) =&gt; {
+  return {
+    // focused: state.header.focused,
+    focused: state.get(&#39;header&#39;).get(&#39;focused&#39;),
+    等价于下面的写法，两种写法互换：
+    focused: state.getIn([&#39;header&#39;, &#39;focused&#39;])
+
+
+  };
+};
+
+</code></pre></div><blockquote>
+<h4 id="27热门搜索样式布局">27.热门搜索样式布局</h4>
+<p>见代码详情页面。</p>
+</blockquote>
+<blockquote>
+<h4 id="28在react中使用路由功能">28.在React中使用路由功能</h4>
+<p>安装第三方模块，<code>yarn add react-router-dom</code> <br>
+导入第三方模块到index.js中,<code>import { BrowserRouter, Route } from &quot;react-router-dom&quot;;</code>。
+使用第三方模块，加入如下代码到index.js中：</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">      &lt;<span style="color:#f92672">Provider</span> <span style="color:#a6e22e">store</span><span style="color:#f92672">=</span><span style="color:#e6db74">{store}</span>&gt;
+        &lt;<span style="color:#f92672">div</span>&gt;
+          &lt;<span style="color:#f92672">Header</span> /&gt;
+          &lt;<span style="color:#f92672">BrowserRouter</span>&gt;
+            &lt;<span style="color:#f92672">div</span>&gt;
+              &lt;<span style="color:#f92672">Route</span> <span style="color:#a6e22e">path</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/&#34;</span> <span style="color:#a6e22e">exact</span> <span style="color:#a6e22e">render</span><span style="color:#f92672">=</span><span style="color:#e6db74">{()</span> <span style="color:#960050;background-color:#1e0010">=</span>&gt; &lt;<span style="color:#f92672">div</span>&gt;home&lt;/<span style="color:#f92672">div</span>&gt;}&gt;&lt;/<span style="color:#f92672">Route</span>&gt;
+              &lt;<span style="color:#f92672">Route</span> <span style="color:#a6e22e">path</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/detail&#34;</span> <span style="color:#a6e22e">exact</span> <span style="color:#a6e22e">render</span><span style="color:#f92672">=</span><span style="color:#e6db74">{()</span> <span style="color:#960050;background-color:#1e0010">=</span>&gt; &lt;<span style="color:#f92672">div</span>&gt;detail&lt;/<span style="color:#f92672">div</span>&gt;}&gt;&lt;/<span style="color:#f92672">Route</span>&gt;
+            &lt;/<span style="color:#f92672">div</span>&gt;
+          &lt;/<span style="color:#f92672">BrowserRouter</span>&gt;
+        &lt;/<span style="color:#f92672">div</span>&gt;
+      &lt;/<span style="color:#f92672">Provider</span>&gt;
+请对照前面的index.js文件。
+
+</code></pre></div><blockquote>
+<p>在SRC文件夹下面创建对应的pages文件夹，包括home,detail等文件夹。</p>
+</blockquote>
+<blockquote>
+<h4 id="29在react中使用页面跳转">29.在React中使用页面跳转</h4>
+<p>导入Link模块，<code>import { Link } from &quot;react-router-dom&quot;;</code>
+Link替代a标签，不会加载html页面，直接跳转。</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">Link</span> <span style="color:#a6e22e">key</span><span style="color:#f92672">=</span><span style="color:#e6db74">{index}</span> <span style="color:#a6e22e">to</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;/detail&#39;</span>&gt;
+    content 
+&lt;/<span style="color:#f92672">Link</span>&gt;
+
+</code></pre></div><blockquote>
+<h4 id="30异步组件及withrouter路由方法的使用">30.异步组件及withRouter路由方法的使用</h4>
+<p>每个页面分开处理各自的数据请求。
+安装第三方模块<a href="https://github.com/jamiebuilds/react-loadable" target="_blank" rel="noopener noreffer">react-loadable</a>，<code>yarn add react-loadable</code>。</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">import Loadable from &#39;react-loadable&#39;;
+import Loading from &#39;./my-loading-component&#39;;
+
+const LoadableComponent = Loadable({
+  loader: () =&gt; import(&#39;./my-component&#39;),
+    注释：    
+    my-loading-component为当前目录下的index.js组件。
+
+  loading: Loading,
+    注释：    
+    loading() {
+        return &lt;<span style="color:#f92672">div</span>&gt;正在加载&lt;/<span style="color:#f92672">div</span>&gt;
+    }
+
+});
+
+export default class App extends React.Component {
+  render() {
+    return &lt;<span style="color:#f92672">LoadableComponent</span>/&gt;;
+  }
+}
+    注释：    
+    export default () =&gt; &lt;<span style="color:#f92672">LoadableComponent</span>/&gt;
+
+</code></pre></div><blockquote>
+<h4 id="31react项目上线流程">31.React项目上线流程</h4>
+<p>安装XAMPP软件管理项目，开启apache web server(start), 浏览器打开localhost:80,服务器在本机的位置/XAMPP/htdocs/, /XAMPP/htdocs/api下面可以创建各种PHP文件，通过PHP文件和后端通信，从数据库获取内容（得到json文件）。  <br>
+删除前端项目中的API模拟数据目录，同时在项目当前目录下的终端中输入：npm run build，当前目录下生成了一个build文件夹，下面的文件即为后端需要的前端上线代码文件。  <br>
+将build文件夹下面的全部文件复制到/XAMPP/htdocs/文件夹下面，通过localhost:80访问，完成前端代码上线。</p>
 </blockquote>
 <div class="post-reward">
   <input type="checkbox" name="reward" id="reward" hidden />

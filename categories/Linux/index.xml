@@ -5,6 +5,15 @@
         <description>Linux - Category - Lao Kong&#39;s notepad</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>laokong4628@gmail.com (Lao Kong)</managingEditor>
             <webMaster>laokong4628@gmail.com (Lao Kong)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</lastBuildDate><atom:link href="https://laokong4628.github.io/categories/Linux/" rel="self" type="application/rss+xml" /><item>
+    <title>linux</title>
+    <link>https://laokong4628.github.io/posts/linux.html/</link>
+    <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://laokong4628.github.io/posts/linux.html/</guid>
+    <description><![CDATA[Linux相关  查看硬件时间可以是用hwclock或者clock命令，hwclock &ndash;show 或者hwclock -r
+ //查看硬件时间 [root@localhost ~]# hwclock --show 2008年12月12日星期五 06时52分07秒 -0.376932 seconds //设置硬件时间 [root@localhost ~]# hwclock --set --date=&#34;1/25/09 00:00&#34; &lt;== 月/日/年时:分:秒 [root@localhost ~]# hwclock 2009年01月25日星期日 00时00分06秒 -0.870868 seconds [root@localhost ~]# hwclock -w 根据系统时间设置硬件时间 //以系统时间为基准，修改硬件时间 [root@localhost ~]# hwclock --systohc&lt;== sys（系统时间）to（写到）hc（Hard Clock） [root@localhost ~]# hwclock -w //以硬件时间为基准，修改系统时间 [root@localhost ~]# hwclock --hctosys [root@localhost ~]# hwclock -s  Linux系统时间的设置
+ 在Linux中设置系统时间，可以用`date命令`： //查看时间 [root@localhost ~]# date 2008年 12月 12日星期五 14:44:12 CST //修改时间 [root@localhost ~]# date -set &#34;2013-12-24 00:01&#34; &lt;== （年/月/日 时:分【:秒】） 2009年 01月 01日星期四 00:01:00 CST //date 有几种时间格式可接受，这样也可以设置时间： [root@localhost ~]# date 012501012009.]]></description>
+</item><item>
     <title>Linux Command Fullname</title>
     <link>https://laokong4628.github.io/posts/Linux-Command-Fullname.html/</link>
     <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>

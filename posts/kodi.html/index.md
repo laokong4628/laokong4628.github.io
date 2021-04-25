@@ -70,3 +70,5 @@ allprojects {
 
 > {{< / highlight >}}
 
+> **kodi 开发插件实例代码**：[点击地址](https://www.programcreek.com/python/example/69768/xbmc.log)           
+

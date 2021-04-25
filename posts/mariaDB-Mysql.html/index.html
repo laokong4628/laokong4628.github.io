@@ -35,7 +35,7 @@
                             "url": "https:\/\/laokong4628.github.io\/images\/Apple-Devices-Preview.png",
                             "width":  3200 ,
                             "height":  2048 
-                        }],"genre": "posts","keywords": "mariaDB, Mysql","wordcount":  64 ,
+                        }],"genre": "posts","keywords": "mariaDB, Mysql","wordcount":  267 ,
         "url": "https:\/\/laokong4628.github.io\/posts\/mariaDB-Mysql.html\/","datePublished": "2021-01-29T11:16:31+08:00","dateModified": "2021-01-29T11:16:31+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
@@ -97,8 +97,8 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single" id="articleAll"><h1 class="single-title animated flipInX">mariaDB-Mysql</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://laokong4628.github.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>LaoKong</a></span>&nbsp;<span class="post-category">included in <a href="/categories/mariaDB/"><i class="far fa-folder fa-fw"></i>mariaDB</a>&nbsp;<a href="/categories/Mysql/"><i class="far fa-folder fa-fw"></i>Mysql</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-01-29">2021-01-29</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;64 words&nbsp;
-                <i class="far fa-clock fa-fw"></i>&nbsp;One minute&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-01-29">2021-01-29</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;267 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;2 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
@@ -110,6 +110,7 @@
       <ul>
         <li><a href="#mariadb-mysql数据库相关">mariaDB-Mysql数据库相关</a></li>
         <li><a href="#问题点">问题点</a></li>
+        <li><a href="#sql面试常用的语句">SQL面试常用的语句</a></li>
       </ul>
     </li>
   </ul>
@@ -118,6 +119,20 @@
 <!-- raw HTML omitted -->
 <h3 id="mariadb-mysql数据库相关">mariaDB-Mysql数据库相关</h3>
 <!-- raw HTML omitted -->
+<blockquote>
+<p>SQL <code>必会</code>：
+
+<figure><a class="lightgallery" href="/images/SQL.jpg" title="SQL必会" data-thumbnail="/images/SQL.jpg" data-sub-html="<h2> </h2><p>SQL必会</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/images/SQL.jpg"
+            data-srcset="/images/SQL.jpg, /images/SQL.jpg 1.5x, /images/SQL.jpg 2x"
+            data-sizes="auto"
+            alt="/images/SQL.jpg" />
+    </a><figcaption class="image-caption">SQL必会</figcaption>
+    </figure></p>
+</blockquote>
 <h4 id="常用指令">常用指令</h4>
 <table>
 <thead>
@@ -159,6 +174,30 @@
 <td><code>查看表下面对应列的数据</code></td>
 <td><strong>SELECT NAME FROM AV_PICTURE;</strong></td>
 </tr>
+<tr>
+<td><code>添加主键</code></td>
+<td><strong>Alter table tabname add primary key(col)</strong></td>
+</tr>
+<tr>
+<td><code>删除主键</code></td>
+<td><strong>Alter table tabname drop primary key</strong></td>
+</tr>
+<tr>
+<td><code>创建索引</code></td>
+<td><strong>create [unique] index idxname on tabname(col….)</strong></td>
+</tr>
+<tr>
+<td><code>删除索引</code></td>
+<td><strong>drop index idxname(注：索引是不可更改的，想更改必须删除重新建。)</strong></td>
+</tr>
+<tr>
+<td><code>创建视图</code></td>
+<td><strong>create view viewname as select statement;</strong></td>
+</tr>
+<tr>
+<td><code>删除视图</code></td>
+<td><strong>drop view viewname</strong></td>
+</tr>
 </tbody>
 </table>
 <h3 id="问题点">问题点</h3>
@@ -166,6 +205,98 @@
 <p><strong>[ERROR] /usr/bin/mariadbd: unknown option &lsquo;&ndash;auto-rehash&rsquo;</strong><br>
 <strong>解决方案</strong><br>
 <div id="id-1">nano /etc/my.cnf 注销auto-rehash</div></p>
+</blockquote>
+<h3 id="sql面试常用的语句">SQL面试常用的语句</h3>
+<table>
+<thead>
+<tr>
+<th>使用</th>
+<th>语句</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>创建数据库</code></td>
+<td><strong>CREATE DATABASE database-name;</strong></td>
+</tr>
+<tr>
+<td><code>删除数据库</code></td>
+<td><strong>DROP DATABASE database-name;</strong></td>
+</tr>
+<tr>
+<td><code>根据已有的表创建新表</code></td>
+<td><strong>create table A like B (使用旧表B创建新表A，此种方式在将表B复制到A时候会将表B完整的字段结构和索引复制到表A中来)</strong></td>
+</tr>
+<tr>
+<td><code>创建新表</code></td>
+<td><strong>CREATE TABLE IF NOT EXISTS <code>runoob_tbl</code>(<code>runoob_id</code> INT UNSIGNED AUTO_INCREMENT,<code>runoob_title</code> VARCHAR(100) NOT NULL,<code>runoob_author</code> VARCHAR(40) NOT NULL,<code>submission_date</code> DATE,PRIMARY KEY ( <code>runoob_id</code> ))ENGINE=InnoDB DEFAULT CHARSET=utf8;(在 RUNOOB 数据库中创建数据表runoob_tbl)</strong></td>
+</tr>
+<tr>
+<td><code>删除新表</code></td>
+<td><strong>drop table tabname；</strong></td>
+</tr>
+<tr>
+<td><code>增加一个列</code></td>
+<td><strong>alter table tabname add column column_name type;</strong></td>
+</tr>
+<tr>
+<td><code>查询内容</code></td>
+<td><strong>select * from table1 where 范围</strong></td>
+</tr>
+<tr>
+<td><code>插入(增)</code></td>
+<td><strong>insert into table1(field1,field2) values(value1,value2)</strong></td>
+</tr>
+<tr>
+<td><code>删除</code></td>
+<td><strong>delete from table1 where 范围</strong></td>
+</tr>
+<tr>
+<td><code>更新</code></td>
+<td><strong>update table1 set field1=value1 where 范围</strong></td>
+</tr>
+<tr>
+<td><code>查找值</code></td>
+<td><strong>select * from table1 where field1 like ’%value1%’ —like的语法很精妙，查资料!</strong></td>
+</tr>
+<tr>
+<td><code>排序</code></td>
+<td><strong>select * from table1 order by field1,field2 [desc]（desc：降序，asc：升序）</strong></td>
+</tr>
+<tr>
+<td><code>总数</code></td>
+<td><strong>select count as totalcount from table1</strong></td>
+</tr>
+<tr>
+<td><code>求和</code></td>
+<td><strong>select sum(field1) as sumvalue from table1</strong></td>
+</tr>
+<tr>
+<td><code>平均</code></td>
+<td><strong>select avg(field1) as avgvalue from table1</strong></td>
+</tr>
+<tr>
+<td><code>最大</code></td>
+<td><strong>select max(field1) as maxvalue from table1</strong></td>
+</tr>
+<tr>
+<td><code>最小</code></td>
+<td><strong>select min(field1) as minvalue from table1</strong></td>
+</tr>
+<tr>
+<td><code>删除新表</code></td>
+<td><strong>drop table tabname；</strong></td>
+</tr>
+<tr>
+<td><code>删除新表</code></td>
+<td><strong>drop table tabname；</strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>注意：<code>create table tab_new as select col1,col2… from tab_old definition only</code>        <strong>备注：此种方式只会将表B的字段结构复制到表A中来，但不会复制表B中的索引到表A中来。这种方式比较灵活可以在复制原表表结构的同时指定要复制哪些字段，并且自身复制表也可以根据需要增加字段结构。</strong>
+<code>create table as select</code>        <strong>会将原表中的数据完整复制一份，但表结构中的索引会丢失。</strong>
+<code>create table like</code>        <strong>只会完整复制原表的建表语句，但不会复制数据。</strong></p>
 </blockquote><div class="post-reward">
   <input type="checkbox" name="reward" id="reward" hidden />
   <label class="reward-button" for="reward">Sponsor</label>

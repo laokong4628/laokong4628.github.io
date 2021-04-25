@@ -1,0 +1,1713 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>TypeScript - Lao Kong&#39;s notepad</title><meta name="keywords" content="[笔记本 老孔 日记]">
+<meta name="Description" content="TypeScript"><meta property="og:title" content="TypeScript" />
+<meta property="og:description" content="TypeScript" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://laokong4628.github.io/zh-cn/posts/TypeScript.html/" />
+<meta property="og:image" content="https://laokong4628.github.io/logo.png"/>
+<meta property="article:published_time" content="2021-01-29T11:16:31+08:00" />
+<meta property="article:modified_time" content="2021-01-29T11:16:31+08:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://laokong4628.github.io/logo.png"/>
+
+<meta name="twitter:title" content="TypeScript"/>
+<meta name="twitter:description" content="TypeScript"/>
+<meta name="application-name" content="老孔的笔记本">
+<meta name="apple-mobile-web-app-title" content="老孔的笔记本"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://laokong4628.github.io/zh-cn/posts/TypeScript.html/" /><link rel="prev" href="https://laokong4628.github.io/zh-cn/posts/wifi-network.html/" /><link rel="next" href="https://laokong4628.github.io/zh-cn/posts/rsync.html/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "TypeScript",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/laokong4628.github.io\/zh-cn\/posts\/TypeScript.html\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/laokong4628.github.io\/images\/Apple-Devices-Preview.png",
+                            "width":  3200 ,
+                            "height":  2048 
+                        }],"genre": "posts","keywords": "TypeScript","wordcount":  10830 ,
+        "url": "https:\/\/laokong4628.github.io\/zh-cn\/posts\/TypeScript.html\/","datePublished": "2021-01-29T11:16:31+08:00","dateModified": "2021-01-29T11:16:31+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/laokong4628.github.io\/images\/avatar.png",
+                    "width":  528 ,
+                    "height":  560 
+                }},"author": {
+                "@type": "Person",
+                "name": "LaoKong"
+            },"description": "TypeScript"
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('dark' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'dark' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <a href="https://github.com/laokong4628" class="github-corner" target="_blank" title="Follow me on GitHub" aria-label="Follow me on GitHub"><svg width="3.5rem" height="3.5rem" viewBox="0 0 250 250" style="fill:#70B7FD; color:#fff; position: absolute; top: 0; border: 0; left: 0; transform: scale(-1, 1);" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+        <div class="header-title">
+            <a href="/zh-cn/" title="Lao Kong&#39;s notepad"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw'></i></span><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/zh-cn/posts/"><i class='fas fa-fw fa-archive'></i> 归档 </a><a class="menu-item" href="/zh-cn/tags/"><i class='fas fa-fw fa-tag'></i> 标签 </a><a class="menu-item" href="/zh-cn/categories/"><i class='fas fa-fw fa-th'></i> 分类 </a><a class="menu-item" href="/zh-cn/about/"><i class='fas fa-fw fa-at'></i> 关于 </a><a class="menu-item" href="/zh-cn/friends/"><i class='fas fa-fw fa-fan fa-spin'></i> 友链 </a><a class="menu-item" href="/zh-cn/search/" title="搜索"><i class='fas fa-fw fa-search'></i> 搜索 </a><a class="menu-item" href="/zh-cn/weather/" title="天气"><i class='fas fa-cloud-meatball'></i> 天气 </a><a class="menu-item" href="https://github.com/laokong4628/" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item language" title="选择语言">简体中文<i class="fas fa-chevron-right fa-fw"></i>
+                        <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/posts/TypeScript.html/">English</option><option value="/zh-cn/posts/TypeScript.html/" selected>简体中文</option></select>
+                    </a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <a href="https://github.com/laokong4628" class="github-corner" target="_blank" title="Follow me on GitHub" aria-label="Follow me on GitHub"><svg width="3.5rem" height="3.5rem" viewBox="0 0 250 250" style="fill:#70B7FD; color:#fff; position: absolute; top: 0; border: 0; left: 0; transform: scale(-1, 1);" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+            <div class="header-title">
+                <a href="/zh-cn/" title="Lao Kong&#39;s notepad"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw'></i></span><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/zh-cn/posts/" title=""><i class='fas fa-fw fa-archive'></i>归档</a><a class="menu-item" href="/zh-cn/tags/" title=""><i class='fas fa-fw fa-tag'></i>标签</a><a class="menu-item" href="/zh-cn/categories/" title=""><i class='fas fa-fw fa-th'></i>分类</a><a class="menu-item" href="/zh-cn/about/" title=""><i class='fas fa-fw fa-at'></i>关于</a><a class="menu-item" href="/zh-cn/friends/" title=""><i class='fas fa-fw fa-fan fa-spin'></i>友链</a><a class="menu-item" href="/zh-cn/search/" title="搜索"><i class='fas fa-fw fa-search'></i>搜索</a><a class="menu-item" href="/zh-cn/weather/" title="天气"><i class='fas fa-cloud-meatball'></i>天气</a><a class="menu-item" href="https://github.com/laokong4628/" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">简体中文<i class="fas fa-chevron-right fa-fw"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/posts/TypeScript.html/">English</option><option value="/zh-cn/posts/TypeScript.html/" selected>简体中文</option></select>
+                </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container">
+                    <div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single" id="articleAll"><h1 class="single-title animated flipInX">TypeScript</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://laokong4628.github.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>LaoKong</a></span>&nbsp;<span class="post-category">收录于 <a href="/zh-cn/categories/TypeScript/"><i class="far fa-folder fa-fw"></i>TypeScript</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-01-29">2021-01-29</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 10830 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 22 分钟&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#getting-started">Getting started</a></li>
+    <li><a href="#1-typescript简介">1. TypeScript简介</a></li>
+    <li><a href="#2-typescript与vscode-编辑器">2. TypeScript与VsCode 编辑器</a></li>
+    <li><a href="#3-什么是typescript-与javascript的区别">3. 什么是TypeScript, 与javascript的区别？</a></li>
+    <li><a href="#4-typescript带来了什么优势">4. TypeScript带来了什么优势</a></li>
+    <li><a href="#5-typescript基础环境搭建">5. TypeScript基础环境搭建</a></li>
+    <li><a href="#5-静态类型的深度理解">5. 静态类型的深度理解</a></li>
+    <li><a href="#5-基础类型和对象类型">5. 基础类型和对象类型</a></li>
+    <li><a href="#6-类型注解和类型推断">6. 类型注解和类型推断</a></li>
+    <li><a href="#7-函数相关类型">7. 函数相关类型</a></li>
+    <li><a href="#7-数组和元组">7. 数组和元组</a></li>
+    <li><a href="#8-interface接口">8. Interface接口</a></li>
+    <li><a href="#9-类的定义与继承">9. 类的定义与继承</a></li>
+    <li><a href="#10-类中的访问类型和构造器">10. 类中的访问类型和构造器</a></li>
+    <li><a href="#11-静态属性staticsetter和getter">11. 静态属性static，Setter和Getter</a></li>
+    <li><a href="#12-抽象类">12. 抽象类</a></li>
+    <li><a href="#13-使用-typescript-编写爬虫工具">13. 使用 TypeScript 编写爬虫工具</a></li>
+    <li><a href="#14-typescript的编译">14. TypeScript的编译</a></li>
+    <li><a href="#15-typescript的配置文件httpswwwtypescriptlangorgtsconfig">15. <a href="https://www.typescriptlang.org/tsconfig">TypeScript的配置文件</a></a></li>
+    <li><a href="#16-联合类型和类型保护">16. 联合类型和类型保护</a></li>
+    <li><a href="#17-enum-枚举类型">17. Enum 枚举类型</a></li>
+    <li><a href="#18-函数泛型">18. 函数泛型</a></li>
+    <li><a href="#18-类中的泛型以及泛型类型">18. 类中的泛型以及泛型类型</a></li>
+    <li><a href="#19-命名空间-namespace">19. 命名空间 namespace</a></li>
+    <li><a href="#20-import对应的模块化-缺代码代替-reference-pathcomponentsts-语句">20. import对应的模块化-缺代码，代替/// <!-- raw HTML omitted -->语句</a></li>
+    <li><a href="#21-使用-parcel-打包-ts-代码httpsgithubcomparcel-bundlerparcel">21. <a href="https://github.com/parcel-bundler/parcel">使用 Parcel 打包 TS 代码</a></a></li>
+    <li><a href="#22-描述文件中的全局类型">22. 描述文件中的全局类型</a></li>
+    <li><a href="#23-keyof语法的使用">23. keyof语法的使用</a></li>
+    <li><a href="#24-express-基础项目结构搭建使用-express-框架开发数据爬取及展示接口">24. Express 基础项目结构搭建，使用 Express 框架开发数据爬取及展示接口。</a></li>
+    <li><a href="#25-类的装饰器">25. 类的装饰器</a></li>
+    <li><a href="#25-初始化-react-项目httpscreate-react-appdevdocsadding-typescript">25. <a href="https://create-react-app.dev/docs/adding-typescript/">初始化 React 项目</a></a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="getting-started">Getting started</h2>
+<!-- raw HTML omitted -->
+<h2 id="1-typescript简介">1. TypeScript简介</h2>
+<blockquote>
+<p><code>TypeScript </code>是<code>微软</code>开发的 <code>JavaScript 的超集（superset）</code>，TypeScript <code>兼容</code> JavaScript，可以载入 JavaScript 代码然后运行。TypeScript 与JavaScript 相比进步的地方 包括：加入注释，让编译器理解所支持的对象和函数，编译器会移除注释，不会增加开销；增加一个完整的类结构，使之更新是传统的面向对象语言。</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">`为什么会有 TypeScript?`
+JavaScript 只是一个脚本语言，并非设计用于开发大型 Web 应用，JavaScript 没有提供类和模块的概念，而 TypeScript 扩展了 JavaScript 实现了这些特性。TypeScript 主要特点包括：
+TypeScript 是微软推出的开源语言，使用 Apache 授权协议
+TypeScript 是 JavaScript 的超集.
+TypeScript 增加了可选类型、类和模块
+TypeScript 可编译成可读的、标准的 JavaScript
+TypeScript 支持开发大规模 JavaScript 应用
+TypeScript 设计用于开发大型应用，并保证编译后的 JavaScript 代码兼容性
+TypeScript 扩展了 JavaScript 的语法，因此已有的 JavaScript 代码可直接与 TypeScript 一起运行无需更改
+TypeScript 文件扩展名是 ts，而 TypeScript 编译器会编译成 js 文件
+TypeScript 语法与 JScript .NET 相同
+TypeScript 易学易于理解
+
+`语法特性:`
+类 Classes
+接口 Interfaces
+模块 Modules
+类型注解 Type annotations
+编译时类型检查 Compile time type checking
+Arrow 函数 (类似 C# 的 Lambda 表达式)
+
+`JavaScript 和 TypeScript 的区别`
+TypeScript 是 JavaScript 的超集，扩展了 JavaScript 的语法，因此现有的 JavaScript 代码可与 TypeScript 一起工作无需任何修改，TypeScript 通过类型注解提供编译时的静态类型检查。TypeScript 可处理已有的 JavaScript 代码，并只对其中的 TypeScript 代码进行编译
+
+</code></pre></div><blockquote>
+</blockquote>
+<h2 id="2-typescript与vscode-编辑器">2. TypeScript与VsCode 编辑器</h2>
+<blockquote>
+<p>安装Visual Studio的TypeScript插件                    <br>
+Prettier-Code formatter代码格式化插件             <br>
+VsCode TypeScript ts代码编写需要的设置，打开setting，查找tab-size，修改为2。查找quote，修改TypeScript quote为single。查找save，选中Format On Save选项框。</p>
+</blockquote>
+<h2 id="3-什么是typescript-与javascript的区别">3. 什么是TypeScript, 与javascript的区别？</h2>
+<blockquote>
+<p>TypeScript is a <code>typed superset of JavaScript</code> that <code>compiles to plain JavaScipt</code>.             <br>
+一.<code>typed</code>:        <br>
+TypeScript ts 静态类型。 let b: number = 123; 类型不变，不可修改类型，可修改值。b= 456。    <br>
+javascript js 动态类型。 let a = 123; 类型可以修改，可修改类型，可修改值。a = &lsquo;abc&rsquo;。           <br>
+二.<code>compiles</code>示例：</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">以下为ts代码：
+interface Person {
+    name: String
+}
+
+const teather: Person = {
+    name: &#39;Dell Lee&#39;
+}
+ts代码无法在浏览器中直接运行，需要编译成js代码才能在浏览器中运行。
+
+以下为编译后的js代码：
+&#34;use strict&#34;;
+const teather = {
+    name: &#39;Dell Lee&#39;
+};
+js代码可以在浏览器中直接运行。
+
+</code></pre></div><h2 id="4-typescript带来了什么优势">4. TypeScript带来了什么优势</h2>
+<blockquote>
+<p>1.ts代码可以直接发现错误在哪（有提示），js没有提示，需要在浏览器（控制台）中运行才能发现错误。开发过程中发现潜在的问题。ts的静态类型，可以快速发现错误。  <br>
+示例：</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">js代码参数data未定义时，没有任何提示，需要在浏览器（控制台）中运行才能发现错误：
+function jsDemo(data) {
+    return Math.sqrt(data.x ** 2 + data.y ** 2);
+}
+jsDemo();
+
+ts代码参数data未定义时，有错误提示，tsDemo()调用时报错：
+function tsDemo(data: { x: number, y: number }) {
+    return Math.sqrt(data.x ** 2 + data.y ** 2);
+}
+tsDemo(); //报错
+发现错误修改为
+tsDemo({ x: 1, y: 123 });
+
+
+</code></pre></div><blockquote>
+<p>2.ts代码，编辑器（VS code）的编写代码时提示（自动完成）更加友好。  <br>
+3.ts代码，代码语义更加清晰易懂，便于阅读，例子中,<code>data: { x: number, y: number }</code>。  <br>
+优化后代码：</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">type Point = { x: number, y: number }
+
+function tsDemo(data: Point) {
+    return Math.sqrt(data.x ** 2 + data.y ** 2);
+}
+
+tsDemo({ x: 1, y: 123 });
+
+</code></pre></div><h2 id="5-typescript基础环境搭建">5. TypeScript基础环境搭建</h2>
+<blockquote>
+<p>1.安装node.js。
+2.验证已经安装node.js,npm。指令：<code>node -v</code> , <code>npm -v</code>查看安装的版本号。
+3.验证已经安装node.js,npm。指令：<code>node -v</code> , <code>npm -v</code>。
+4.打开VS code终端，输入以下指令：<code>npm install typescript -g</code>。
+5.调试运行代码，终端输入以下指令：<code>tsc demo.ts</code>TypeScript compile编译ts文件，会生成一个js文件demo.js，指令：<code>node demo.js</code>运行程序。  <br>
+6.简化以上流程，安装ts-node，输入以下指令：<code>npm install -g ts-node</code>或者<code>npm install -g ts-node@加想安装的对应版本号</code>。 <br>
+7.安装ts-node后，调试运行代码，只需要输入<code>ts-node demo.ts</code>。</p>
+</blockquote>
+<h2 id="5-静态类型的深度理解">5. 静态类型的深度理解</h2>
+<blockquote>
+<p>1.<code>const count: number = 2019</code>，这种类型为TS静态类型中的<code>基本类型</code>。        <br>
+2.编辑器count.会提示所有number类型可以调用的方法。        <br>
+3.TS静态类型中的<code>自定义类型</code>：</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">自定义Point类型：
+interface Point {
+    x: number,
+    y: number
+}
+
+const point: Point = {
+    x: 3,
+    y: 4
+}
+//point变量上具备Point类型的所有属性和方法。使用point.x。
+
+</code></pre></div><blockquote>
+<p>4.静态类型的属性和方法不可以更改。</p>
+</blockquote>
+<h2 id="5-基础类型和对象类型">5. 基础类型和对象类型</h2>
+<blockquote>
+<p>1.基础类型（null, undefined, symbol, boolean, void, string, number）:</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">const count: number = 123;
+const teatherName: string = `dell`;
+
+</code></pre></div><blockquote>
+<p>2.对象类型（对象{}, 数组[], 类Class, 函数function, Date， 自定义对象{}）:</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">const teather: {
+    name: string,    
+    age: number,    
+} = {
+    name: &#39;dell&#39;,
+    age: 18        
+};
+
+const numbers: number[] = [1, 2, 3];
+
+class Person {}
+const dell: Person = new Person();
+
+const getTotal: () =&gt; number = () =&gt; {
+    return 123;
+}
+
+const date = new Date();
+
+interface Person {
+    name: string,
+}
+const rawData = &#39;{&#34;name&#34;: &#34;dell&#34;}&#39;;
+const newData: Person = JSON.parse(rawData);
+
+</code></pre></div><h2 id="6-类型注解和类型推断">6. 类型注解和类型推断</h2>
+<blockquote>
+<p><code>类型注解</code> //type annotation 类型注解，我们来告诉变量是什么类型。        <br>
+语句 <code>const count: number = 123;</code> 中的 <code>: number</code>即为<code>类型注解</code>。        <br>
+<code>类型推断</code> //type inference 类型推断，TS会自动的去尝试分析变量的类型。        <br>
+语句 <code>const countInfere = 123;</code> 中的 <code>变量</code>即TS会自动的去尝试分析该变量的类型。        <br>
+<code>注意</code>：如果 TS 能够自动分析变量的类型，我们就什么也不需要做了。        <br>
+<code>注意</code>：如果 TS 无法分析变量的类型的话，我们需要使用类型注解。        <br>
+在<code>VS code</code>中如果提示类型为any就需要加类型注解，如果提示类型为当前需要的类型就不需要加类型注解了。        <br>
+例子：</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">// 不需要类型注解
+const firstNumber = 1;
+const secondNumber = 2;
+const total = firstNumber + secondNumber;
+
+const teather: {
+    name: &#39;dell&#39;,
+    age: 18    
+}
+
+// 需要类型注解
+function getTotal(firstNumber: number, secondNumber: number) {
+    return firstNumber + secondNumber;
+}
+const total = getTotal(1, 2);
+
+</code></pre></div><h2 id="7-函数相关类型">7. 函数相关类型</h2>
+<blockquote>
+<p>TS中和JS中函数定义完全一致，大致方法如下：
+1.function() {}   2.const hello1 = function() {}   3.const hello2 = () =&gt; {}
+如下代码中<code>函数类型的注解</code>方法：
+<code>add(): number {}</code> //返回值为数字类型。
+<code>add(): void {}</code> //空值，函数没有返回值。
+<code>add(): never {}</code> //函数无法全部执行里面的代码块。</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">function add(first: number, second: number): number {
+    return first + second;
+}
+const total = add(1, 2);
+
+add(): number{}
+
+function sayHello(): void {
+    console.log(&#39;hello&#39;);
+}
+
+add(): void {}，没得 return值
+
+function errorEmitter(): never {
+    while(true) {
+
+    }
+    console.log(123);   //wile循环的语句将无法结束，后面的语句无法执行
+    或者
+    throw new Error();
+    console.log(123); //这段语句将不会执行
+}
+
+add(): never {}
+
+function add({ first, second }: { first: number, second: number }): number {
+    return first + second;
+}
+const total = add({ first: 1, second: 2 });
+
+多个参数值解构
+
+</code></pre></div><h2 id="7-数组和元组">7. 数组和元组</h2>
+<blockquote>
+<p>数组的对象类型的写法实例：</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">const arr: (number | string)[] = [1, 2, 3, &#39;a&#39;]; // 数组中的元素既可以是数字也可是字符                 
+const stringArr: string[] = [&#39;a&#39;, &#39;b&#39;, &#39;c&#39;];                
+const undefinedArr: undefined[] = [undefined];                
+
+const objectArr: {name: string, age: number}[] = [{
+    name: &#39;dell&#39;,
+    age: 18
+}];
+
+// 通过 type alias 类型别名转化后的写法
+type User = { name: string, age: number };
+const objectArr: User[] = [{
+    name: &#39;dell&#39;,
+    age: 18
+}];
+
+class Teather {
+    name: string,
+    age: number    
+}
+const objectArr: Teather[] = [{
+    new Teather(),
+    name: &#39;dell&#39;,
+    age: 18
+}];
+
+</code></pre></div><blockquote>
+<p>元组(tuple)的对象类型的写法实例：</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">const teatherInfo: (number, string)[] = [&#39;1&#39;, 2, 3];     //只有满足数组的形式就行数字和字符的顺序随意，只要满足要求就行，`位置，个数,类型，长度不固定`。
+const teatherInfo: [string, string, number] = [&#39;1&#39;, &#39;2&#39;, 3];     //元组的写法，对应的数字和字符的`位置，个数,类型，长度固定`。
+
+//处理CSV等文件(格式固定)时使用元组：
+const teatherList: [string, string, number][] = [
+    [&#39;dell&#39;, &#39;male&#39;, 19],
+    [&#39;sun&#39;, &#39;female&#39;, 30],
+    [&#39;jeny&#39;, &#39;female&#39;, 26]
+]
+
+</code></pre></div><h2 id="8-interface接口">8. Interface接口</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">const getPersonName = (person: { name: string}) =&gt; {
+    console.log(person.name);
+}
+
+const setPersonName = (person: { name: string}, name: string) =&gt; {
+    person.name = name;
+}
+
+将具有通用性的类型集合修改为通用的类型（interface）
+interface Person {
+    name: string;
+    // 如果name变量只能读取，不能写值的时候，可以写为：
+    readonly name: string;
+    age: number;
+    // 如果age变量可有可无的话，可以写为：
+    age?: number;
+    [propName: string]: any; // 这种写法，可以增加任意的自定义变量类型，变量名称为任意字符串。
+    say(): string; //接口里面还可以定义方法。
+}
+// interface和type的区别：最好用interface，不行的话用type（替代方案），type还可以代表类型。
+type Person1 {
+    name: string;
+}
+
+const getPersonName = (person: Person) =&gt; {
+    console.log(person.name);
+}
+
+const setPersonName = (person: Person, name: string) =&gt; {
+    person.name = name;
+}
+
+const person = {
+    name = &#39;dell&#39;,
+    age = 18，
+    sex = &#39;male&#39; //未定义的自变量这种写法不会报错，以下写法就会报错，通过函数的方式传值。
+    say() {
+        return &#39;say hello&#39;; // 方法必须有返回值，否则会报错。
+    }
+};
+
+getPersonName(person);
+getPersonName({
+    name = &#39;dell&#39;,
+    age = 18，
+    sex = &#39;male&#39; //这种写法就会报错，可以修改interface，增加一个其他任意类型的自定义变量，就不会报错。[propName: string]: any;。
+});
+setPersonName(person, &#39;lee&#39;);
+
+// 类通过implements可以实现接口
+class User implements Person {
+    name = &#39;dell&#39;,
+    say() {
+        return &#39;say hello&#39;; // 方法必须有返回值，否则会报错。
+    }    
+}
+
+// 可以继承接口，继承其属性和方法，还可以自定义方法。
+interface Teather extends Person {
+    teach(): string; // P
+}
+
+// interface 还可以定义函数
+interface sayHi {
+    (word: string): string;
+}
+
+</code></pre></div><h2 id="9-类的定义与继承">9. 类的定义与继承</h2>
+<blockquote>
+<p>super子类调用父类的方法。</p>
+</blockquote>
+<h2 id="10-类中的访问类型和构造器">10. 类中的访问类型和构造器</h2>
+<blockquote>
+<p>三个访问类型：private, protected, public             <br>
+实例：</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">class Person {
+    name: string;
+    private name1: string;
+    protected name2: string;
+    sayHi() {
+        this.name1;
+        this.name2;
+        console.log(&#39;hi&#39;);
+    }
+}
+class Teather extends Person {
+    public sayBye() {
+        this.name2;
+    }
+}
+const person = new Person();
+person.name = &#39;dell&#39;;
+console.log(person.name);
+person.sayHi();
+
+// 默认为public访问类型，name: string; （public name: string;） public被隐藏了。
+// public 允许在类内外被调用。
+// private 允许在类内被使用。
+// protected 允许在类内及继承的子类中使用。
+
+</code></pre></div><blockquote>
+<p>构造器是新建一个类实例的时候调用。</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">// constructor
+class Person {
+    public name: string;
+    constructor(name: string) {
+        this.name = name;
+    }
+    //简化
+    constructor(public name: string) {}
+}
+const person = new Person();
+console.log(person.name)
+
+class Teather extends Person {
+    constructor(public age: number)
+    super(&#39;dell&#39;); // 注意子类有构造器时，父类的属性和方法为空时，子类继承父类也需要调用super()。
+}
+const teather = new Teather(28);
+console.log(teather.name)
+console.log(teather.age)
+
+</code></pre></div><h2 id="11-静态属性staticsetter和getter">11. 静态属性static，Setter和Getter</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">class Person {
+    constructor(private _name: string) {}
+    get getName() {
+        return this._name;
+    }
+    set setName() {
+        name = this._name;
+    }
+}
+const person = new Person(&#39;dell&#39;);
+person.getName; // 通过getter，就可以使用私有类的属性。
+
+</code></pre></div><h2 id="12-抽象类">12. 抽象类</h2>
+<blockquote>
+<p>抽象类定义其他类都具备的方法，其他类可以调用。             <br>
+关键字<code>abstract</code>， abstract class name { 相同method(){} }，如果方法没有具体实现，可以定义抽象的方法为：abstract class name { abstract 相同method() }。             <br>
+抽象类只能继承，不能实例化。             <br>
+其他类继承抽象类，调用抽象类调用的方法和属性。</p>
+</blockquote>
+<h2 id="13-使用-typescript-编写爬虫工具">13. 使用 TypeScript 编写爬虫工具</h2>
+<blockquote>
+<p>需要secretKey。             <br>
+先爬取整个html页面。             <br>
+需要配置爬虫项目，在项目文件夹下面输入指令：<code>npm init -y</code>，会在当前目录下面生成一个package.json文件。输入指令：<code>tsc --init</code>，会在当前目录下面生成一个tsconfig.json文件。             <br>
+卸载全局安装包：ts-node，<code>npm uninstall ts-node -g</code>。             <br>
+安装环境包：ts-node/typescript/superagent到package.json工程当中，<code>npm install -D ts-node</code>,<code>npm install typescript -D</code>，<code>npm install superagent --save</code>。             <br>
+修改package.json：</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&#34;scripts&#34;: {
+    &#34;dev&#34;: &#34;ts-node ./src/crawler.ts&#34;
+}
+
+</code></pre></div><blockquote>
+<p><code>npm run dev</code>，运行当前项目。
+<code>npm run dev</code>，运行当前项目。      <br>
+<a href="https://github.com/cheeriojs/cheerio" target="_blank" rel="noopener noreffer">使用<code>cheerio</code>进行数据提取</a>，安装<code>cheerio</code>：<code>npm install cheerio --save</code>。        <br>
+<a href="https://www.npmjs.com/" target="_blank" rel="noopener noreffer">查看superagent包的js内容</a>，打开网站输入对应包名，输入格式：<code>@types/superagent</code>，编写爬虫类，修改<code>crawler.ts</code>文件：</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">crawler.ts
+// superagent库是js编写的文件，ts代码无法识别，只有通过翻译文件去帮助ts识别js文件。
+// ts -&gt; .d.ts 翻译文件 @types/package -&gt; js，安装superagent对应的js翻译文件：`npm install @types/superagent -D`
+import superagent from &#39;superagent&#39;;  // `npm install @types/superagent -D`
+import cheerio from &#39;cheerio&#39;;     // `npm install @types/cheerio -D`
+import fs from &#39;fs&#39;;
+import path from &#39;path&#39;;
+
+interface Course {
+    title: string;
+    count: number;
+}
+interface CourseResult {
+    title: string;
+    data: Course[];
+}
+interface Content {
+    [propName: number]: Course[];
+}
+
+
+class Crawler {
+    private secretKey = &#39;secretKey&#39;;
+    private url = &#39;http://www.dell-lee.com/typescript/demo.html?secret=${this.secretKey}&#39;;
+    // private rawHtml = &#39;&#39;;
+    private filePath =  path.resolve(__dirname, &#39;../data/course.json&#39;);
+    const courseInfos: Course[] = [];
+    getJasonInfo(html: string) {
+        const $ = cheerio.load(html);
+        const courseItems = $(&#39;.course-item&#39;);
+        courseItems.map((index, element) =&gt; {
+            const descs = $(element).find(&#39;.course-desc&#39;);
+            const title = descs.eq(0).text;
+            const count = parseInt(descs.eq(1).text.split(&#39;: &#39;)[1], 10);
+            courseInfos.push({
+                title, count
+            });
+        });
+        const result = {
+            time: (new Date()).getTime(),
+            data: courseInfos
+        };
+        return result;
+    }
+    async getRawHtml() {
+        const result = await superagent.get(this.url);
+        return result.text;
+        // console.log(result.text); 得到整个html页面文件内容。
+        // this.rawHtml = result.text;
+        // this.getJasonInfo(result.text);
+    }
+    generateJsonContent(courseInfo: CourseResult) {
+        // const filePath =  path.resolve(__dirname, &#39;../data/course.json&#39;);
+        let fileContent: Content = {};
+        if (fs.existsSync(this.filePath)) {
+            fileContent = JSON.parse(fs.readFileSync(this.filePath, &#39;utf-8&#39;));
+        }
+        fileContent[courseInfo.time] = courseInfo.data;
+        return fileContent;
+    }    
+    writeFile(content: string) {
+        fs.writeFileSync(this.filePath, content);
+    }
+    async initSpiderProcess() {
+        // const filePath =  path.resolve(__dirname, &#39;../data/course.json&#39;);
+        const html = await this.getRawHtml();
+        courseInfo = this.getJasonInfo(html);
+        fileContent = this.generateJsonContent(courseInfo);
+        this.writeFile(JSON.stringify(fileContent));
+        // fs.writeFileSync(this.filePath, JSON.stringify(fileContent));
+    }
+    constructor() {
+        // this.getRawHtml();
+        this.initSpiderProcess();
+    }
+}
+const crawler = new Crawler();
+
+</code></pre></div><blockquote>
+<p>使用<code>组合设计模式</code>优化代码，拆分以上代码为两个部分，一个需要设置爬取的网址，一个获取爬取的内容，新建一个名为dellAnalyzer.ts文件，剪切crawler.ts中的部分内容到dellAnalyzer.ts中，包括getJasonInfo方法，generateJsonContent方法，以及其方法调用的代码也要剪切到自定义的方法中。</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">dellAnalyzer.ts文件内容如下:
+
+import cheerio from &#39;cheerio&#39;;     // `npm install @types/cheerio -D`
+import fs from &#39;fs&#39;;
+import { Analyzer } from &#39;./crawler&#39;;
+
+interface Course {
+    title: string;
+    count: number;
+}
+interface CourseResult {
+    title: string;
+    data: Course[];
+}
+interface Content {
+    [propName: number]: Course[];
+}
+
+export default class DellAnalyzer implements Analyzer {
+    private getJasonInfo(html: string) {
+        const $ = cheerio.load(html);
+        const courseItems = $(&#39;.course-item&#39;);
+        const courseInfos: Course[] = [];
+        courseItems.map((index, element) =&gt; {
+            const descs = $(element).find(&#39;.course-desc&#39;);
+            const title = descs.eq(0).text;
+            const count = parseInt(descs.eq(1).text.split(&#39;: &#39;)[1], 10);
+            courseInfos.push({
+                title, count
+            });
+        });
+        const result = {
+            time: (new Date()).getTime(),
+            data: courseInfos
+        };
+        return result;
+    }
+    private generateJsonContent(courseInfo: CourseResult, filePath: string) {
+        let fileContent: Content = {};
+        if (fs.existsSync(filePath)) {
+            fileContent = JSON.parse(fs.readFileSync(filePath, &#39;utf-8&#39;));
+        }
+        fileContent[courseInfo.time] = courseInfo.data;
+        return fileContent;
+    }    
+
+    public analyze(html: string, filePath: string) {
+        const courseInfo = this.getJasonInfo(html);
+        fileContent = this.generateJsonContent(courseInfo, filePath);
+        return JSON.stringify(fileContent);
+    }
+}
+
+</code></pre></div><blockquote>
+<p>引入dellAnalyzer.ts中的DellAnalyzer类到crawler.ts文件中，</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">import superagent from &#39;superagent&#39;;  // `npm install @types/superagent -D`
+import fs from &#39;fs&#39;;
+import path from &#39;path&#39;;
+import DellAnalyzer from &#39;./dellAnalyzer&#39;;
+
+export interface Analyzer {
+    analyze: (html: string, filePath: string) =&gt; string;
+}
+
+class Crawler {
+    private filePath =  path.resolve(__dirname, &#39;../data/course.json&#39;);
+    async getRawHtml() {
+        const result = await superagent.get(this.url);
+        return result.text;
+    }
+    writeFile(content: string) {
+        fs.writeFileSync(this.filePath, content);
+    }
+    async initSpiderProcess() {
+        const html = await this.getRawHtml();
+        const fileContent = this.analyzer.analyze(html, this.filePath);
+        this.writeFile(fileContent);
+    }
+    constructor(private url: string, private analyzer: Analyzer) {
+        this.initSpiderProcess();
+    }
+}
+const secretKey = &#39;secretKey&#39;;
+const url = &#39;http://www.dell-lee.com/typescript/demo.html?secret=${this.secretKey}&#39;;
+const analyzer = new DellAnalyzer();
+const crawler = new Crawler(url, analyzer);
+
+</code></pre></div><blockquote>
+<p><code>单例模式</code>：修改crawler.ts和dellAnalyzer.ts，将DellAnalyzer变为单例模式。         <br>
+1.不能被外部实例化。创建私有的(private) constructor方法在dellAnalyzer.ts中。     <br>
+2.创建私有的(private) 实例DellAnalyzer在dellAnalyzer.ts中。     <br>
+###########################     <br>
+############crawler.ts###############     <br>
+############crawler.ts###############     <br>
+############crawler.ts###############     <br>
+###########################</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">import superagent from &#39;superagent&#39;; 
+import fs from &#39;fs&#39;;
+import path from &#39;path&#39;;
+import DellAnalyzer from &#39;./dellAnalyzer&#39;;
+
+export interface Analyzer {
+    analyze: (html: string, filePath: string) =&gt; string;
+}
+
+class Crawler {
+    private filePath =  path.resolve(__dirname, &#39;../data/course.json&#39;);
+    async getRawHtml() {
+        const result = await superagent.get(this.url);
+        return result.text;
+    }
+    writeFile(content: string) {
+        fs.writeFileSync(this.filePath, content);
+    }
+    async initSpiderProcess() {
+        const html = await this.getRawHtml();
+        const fileContent = this.analyzer.analyze(html, this.filePath);
+        this.writeFile(fileContent);
+    }
+    constructor(private url: string, private analyzer: Analyzer) {
+        this.initSpiderProcess();
+    }
+}
+const secretKey = &#39;secretKey&#39;;
+const url = &#39;http://www.dell-lee.com/typescript/demo.html?secret=${this.secretKey}&#39;;
+const analyzer = DellAnalyzer.getInstance();
+// 此时的crawler，允许crawler中的方法被外部调用。
+// crawler.writeFile();
+// 不想crawler中的方法被调用，都加上private，私有的访问权限。
+// private writeFile(){...};
+const crawler = new Crawler(url, analyzer);
+
+</code></pre></div><blockquote>
+<p>###########################     <br>
+############dellAnalyzer.ts###############     <br>
+############dellAnalyzer.ts###############     <br>
+############dellAnalyzer.ts###############     <br>
+###########################</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">dellAnalyzer.ts文件内容如下:
+
+import cheerio from &#39;cheerio&#39;; 
+import fs from &#39;fs&#39;;
+import { Analyzer } from &#39;./crawler&#39;;
+
+interface Course {
+    title: string;
+    count: number;
+}
+interface CourseResult {
+    title: string;
+    data: Course[];
+}
+interface Content {
+    [propName: number]: Course[];
+}
+
+export default class DellAnalyzer implements Analyzer {
+    private static instance: DellAnalyzer;
+    static getInstance() {
+        if (!DellAnalyzer.instance) {
+            DellAnalyzer.instance = new DellAnalyzer();
+        }
+        return DellAnalyzer.instance;
+    }
+    private getJasonInfo(html: string) {
+        const $ = cheerio.load(html);
+        const courseItems = $(&#39;.course-item&#39;);
+        const courseInfos: Course[] = [];
+        courseItems.map((index, element) =&gt; {
+            const descs = $(element).find(&#39;.course-desc&#39;);
+            const title = descs.eq(0).text;
+            const count = parseInt(descs.eq(1).text.split(&#39;: &#39;)[1], 10);
+            courseInfos.push({
+                title, count
+            });
+        });
+        const result = {
+            time: (new Date()).getTime(),
+            data: courseInfos
+        };
+        return result;
+    }
+    private generateJsonContent(courseInfo: CourseResult, filePath: string) {
+        let fileContent: Content = {};
+        if (fs.existsSync(filePath)) {
+            fileContent = JSON.parse(fs.readFileSync(filePath, &#39;utf-8&#39;));
+        }
+        fileContent[courseInfo.time] = courseInfo.data;
+        return fileContent;
+    }    
+
+    public analyze(html: string, filePath: string) {
+        const courseInfo = this.getJasonInfo(html);
+        fileContent = this.generateJsonContent(courseInfo, filePath);
+        return JSON.stringify(fileContent);
+    }
+    private constructor() {
+
+    }
+}
+
+</code></pre></div><h2 id="14-typescript的编译">14. TypeScript的编译</h2>
+<blockquote>
+<p>通过npm<code>配置文件package.json</code>生成编译后的文件，提供给前端使用。                <br>
+注意：<a href="https://github.com/remy/nodemon" target="_blank" rel="noopener noreffer"><code>nodemon</code>第三方库</a>:         <br>
+<code>package.json</code>:</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">// 运行`npm run build`生成编译后的js文件位于/src文件夹下面。
+&#34;scripts&#34;: {
+    &#34;dev&#34;: &#34;ts-node ./src/crawler.ts&#34;,
+    &#34;build&#34;: &#34;tsc&#34;
+}
+
+// 自定义需要编译ts文件，只编译crawler.ts文件。
+&#34;scripts&#34;: {
+    &#34;dev&#34;: &#34;ts-node ./src/crawler.ts&#34;,
+    &#34;build&#34;: &#34;tsc crawler.ts&#34;
+}
+
+// 通过tsconfig.json文件自定义编译生成js文件的存放位置。取消注释和修改outDir这一行。
+&#34;outDir&#34;: &#34;./build&#34; 
+
+// build文件夹下面生成的文件就可以提供给他人直接使用了。
+
+// 修改代码后自动编译ts文件。
+&#34;scripts&#34;: {
+    &#34;build&#34;: &#34;tsc -w&#34;
+}
+
+// 安装监控文件变化的第三方库，npm install nodemon -D。
+使用：
+&#34;scripts&#34;: {
+    &#34;build&#34;: &#34;tsc -w&#34;,
+    &#34;start&#34;: &#34;nodemon node ./build/crawler.js&#34;
+}
+// 控制台输入 npm run start即可。
+
+// nodemon的配置
+&#34;scripts&#34;: {
+    &#34;build&#34;: &#34;tsc -w&#34;,
+    &#34;start&#34;: &#34;nodemon node ./build/crawler.js&#34;
+},
+&#34;nodemonConfig&#34;: {
+    &#34;ignore&#34;: [&#34;data/*&#34;],       // 忽略data文件夹下面的文件发生改变
+}
+
+// 安装的第三方库，npm install concurrently -D。
+// 在开发的环境中，编译和执行代码。控制台就输入：npm run dev:start等指令。
+&#34;scripts&#34;: {
+    &#34;dev:build&#34;: &#34;tsc -w&#34;,
+    &#34;dev:start&#34;: &#34;nodemon node ./build/crawler.js&#34;，
+    &#34;dev&#34;: &#34;concurrently npm run dev:build <span style="color:#960050;background-color:#1e0010">&amp;</span> npm run dev:start&#34;，// 或者
+    &#34;dev&#34;: &#34;concurrently npm:dev:*&#34;，
+}
+// 在控制台输入npm run dev就会并发执行指令。
+
+</code></pre></div><h2 id="15-typescript的配置文件httpswwwtypescriptlangorgtsconfig">15. <a href="https://www.typescriptlang.org/tsconfig" target="_blank" rel="noopener noreffer">TypeScript的配置文件</a></h2>
+<blockquote>
+<p>控制台输入：tsc &ndash;init， 生成 ts 的配置文件tsconfig.json。          <br>
+修改tsconfig.json，运行 tsc demo.ts， 生成的 demo.js 的文件，并不会按照配置文件修改的内容发生变化。          <br>
+只有运行控制台输入 tsc 指令， 自动编译生成的 demo.js 的文件，才会按照配置文件修改的内容发生变化。</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{
+    &#34;include&#34;: [&#34;./demo.ts&#34;],           // 只编译指定的文件，这里是demo.ts。
+    &#34;exclude&#34;: [&#34;./demo.ts&#34;],           // 不编译指定的文件，编译其他文件，这里是demo.ts。
+    &#34;files&#34;: [&#34;./demo.ts&#34;],           // 指定编译文件,这里是demo.ts，还可以是其他，追加到后面即可。
+    &#34;compileOptions&#34;: {
+        &#34;removeComments&#34;: true,          // 编译时移除注释
+        &#34;strict&#34;: true,          // 表示strict区间内的选项都为true
+        &#34;noImplicitAny&#34;: true,            // ts代码中的类型必须为显式(指定类型)，不能为隐式，反过来false即可。
+        &#34;strictNullChecks&#34;: true,          // 强制null类型检测。变量的值为null，undefined时，就会报错。
+        &#34;rootDir&#34;: &#34;./src&#34;,          // 指定ts文件所在的目录
+        &#34;outDir&#34;: &#34;./build&#34;,          // 指定js文件所在的目录
+        &#34;incremental&#34;: true,          // 渐进式编译项，编译过的内容不会再编译，只编译添加的代码。
+        &#34;allowJs&#34;: true,          // 将js文件的代码编译为&#34;target&#34;: es5或者6...的语言格式。
+        &#34;checkJs&#34;: true,          // 检查js文件中代码的语法错误。
+        &#34;noUnusedLocals&#34;: true,     // 检查是否存在未被使用的变量。
+    },
+}
+
+</code></pre></div><blockquote>
+<p>注意使用<code>ts-node demo.ts</code>会使用tsconfig.json配置文件生成js文件并运行。</p>
+</blockquote>
+<h2 id="16-联合类型和类型保护">16. 联合类型和类型保护</h2>
+<blockquote>
+<p><code>联合类型</code>，两个类型都可以拥有，写法：<code>类型3: 类型1 | 类型2</code>。          <br>
+<code>类型保护</code>，类型3的<code>属性</code>不能确定时属于 类型1和类型2 中的哪一个？所以需要使用<code>类型断言</code>：<code>类型3 as 类型1或者类型2</code>， 来确定<code>类型3的属性</code>在哪个类型之中。</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">interface Dog {
+    fly: boolean;
+    bark: () =&gt; {};
+}
+interface Bird {
+    fly: boolean;
+    sing: () =&gt; {};
+}
+
+//  方法一：类型断言的方式进行类型保护
+function trainAnial(animal: Bird | Dog) {
+    if (animal.fly) {
+        (animal as Bird).sing();
+    }else{
+        (animal as Dog).bark();
+    }
+}
+
+// 方法二：in语法来做类型保护
+function trainAnial(animal: Bird | Dog) {
+    if (&#39;sing&#39; in animal) {
+        animal.sing();
+    }else{
+        animal.bark();
+    }
+}
+
+// 方法三：if 判断变量类型（typeof语法）是否等于定义的类型来做类型保护
+function add(first: number | string, second: number | string) {
+    if (typeof first === &#39;string&#39; || typeof second === &#39;string&#39;) {
+        return `${first}${second}`;     //字符串的拼接
+    }
+    return first + second;
+}
+
+// 方法四：if 判断变量类型（instanceof语法）是否在定义的类型对象中来做类型保护
+class NumberObject {    // 注意：只能使用class, 不能使用interface
+    count: number;
+}
+
+function addSecond(first: object | NumberObject, second: object | NumberObject) {
+    if (first instanceof NumberObject <span style="color:#960050;background-color:#1e0010">&amp;&amp;</span> second instanceof NumberObject) {
+        return first.count + second.count;
+    }
+    return 0;
+}
+
+</code></pre></div><blockquote>
+<p>调用类型1或者类型2中的方法或者属性：<code>(类型3 as 类型1或者类型2).method()</code>。</p>
+</blockquote>
+<h2 id="17-enum-枚举类型">17. Enum 枚举类型</h2>
+<blockquote>
+<p>自定义枚举类型的变量，<code>enum name = {value1, value2, value3}</code>。</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">enum Status {
+    OFFLINE,
+    ONLINE, // 同理，如果ONLINE=4,则返回的值为0，4，5。
+    DELETED
+}
+// 枚举类型属性值获取正反向都可以使用，Status.OFFLINE等同于Status[0]。
+
+// 等价于以下代码
+const Status {
+    OFFLINE: 0,
+    ONLINE: 1,
+    DELETED: 2
+}
+
+</code></pre></div><h2 id="18-函数泛型">18. 函数泛型</h2>
+<blockquote>
+<p>函数的泛型：<code>泛指的类型（generic）</code></p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">function join(first: string | number, second: string | number) {
+    return `${first}${second}`;
+}
+join(&#39;1&#39;, 1); // 数字和字符都行
+
+function join(first: string, second: string) {
+    return `${first}${second}`;
+}
+join(&#39;1&#39;, &#39;1&#39;); // 只能为字符
+
+// 函数的泛型：泛指的类型（generic）
+// 定义如下：
+function join&lt;<span style="color:#f92672">ABC</span>&gt;(first: ABC, second: ABC) {
+function join&lt;<span style="color:#f92672">ABC</span>&gt;(first: ABC, second: ABC): ABC {      //返回值也为ABC类型。
+    return `${first}${second}`;
+}
+join&lt;<span style="color:#f92672">string</span>&gt;(&#39;1&#39;, &#39;1&#39;); // 只能为字符,等同于上面的代码。    
+join&lt;<span style="color:#f92672">string</span><span style="color:#960050;background-color:#1e0010">,</span> <span style="color:#a6e22e">number</span>&gt;(&#39;1&#39;, 1); // 数字和字符都行,等同于上面的代码。    
+join&lt;<span style="color:#f92672">number</span>&gt;&gt;(1, 1); // 只能为数字。 
+
+function map&lt;<span style="color:#f92672">ABC</span>&gt;(params: ABC) {    //如果ABC改为ABC的数组：params: ABC[]或者params: Arry&lt;<span style="color:#f92672">ABC</span>&gt;，下面代码也需要更改。
+    return params;
+}
+map&lt;<span style="color:#f92672">string</span>&gt;(&#39;123&#39;);     // 改为：map&lt;<span style="color:#f92672">string</span>&gt;([&#39;123&#39;, &#39;456&#39;]); 
+
+</code></pre></div><h2 id="18-类中的泛型以及泛型类型">18. 类中的泛型以及泛型类型</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">interface Item {
+    name: string;
+}
+
+class DataManager&lt;<span style="color:#f92672">T</span>&gt; {
+class DataManager&lt;<span style="color:#f92672">T</span> <span style="color:#a6e22e">extends</span> <span style="color:#a6e22e">Item</span>&gt; {   // interface
+    constructor(private data: T[]) {
+
+    }
+    getItem(index: number): T {
+    getItem(index: number): string {    // interface
+        return this.data[index];
+    }
+}
+
+// const data = new DataManager&lt;<span style="color:#f92672">string</span>&gt;([&#39;1&#39;]);
+// data.getItem(0);
+
+const data = new DataManager([{
+    name: &#34;dell&#34;;
+}]);    // interface
+
+
+</code></pre></div><h2 id="19-命名空间-namespace">19. 命名空间 namespace</h2>
+<blockquote>
+<p><code>项目环境配置搭建：</code>         <br>
+1.先初始化工程目录，<code>npm init -y</code> 生成<code>package.json</code>，<code>tsc -init</code> 生成<code>tsconfig.json</code>。        <br>
+2.在工程（项目）目录下创建<code>src</code>,<code>dist</code>文件夹，在<code>src</code>下新建<code>page.ts</code>文件。         <br>
+3.修改<code>tsconfig.json</code>文件，<code>&quot;rootDir&quot;: &quot;./src&quot;,</code>;<code>&quot;outDir&quot;: &quot;./dist&quot;,</code>。
+4.在工程（项目）目录下新建<code>index.html</code>文件，内容如下：                    <br>
+5.修改<code>page.ts</code>如下，控制台输入：<code>tsc -w</code>，让其自动监听编译。          <br>
+6.<code>page.ts</code>自定义一个Home的命名空间，将所有的类放在里面。将需要使用的类导出（export），在浏览器控制台输入<code>Home.导出的类名</code>就会有输出。          <br>
+7.在<code>src</code>下新建<code>components.ts</code>文件，用于命名空间管理。内容如下：</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">// index.html
+<span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
+    &lt;<span style="color:#f92672">head</span>&gt;
+        &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span> /&gt;
+        &lt;<span style="color:#f92672">title</span>&gt;Document&lt;/<span style="color:#f92672">title</span>&gt;
+        &lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;./dist/page.js&#34;</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt;  // 引入编译生成的js文件
+    &lt;/<span style="color:#f92672">head</span>&gt;
+    &lt;<span style="color:#f92672">body</span>&gt;
+    &lt;<span style="color:#f92672">script</span>&gt;
+        <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Home</span>.<span style="color:#a6e22e">Page</span>();  <span style="color:#75715e">// 对应ts文件中的export的类。
+</span><span style="color:#75715e"></span>    &lt;/<span style="color:#f92672">script</span>&gt;
+    &lt;/<span style="color:#f92672">body</span>&gt;
+&lt;/<span style="color:#f92672">html</span>&gt;
+
+// page.ts
+namespace Home{
+    class Header {
+        constructor() {
+            const elem = document.body.createElement(&#39;div&#39;);
+            elem.innerText = &#39;This is a Header&#39;;
+            document.body.appendChild(elem);
+        } 
+    }
+
+    class Content {
+        constructor() {
+            const elem = document.body.createElement(&#39;div&#39;);
+            elem.innerText = &#39;This is a Content&#39;;
+            document.body.appendChild(elem);
+        } 
+    }
+
+    class Footer {
+        constructor() {
+            const elem = document.body.createElement(&#39;div&#39;);
+            elem.innerText = &#39;This is a Footer&#39;;
+            document.body.appendChild(elem);
+        } 
+    }
+
+    export class page {
+        constructor() {
+            new Header();
+            new Content();
+            new Footer();
+        }
+    }
+
+}
+
+</code></pre></div><blockquote>
+<p>加入components.ts文件后，需要修改的内容如下：</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">// index.html
+<span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
+    &lt;<span style="color:#f92672">head</span>&gt;
+        &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span> /&gt;
+        &lt;<span style="color:#f92672">title</span>&gt;Document&lt;/<span style="color:#f92672">title</span>&gt;
+        &lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;./dist/page.js&#34;</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt;  // 引入编译生成的page.js文件，如果觉得引入的js文件过多，可以修改`tsconfig.json`文件中的：&#34;outFile&#34;: &#34;./build/page.js&#34;,&#34;module&#34;: &#34;amd&#34;,；将page.js引入，就会包涵components.js中的内容。
+        //&lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;./dist/components.js&#34;</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt;  // 引入编译生成的components.js文件，可以通过上面的方式注释掉。
+    &lt;/<span style="color:#f92672">head</span>&gt;
+    &lt;<span style="color:#f92672">body</span>&gt;
+    &lt;<span style="color:#f92672">script</span>&gt;
+        <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Home</span>.<span style="color:#a6e22e">Page</span>();  <span style="color:#75715e">// 对应ts文件中的export的类。
+</span><span style="color:#75715e"></span>    &lt;/<span style="color:#f92672">script</span>&gt;
+    &lt;/<span style="color:#f92672">body</span>&gt;
+&lt;/<span style="color:#f92672">html</span>&gt;
+
+// page.ts
+// 引用components.ts文件，注意：///这种引用格式必须。
+
+/// &lt;<span style="color:#f92672">reference</span> <span style="color:#a6e22e">path</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;./components.ts&#39;</span> /&gt;
+namespace Home{
+    export class page {
+        user: Component.User = {
+            name: &#39;dell&#39;,
+        };
+        constructor() {
+            new Components.Header();
+            new Components.Content();
+            new Components.Footer();
+        }
+    }
+}
+
+// components.ts
+namespace Components {
+    export namespace SubComponents {
+        export class Test {
+
+        }
+    }
+
+    export interface User {
+        name: string;
+    }    
+
+    export class Header {
+        constructor() {
+            const elem = document.body.createElement(&#39;div&#39;);
+            elem.innerText = &#39;This is a Header&#39;;
+            document.body.appendChild(elem);
+        } 
+    }
+
+    export class Content {
+        constructor() {
+            const elem = document.body.createElement(&#39;div&#39;);
+            elem.innerText = &#39;This is a Content&#39;;
+            document.body.appendChild(elem);
+        } 
+    }
+
+    export class Footer {
+        constructor() {
+            const elem = document.body.createElement(&#39;div&#39;);
+            elem.innerText = &#39;This is a Footer&#39;;
+            document.body.appendChild(elem);
+        } 
+    }
+}
+
+</code></pre></div><h2 id="20-import对应的模块化-缺代码代替-reference-pathcomponentsts-语句">20. import对应的模块化-缺代码，代替/// <!-- raw HTML omitted -->语句</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">// index.html
+<span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
+    &lt;<span style="color:#f92672">head</span>&gt;
+        &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span> /&gt;
+        &lt;<span style="color:#f92672">title</span>&gt;Document&lt;/<span style="color:#f92672">title</span>&gt;
+        &lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.js&#34;</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt; // 兼容ts配置项中：module为amd。
+        &lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;./dist/page.js&#34;</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt;
+    &lt;/<span style="color:#f92672">head</span>&gt;
+    &lt;<span style="color:#f92672">body</span>&gt;
+    &lt;<span style="color:#f92672">script</span>&gt;
+        <span style="color:#a6e22e">require</span>([<span style="color:#e6db74">&#39;page&#39;</span>], <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">page</span>) {
+            <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">page</span>.<span style="color:#66d9ef">default</span>();
+        }) 
+    &lt;/<span style="color:#f92672">script</span>&gt;
+    &lt;/<span style="color:#f92672">body</span>&gt;
+&lt;/<span style="color:#f92672">html</span>&gt;
+
+// page.ts
+import { Header, Content, Footer } from &#39;./components&#39;;
+export default class page {
+    constructor() {
+        new Components.Header();
+        new Components.Content();
+        new Components.Footer();
+    }
+}
+
+// components.ts
+export class Header {
+    constructor() {
+        const elem = document.body.createElement(&#39;div&#39;);
+        elem.innerText = &#39;This is a Header&#39;;
+        document.body.appendChild(elem);
+    } 
+}
+
+export class Content {
+    constructor() {
+        const elem = document.body.createElement(&#39;div&#39;);
+        elem.innerText = &#39;This is a Content&#39;;
+        document.body.appendChild(elem);
+    } 
+}
+
+export class Footer {
+    constructor() {
+        const elem = document.body.createElement(&#39;div&#39;);
+        elem.innerText = &#39;This is a Footer&#39;;
+        document.body.appendChild(elem);
+    } 
+}
+
+</code></pre></div><h2 id="21-使用-parcel-打包-ts-代码httpsgithubcomparcel-bundlerparcel">21. <a href="https://github.com/parcel-bundler/parcel" target="_blank" rel="noopener noreffer">使用 Parcel 打包 TS 代码</a></h2>
+<blockquote>
+<p>1.进入工程目录，初始化，输入：npm init -y;tsc &ndash;init。         <br>
+2.修改tsconfig.json文件：&ldquo;outdir&rdquo;：&quot;./dist&quot;; &ldquo;rootDir&rdquo;:&quot;./src&quot;，工程目录下创建dist，src文件夹。         <br>
+3.在src文件夹下面创建index.html,page.ts文件。内容参照上面的代码。         <br>
+4.安装parcel第三方库，npm install parcel@next -D。         <br>
+5.修改package.json文件中的scripts代码块：&ldquo;scripts&rdquo;: {&ldquo;test&rdquo;: &ldquo;parcel ./src/index.html&rdquo;}          <br>
+6.运行指令：npm run test，<code>parcel工具会自动将ts文件编译后的代码以本地服务器的方式返回呈现给我们</code>。</p>
+</blockquote>
+<h2 id="22-描述文件中的全局类型">22. 描述文件中的全局类型</h2>
+<blockquote>
+<p>1.代码参照上面几节，src下面的index.html中引用Jquery.js文件。          <br>
+2.在src下面创建jquery.d.ts文件，让ts理解Jquery。         <br>
+3.通过模块化的方式引入Jquery，安装第三方库，npm install jquery &ndash;save。代替步骤一中的引用Jquery。         <br>
+4.这种方式实现如下。</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">// index.html
+<span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
+    &lt;<span style="color:#f92672">head</span>&gt;
+        &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span> /&gt;
+        &lt;<span style="color:#f92672">title</span>&gt;Document&lt;/<span style="color:#f92672">title</span>&gt;
+        &lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js&#34;</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt;
+        &lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;./page.ts&#34;</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt;
+    &lt;/<span style="color:#f92672">head</span>&gt;
+    &lt;<span style="color:#f92672">body</span>&gt;
+    &lt;/<span style="color:#f92672">body</span>&gt;
+&lt;/<span style="color:#f92672">html</span>&gt;
+
+// page.ts
+// 方式一：
+$(function() {
+    $(&#39;body&#39;).html(&#39;&lt;<span style="color:#f92672">div</span>&gt;123&lt;/<span style="color:#f92672">div</span>&gt;&#39;);
+    // new $.fn.init();
+});
+
+// 方式二：
+import $ from &#39;jquery&#39;;
+
+$(function() {
+    $(&#39;body&#39;).html(&#39;&lt;<span style="color:#f92672">div</span>&gt;123&lt;/<span style="color:#f92672">div</span>&gt;&#39;);
+    // new $.fn.init();
+});
+
+// jquery.d.ts 类型定义文件。帮助ts文件理解引入的js文件或者类库。
+// 方式一：
+declare var $: (param: () =&gt; void) =&gt; void;      // 声明全局变量：$函数
+// 函数重载
+declare function $(readyFunc: () =&gt; void): void;      // 声明全局函数：$函数
+declare function $(selector: string): JqueryInstance;      // 声明全局函数：$函数
+declare function $(param: string): {
+    html: (html: string) =&gt; {};
+};
+interface JqueryInstance {
+    html: (html: string) =&gt; JqueryInstance;
+}
+
+// 使用了interface的语法实现函数的重载
+interface Jquery {
+    (readyFunc: () =&gt; void): void;
+    $(selector: string): JqueryInstance;
+}
+declare var $: Jquery;
+
+// 实现$函数的子属性和方法调用。例如：new $.fn.init();
+// 如何对对象，类进行类型定义，以及命名空间的嵌套。
+declare namespace $ {
+    namespace fn {
+        class init {}
+    }
+
+}
+
+// 方式二：
+declare module &#39;jquery&#39; {
+    interface Jquery {
+        $(selector: string): JqueryInstance;
+    }
+    // 混合类型
+    function $(readyFunc: () =&gt; void): void;
+    function $(selector: string): JqueryInstance;
+
+    namespace $ {
+        namespace fn {
+            class init {}
+        }
+    }
+    export = $; // 导出$,再引入$。
+}
+
+</code></pre></div><h2 id="23-keyof语法的使用">23. keyof语法的使用</h2>
+<blockquote>
+<p>泛型类型保护，<code>npm start</code>语句搭建环境。      <br>
+新建src的page.ts文件，代码如下：</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">interface Person {
+    name: string;
+    age: number;
+    gender: string;
+}
+
+type T = &#39;name&#39;;
+key: &#39;name&#39;;
+Person[&#39;name&#39;];
+
+class Teather {
+    constructor(private info: Person) {
+
+    } 
+    getInfo&lt;<span style="color:#f92672">T</span> <span style="color:#a6e22e">extends</span> <span style="color:#a6e22e">keyof</span> <span style="color:#a6e22e">Person</span>&gt;(key: T): Person[T] {
+        return this.info[key];
+    } 
+}
+
+</code></pre></div><h2 id="24-express-基础项目结构搭建使用-express-框架开发数据爬取及展示接口">24. Express 基础项目结构搭建，使用 Express 框架开发数据爬取及展示接口。</h2>
+<blockquote>
+<p>代码见爬虫的最后一节。      <br>
+安装npm相关的依赖，指令：<code>npm install</code>。      <br>
+解决控制台首次输入<code>npm run dev</code>，index.js文件不存在，不同步会报错的问题：修改package.json文件为&quot;dev&quot;: &ldquo;tsc &amp;&amp; concurrently npm:dev:*&rdquo; 。      <br>
+安装express模块，<code>npm install express --save</code>，安装express模块的类型注解文件帮助ts文件理解库中js文件，<code>npm install @types/express -D</code>。      <br>
+修改index.js文件如下：      <br>
+安装<a href="https://github.com/expressjs/body-parser" target="_blank" rel="noopener noreffer">第三方库body-parser</a>解决Express库中body类型未定义的情况： <code>npm install body-parser --save</code>      <br>
+安装<a href="https://github.com/expressjs/cookie-session" target="_blank" rel="noopener noreffer">第三方库cookie-session</a>开发登陆功能： <code>npm install cookie-session --save</code>，安装类型注解文件，<code>npm install @types/cookie-session -D</code></p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">import bodyParser from &#39;body-parser&#39;;
+import express from &#39;express&#39;;
+// 导入路由
+import router from &#39;./router&#39;;
+
+const app = express();
+
+//问题一： express库的类型定义文件.d.ts文件类型描述不准确
+//问题二： 当我们使用中间件的时候，对req或者res做了修改之后，实际上类型并不能改变
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(router);
+
+// 建立路由
+# app.get(&#39;/&#39;, (req, res) =&gt; {
+#    res.send(&#39;hello world&#39;);
+# });
+
+app.listen(7001, () =&gt; {
+    console.log(&#39;sever is running.&#39;);
+});
+
+// 使用路由，创建router.ts文件建立路由，再去index.js文件导入路由。
+import { Router, Request, Response } from &#39;express&#39;;
+// 引入Crawler中的代码
+import Crawler from &#39;./crawler&#39;;
+
+const router = Router();
+router.get(&#39;/&#39;, (req: Request, res: Response) =&gt; {
+    new Crawler();
+    res.send(&#39;hello world&#39;);
+});
+
+export default router;
+
+</code></pre></div><h2 id="25-类的装饰器">25. 类的装饰器</h2>
+<blockquote>
+<p>类的装饰器，本身就是一个函数，                  <br>
+装饰器通过 @ 符号来使用，只对类作出修改，调用一次，装饰器和类可以写在一行。                  <br>
+装饰器接受的参数是构造函数。                  <br>
+装饰器从下到上，从右到左顺序依次执行。</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">// 简单装饰器的定义
+function testDecorator(flag: boolean) {
+    if (flag) {
+        return function(constuctor: any) {
+            constructor.prototype.getName = () =&gt; {
+                console.log(&#39;dell&#39;);
+            };
+        };
+    }else {
+        return function(constuctor: any) {};
+    }
+}
+@testDecorator(true);
+
+class Test {
+    
+}
+const test = new Test();
+(test as any).getName(); 
+
+// 复杂装饰器的定义
+function testDecorator() {
+    return function&lt;<span style="color:#f92672">T</span> <span style="color:#a6e22e">extends</span> <span style="color:#a6e22e">new</span> <span style="color:#960050;background-color:#1e0010">(...</span><span style="color:#a6e22e">args:</span> <span style="color:#a6e22e">any</span><span style="color:#960050;background-color:#1e0010">[])</span> <span style="color:#960050;background-color:#1e0010">=</span>&gt; any&gt;(constuctor: T) {
+        return class extends constructor{
+            name = &#39;lee&#39;;
+            getName() {
+                return this.name;
+            }
+        };
+    };
+}
+
+const Test = testDecorator()(class {
+    name: string;
+    constructor(name:string) {
+        this.name = name;
+    }
+})
+
+const test = new Test(&#39;dell&#39;);
+console.log(test.getName());
+
+// 类中的方法加装饰器
+// 普通方法，target 对应的是类的 prototype（原型）。
+// 静态方法，target 对应的是类的 构造函数（constructor）。
+function getNameDecorator(target: any, key: string, descriptor: PropertyDescriptor) {
+    console.log(target， key);
+    descriptor.writable = false; //  getName方法就不能修改
+}
+
+class Test {
+    name: string;
+    constructor(name:string) {
+        this.name = name;
+    }
+    @getNameDecorator
+    getName() {
+    static getName() {  // 静态方法
+        this.name;
+    }
+}
+
+const test = new Test(&#39;dell&#39;);
+console.log(test.getName());
+
+// 属性的装饰器
+function nameDecorator(target: any, key: string): any {
+    现象一：
+    const descriptor: PropertyDescriptor = {
+        writable: false     // 属性不可以修改
+    };
+    return descriptor;
+    现象二：
+    target[key] = &#39;lee&#39;;    // 修改的并不是实例上的name，而是原型上的name。
+}
+
+// name放在实例上
+class Test {
+    @nameDecorator
+    name: &#39;dell&#39;;
+}
+
+const test = new Test(&#39;dell&#39;);
+test.name = &#39;dell lee&#39;; // 属性可以修改
+console.log(test.name); // 输出实例上的name
+console.log((test as any).__proto__name); // 输出原型上的name
+
+// 参数装饰器，原型，方法名，参数所在的位置
+function paramDecorator(target: any, method: string, paramIndex: number) {
+
+}
+
+class Test {
+    getInfo(name: string, @paramDecorator age: number) {
+        console.log(name, age)
+    }
+    name: &#39;dell&#39;;
+}
+
+const test = new Test();
+test.getInfo(&#39;dell&#39;, 30)
+
+</code></pre></div><h2 id="25-初始化-react-项目httpscreate-react-appdevdocsadding-typescript">25. <a href="https://create-react-app.dev/docs/adding-typescript/" target="_blank" rel="noopener noreffer">初始化 React 项目</a></h2>
+<blockquote>
+<p>先卸载原有的create-react-app，避免对新的项目产生影响，指令：<code>npm unistall create-react-app -g</code>。              <br>
+再重新安装create-react-app，指令：<code>npx create-react-app my-app --template typescript --use-npm</code>。npx远程下载最新的create-react-app，&ndash;use-npm使用npm安装，避免使用默认yarn方式安装。              <br>
+加入(add)web前，后端项目目录,优化和简化typescript代码。</p>
+</blockquote>
+<blockquote>
+<p><strong>问题1：Error: EACCES: permission denied, access &lsquo;/usr/lib/node_modules&rsquo;</strong> <br>
+解决：sudo chown -R $USER /usr/lib/node_modules</p>
+</blockquote>
+<blockquote>
+<p><strong>问题2：network request to <a href="https://registry.npmjs.org/typescript">https://registry.npmjs.org/typescript</a> failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org npm ERR! network This is a problem related to network connectivity. npm ERR! network In most cases you are behind a proxy or have bad network settings.</strong> <br>
+解决：查找registry.npmjs.org的DNS解析ip地址，添加到hosts文件中。</p>
+</blockquote>
+<blockquote>
+<p><strong>问题3：Error: EACCES: permission denied, symlink &lsquo;../lib/node_modules/typescript/bin/tsserver&rsquo; -&gt; &lsquo;/usr/bin/tsserver&rsquo;</strong> <br>
+解决：</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">It&#39;s not recommended to use sudo with npm install, follow the steps from npmjs official docs instead :)
+Make a directory for global installations:
+mkdir ~/.npm-global
+
+Configure npm to use the new directory path:
+npm config set prefix &#39;~/.npm-global&#39;
+
+Open or create a ~/.profile file and add this line:
+export PATH=~/.npm-global/bin:$PATH
+
+Back on the command line, update your system variables:
+source ~/.profile
+
+Test: Download a package globally without using sudo.
+npm install -g typescript
+
+Source: https://docs.npmjs.com/getting-started/fixing-npm-permissions
+
+</code></pre></div><div class="post-reward">
+  <input type="checkbox" name="reward" id="reward" hidden />
+  <label class="reward-button" for="reward">赞赏支持</label>
+  <div class="qr-code">
+    <label class="qr-code-image" for="reward">
+        <img class="image" src="https://cdn.jsdelivr.net/gh/laokong4628/laokong4628.github.io@master/images/wechat.png">
+        
+        <span>微信打赏</span>
+      </label>
+    <label class="qr-code-image" for="reward">
+        <img class="image" src="https://cdn.jsdelivr.net/gh/laokong4628/laokong4628.github.io@master/images/alipay.png">
+        
+        <span>支付宝打赏</span>
+      </label>
+  </div>
+</div>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2021-01-29</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/zh-cn/posts/TypeScript.html/index.md" target="_blank">阅读原始文档</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://laokong4628.github.io/zh-cn/posts/TypeScript.html/" data-title="TypeScript" data-hashtags="TypeScript"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://laokong4628.github.io/zh-cn/posts/TypeScript.html/" data-hashtag="TypeScript"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://laokong4628.github.io/zh-cn/posts/TypeScript.html/" data-title="TypeScript"><i class="fab fa-hacker-news fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://laokong4628.github.io/zh-cn/posts/TypeScript.html/" data-title="TypeScript"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/line.svg"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/zh-cn/tags/TypeScript/">TypeScript</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/zh-cn/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/zh-cn/posts/wifi-network.html/" class="prev" rel="prev" title="wifi network"><i class="fas fa-angle-left fa-fw"></i>wifi network</a>
+            <a href="/zh-cn/posts/rsync.html/" class="next" rel="next" title="rsync">rsync<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+<div id="comments"><div id="utterances"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://utteranc.es/">Utterances</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container">
+            
+                
+                    
+                    
+                    
+                
+            
+
+            <div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://github.com/laokong4628" target="_blank">Lao Kong</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer>
+        </div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div>
+
+        <div class="sidebar_wo">
+            <div id="leimu">
+	            <img src="https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/b2t/leimuA.png" alt="雷姆" 
+	onmouseover="this.src='https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/b2t/leimuB.png'" 
+	onmouseout="this.src='https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/b2t/leimuA.png'" title="回到顶部">
+            </div>
+            <div class="sidebar_wo" id="lamu">
+	            <img src="https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/b2t/lamuA.png" alt="雷姆" 
+	onmouseover="this.src='https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/b2t/lamuB.png'" 
+	onmouseout="this.src='https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/b2t/lamuA.png'" title="回到底部">
+            </div>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/copy-tex.min.css"><script type="text/javascript" src="https://polyfill.io/v3/polyfill.min.js?features=Array.prototype.fill%2CArray.prototype.find%2CArray.from%2CIntersectionObserver%2CMath.sign%2CObject.assign%2CPromise%2CObject.entries%2CElement.prototype.closest%2CrequestAnimationFrame%2CCustomEvent%2Chtml5shiv%2CObject.values%2Cfetch%2CElement.prototype.after"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/object-fit-images@3.2.4/dist/ofi.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/twemoji@13.0.0/dist/twemoji.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/dist/js/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lg-thumbnail.js@1.2.0/dist/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lg-zoom.js@1.2.0/dist/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.4.0/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{"utterances":{"darkTheme":"github-dark","issueTerm":"pathname","label":"","lightTheme":"github-light","repo":"laokong4628/hugo-comments"}},"data":{"id-1":"Lao Kong's notepad","id-2":"Lao Kong's notepad"},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"twemoji":true,"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.5.0/build/styles/default.min.css">
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.5.0/build/highlight.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.5.0/build/languages/go.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script type="text/javascript">
+    var e = document.querySelectorAll("pre code");
+    var i;
+    for (i = 0; i < e.length; i++) {
+     e[i].innerHTML = "<ul><li>" + e[i].innerHTML.replace(/\n/g, "\n</li><li>") + "\n</li></ul>";
+     $("code ul li").last().remove();
+    }
+</script>
+
+
+    
+    
+        
+        
+            
+                
+            
+            
+        
+    
+    
+
+
+    <script>
+    WIDGET = {
+    CONFIG: {
+        "layout": 1,
+        "width": 1050,
+        "height": 400,
+        "background": 1,
+        "dataColor": "FFFFFF",
+        "borderRadius": 5,
+        "key": "c2611749c8ec4aabb2b7b35654976dd8"
+    }
+    }
+    </script>
+    
+<script src="https://widget.qweather.net/standard/static/js/he-standard-common.js?v=2.0"></script><script type="text/javascript" src="/js/custom.js"></script>
+<script type="text/javascript" src="/js/highlight.pack.js"></script>
+
+
+<script> $(function () {
+			$(".site-avatar-plug-bilibili").attr("src", "https:\/\/cdn.jsdelivr.net\/gh\/laokong4628\/laokong4628.github.io@master/images/avatar-plug/bilibili_" + (~~( 128 *Math.random())+1) + ".png");
+		}); 
+	var avatar_plug = 0;
+	var avatar_click = 1;
+	jQuery(document).ready(function($) {
+		 
+		var frequency =  1 ;
+		 
+		var plug_count =  128 ;
+		$("div.home-avatar a").click(function(e) {
+			if (avatar_click % frequency === 0) {
+				avatar_plug ++;
+				$(".site-avatar-plug-bilibili").attr("src", "https:\/\/cdn.jsdelivr.net\/gh\/laokong4628\/laokong4628.github.io@master/images/avatar-plug/bilibili_" + avatar_plug + ".png");
+			}		
+			if (avatar_plug === plug_count) {
+				avatar_plug = 0;
+			}
+			$("div.home-avatar a").attr("alt","再点击" + (frequency - avatar_click % frequency) + "次头像试试看~~");
+			avatar_click ++;
+		});
+	});</script></body>
+</html>

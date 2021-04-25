@@ -10,5 +10,5 @@
 |      方法       |            具体使用(实例)          |
 | -------------- | -------------------------------- |
 |     `site`     |**content** site:stackoverflow.com|
-|     `site`     |**content** site:stackoverflow.com|
+|     `必须包括`     |**"content"** "ERROR -" No valid license found IntelliJ IDEA|
 

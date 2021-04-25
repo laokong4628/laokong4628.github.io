@@ -26,6 +26,13 @@
     <guid>https://laokong4628.github.io/posts/Emoji-Support.html/</guid>
     <description><![CDATA[<p>Emoji can be enabled in a Hugo project in a number of ways.</p>]]></description>
 </item><item>
+    <title>agilent-ict</title>
+    <link>https://laokong4628.github.io/posts/agilent-ict.html/</link>
+    <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://laokong4628.github.io/posts/agilent-ict.html/</guid>
+    <description><![CDATA[<h2 id="getting-started">Getting started</h2>]]></description>
+</item><item>
     <title>android-studio</title>
     <link>https://laokong4628.github.io/posts/android-studio.html/</link>
     <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
@@ -67,20 +74,13 @@
     <guid>https://laokong4628.github.io/posts/languages-words-phrases.html/</guid>
     <description><![CDATA[所有经过外语单词短语记录复习 英语 robust: 强健的(49%)，粗野的(21%)，耐用的(17%)，浓的(9%)，稳固的(4%) ship with: 附带 sketch： 素描, 草图, 小品 advocacy: 拥护, 支持, 鼓吹, 辩护, 辩护术 permalink: 永久链接；永久连结；固定链接 cryptographic: 密码的(100%),关于暗号的，用密码写的(adj) terse: 简洁的(77%)，简明的(23%)(adj.)简洁的，精练的，扼要的 Flickr: 网络相簿(n.) finnicky: (=finicky)吹毛求疵的, 难以讨好的(adj.) travis: 特拉维斯(姓氏(50%)，男子名)(50%), (n.)特拉维斯（男子名）；崔维斯合唱团 Scottish: 苏格兰的(59%)，苏格兰人(32%)，苏格兰语(9%), (n.)苏格兰人；苏格兰语, (adj.)苏格兰的；苏格兰人的；苏格兰语的 fanart: [网络]爱好者；手绘；献礼 joypad: 游戏手柄(100%), (n.)控制器设置；手柄 microcosm: (n.) 小宇宙, 小世界, 人类, 缩影(71%)，微观世界(15%)，小宇宙(14%), microcosmos eroded: (a.) 被侵蚀的, 损坏了 Manchu: 满族的(40%)，满族人(40%)，满族语(20%), (n.)满语；满族人, (adj.)满族的；满语的 mundane: 世俗的(43%)，平凡的(42%)，世界的(15%), adj.世俗的，平凡的；世界的，宇宙的 trove:贵重发现物(50%)，珍藏品(50%), n.被发现的东西；收藏的东西, n.(Trove)人名；(德)特罗韦 garotte: (n.)西班牙的绞刑具，上述绞刑 dishevelled: 散乱的(49%)，蓬乱的(29%)，=disheveled.(11%)，动词dishevel的过去式和过去分词形式.(11%) coquettish: 卖弄风情的(58%)，妖艳的(28%)，婀娜多姿的(14%), (adj.)妖艳的；卖弄风情的；迷人的 crept：匍匐爬行（creep的过去式） vigilance: 警惕(75%)，警戒(25%) laity:外行人(53%)，普通信徒(47%) denunciation: 谴责(100%), (n.]]></description>
 </item><item>
-    <title>Linux Command Fullname</title>
-    <link>https://laokong4628.github.io/posts/Linux-Command-Fullname.html/</link>
+    <title>linux</title>
+    <link>https://laokong4628.github.io/posts/linux.html/</link>
     <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://laokong4628.github.io/posts/Linux-Command-Fullname.html/</guid>
-    <description><![CDATA[Linux命令英文全称 Note  这篇文章转载自(https://blog.csdn.net/alex_sym/article/details/7409566).   su：Swith user 切换用户，切换到root用户 cat: Concatenate 串联 uname: Unix name 系统名称 df: Disk free 空余硬盘 du: Disk usage 硬盘使用率 chown: Change owner 改变所有者 chgrp: Change group 改变用户组 ps：Process Status 进程状态 tar：Tape archive 解压文件 chmod: Change mode 改变模式 umount: Unmount 卸载 ldd：List dynamic dependencies 列出动态相依 insmod：Install module 安装模块 rmmod：Remove module 删除模块 lsmod：List module 列表模块 alias :Create your own name for a command bash :GNU Bourne-Again Shell linux内核 grep:global regular expression print httpd :Start Apache ipcalc :Calculate IP information for a host ping :Send ICMP ECHO_Request to network hosts reboot: Restart your computer sudo:Superuser do /bin = BINaries /dev = DEVices /etc = ETCetera /lib = LIBrary /proc = PROCesses /sbin = Superuser BINaries /tmp = TeMPorary /usr = Unix Shared Resources /var = VARiable ?]]></description>
-</item><item>
-    <title>linux-find-grep</title>
-    <link>https://laokong4628.github.io/posts/linux-find-grep.html/</link>
-    <pubDate>Fri, 29 Jan 2021 11:16:31 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://laokong4628.github.io/posts/linux-find-grep.html/</guid>
-    <description><![CDATA[<h2 id="getting-started">Getting started</h2>
-<!-- raw HTML omitted -->
-<h2 id="linux-使用过程中收集的要点和助手">linux 使用过程中收集的要点和助手</h2>]]></description>
+    <guid>https://laokong4628.github.io/posts/linux.html/</guid>
+    <description><![CDATA[Linux相关  查看硬件时间可以是用hwclock或者clock命令，hwclock &ndash;show 或者hwclock -r
+ //查看硬件时间 [root@localhost ~]# hwclock --show 2008年12月12日星期五 06时52分07秒 -0.376932 seconds //设置硬件时间 [root@localhost ~]# hwclock --set --date=&#34;1/25/09 00:00&#34; &lt;== 月/日/年时:分:秒 [root@localhost ~]# hwclock 2009年01月25日星期日 00时00分06秒 -0.870868 seconds [root@localhost ~]# hwclock -w 根据系统时间设置硬件时间 //以系统时间为基准，修改硬件时间 [root@localhost ~]# hwclock --systohc&lt;== sys（系统时间）to（写到）hc（Hard Clock） [root@localhost ~]# hwclock -w //以硬件时间为基准，修改系统时间 [root@localhost ~]# hwclock --hctosys [root@localhost ~]# hwclock -s  Linux系统时间的设置
+ 在Linux中设置系统时间，可以用`date命令`： //查看时间 [root@localhost ~]# date 2008年 12月 12日星期五 14:44:12 CST //修改时间 [root@localhost ~]# date -set &#34;2013-12-24 00:01&#34; &lt;== （年/月/日 时:分【:秒】） 2009年 01月 01日星期四 00:01:00 CST //date 有几种时间格式可接受，这样也可以设置时间： [root@localhost ~]# date 012501012009.]]></description>
 </item></channel>
 </rss>

@@ -11,7 +11,7 @@
     <author>Author</author>
     <guid>https://laokong4628.github.io/posts/react.html/</guid>
     <description><![CDATA[Getting started 1. React开发环境准备  1.安装node.js,查看node -v，npm -V验证安装。
-2.方案一：
+2.方案一(推荐)：
 3.npx create-react-app my-app
 4.cd my-app
 5.npm start
@@ -19,16 +19,7 @@
 7.npm install -g create-react-app 8.cd dir(你项目的目录)
 9.create-react-app my-app 10.cd my-app
 11.yarn start
- 2. React工程目录文件结构介绍  1.cd my-app。
-2.npm run start 。
-3.文件介绍：
-4.readme.md 项目介绍。
-5.package.json node包文件，脚手架自动生成文件。
-6.node_modules 第三方模块包。
-7.mainfest.json app的快捷方式。
-8.src 项目所有源代码文件夹，index.js整个程序运行的入口引用文件，app.test.js自动化测试文件。
- 3. React中的组件  1.导入组件 import React, { Component } form 'react';。
-2.导出组件 export default App; App子类继承组件（Component）。
-3.挂载App组件到父节点下，ReactDOM.render(&lt;App /&gt;, document.getElementById('root'));。]]></description>
+安装完成后，执行参考以下指令:
+ Inside that directory, you can run several commands: yarn start Starts the development server. yarn build Bundles the app into static files for production. yarn test Starts the test runner. yarn eject Removes this tool and copies build dependencies, configuration files and scripts into the app directory.]]></description>
 </item></channel>
 </rss>

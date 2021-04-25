@@ -1,4 +1,4 @@
-# 友链墙
+# Friends
 
 
 ## 博客链接
@@ -42,6 +42,13 @@ name="木子の博客"
 url="https://www.mz-zone.cn"
 logo="https://7.dusays.com/2020/10/16/fc206f8b7e485.png"
 word="积水成河，积土成山！"
+>}}
+
+{{< friend
+name="cyc2018"
+url="https://cyc2018.gitee.io/cs-notes/#/"
+logo="https://7.dusays.com/2020/10/16/fc206f8b7e485.png"
+word="面试宝典！"
 >}}
 
 ## 【十年之约】
